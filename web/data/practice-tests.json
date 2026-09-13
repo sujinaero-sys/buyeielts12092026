@@ -1132,6 +1132,21 @@
       "explanation": "R3 focuses on team memory.",
       "passage": "R3",
       "passage_text": "Teams can develop shared ways of remembering. One person may remember a customer preference while another recalls technical history; together they can reconstruct information that neither could easily retrieve alone. This works best when members understand who is likely to know what.\n\nTechnology can strengthen or weaken this process. Searchable records reduce dependence on personal memory, but excessive documentation can cause people to stop learning information they may need. Teams are also vulnerable to shared errors: repeated incorrect explanations can increase confidence without improving accuracy.\n\nThe strongest systems combine human knowledge with external records. People provide context, judgement and flexible interpretation, while records provide stable reference points. Important assumptions still need checking, especially when decisions have significant consequences."
+    },
+    {
+      "id": 40,
+      "type": "multiple_choice",
+      "prompt": "What does the final paragraph suggest teams should do before making important decisions?",
+      "options": [
+        "Rely entirely on personal memory",
+        "Avoid using external records",
+        "Check important assumptions carefully",
+        "Record every minor conversation"
+      ],
+      "answer": "C",
+      "explanation": "The passage states that important assumptions still need checking when decisions have significant consequences.",
+      "passage": "R3",
+      "passage_text": "Teams can develop shared ways of remembering. One person may remember a customer preference while another recalls technical history; together they can reconstruct information that neither could easily retrieve alone. This works best when members understand who is likely to know what.\n\nTechnology can strengthen or weaken this process. Searchable records reduce dependence on personal memory, but excessive documentation can cause people to stop learning information they may need. Teams are also vulnerable to shared errors: repeated incorrect explanations can increase confidence without improving accuracy.\n\nThe strongest systems combine human knowledge with external records. People provide context, judgement and flexible interpretation, while records provide stable reference points. Important assumptions still need checking, especially when decisions have significant consequences."
     }
   ],
   "general_reading": [
@@ -1701,6 +1716,21 @@
       ],
       "answer": "C",
       "explanation": "R3 focuses on team memory.",
+      "passage": "R3",
+      "passage_text": "Teams can develop shared ways of remembering. One person may remember a customer preference while another recalls technical history; together they can reconstruct information that neither could easily retrieve alone. This works best when members understand who is likely to know what.\n\nTechnology can strengthen or weaken this process. Searchable records reduce dependence on personal memory, but excessive documentation can cause people to stop learning information they may need. Teams are also vulnerable to shared errors: repeated incorrect explanations can increase confidence without improving accuracy.\n\nThe strongest systems combine human knowledge with external records. People provide context, judgement and flexible interpretation, while records provide stable reference points. Important assumptions still need checking, especially when decisions have significant consequences."
+    },
+    {
+      "id": 40,
+      "type": "multiple_choice",
+      "prompt": "What does the final paragraph suggest teams should do before making important decisions?",
+      "options": [
+        "Rely entirely on personal memory",
+        "Avoid using external records",
+        "Check important assumptions carefully",
+        "Record every minor conversation"
+      ],
+      "answer": "C",
+      "explanation": "The passage states that important assumptions still need checking when decisions have significant consequences.",
       "passage": "R3",
       "passage_text": "Teams can develop shared ways of remembering. One person may remember a customer preference while another recalls technical history; together they can reconstruct information that neither could easily retrieve alone. This works best when members understand who is likely to know what.\n\nTechnology can strengthen or weaken this process. Searchable records reduce dependence on personal memory, but excessive documentation can cause people to stop learning information they may need. Teams are also vulnerable to shared errors: repeated incorrect explanations can increase confidence without improving accuracy.\n\nThe strongest systems combine human knowledge with external records. People provide context, judgement and flexible interpretation, while records provide stable reference points. Important assumptions still need checking, especially when decisions have significant consequences."
     }

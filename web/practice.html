@@ -1,4 +1,496 @@
-<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>BUYE IELTS Phase 2I Mock Centre</title>
-<style>body{font-family:system-ui,sans-serif;background:#f5f7fb;color:#172033;margin:0}.wrap{max-width:1100px;margin:auto;padding:28px}.hero,.card,.result{background:white;border:1px solid #e2e7ef;border-radius:18px;padding:24px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:20px}.card button,.result button{background:#172033;color:white;border:0;border-radius:10px;padding:12px 16px;cursor:pointer}.test{display:grid;grid-template-columns:1fr 280px;gap:18px}.top{grid-column:1/-1;display:flex;justify-content:space-between}.timer{font-size:1.5rem;font-weight:800}.passage{white-space:pre-wrap;background:#f7f8fb;padding:18px;border-radius:12px;max-height:360px;overflow:auto}.choice{display:block;width:100%;padding:13px;margin:9px 0;text-align:left;border:1px solid #dce2eb;background:white;border-radius:10px}.selected{outline:2px solid #172033}.nav{display:grid;grid-template-columns:repeat(5,1fr);gap:6px}.nav button{padding:9px;border:1px solid #dce2eb;background:white;border-radius:8px}.nav .cur{outline:2px solid #172033}.nav .ans{font-weight:800}.nav .flag{border-style:dashed}.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:15px}.actions button{padding:10px 14px}.big{font-size:4rem;font-weight:800}.big small{font-size:1.5rem}.muted{color:#687284}@media(max-width:800px){.grid,.test{grid-template-columns:1fr}.wrap{padding:14px}}.brandbar{display:flex;align-items:center;gap:10px;margin-bottom:18px}.brandbar img{width:42px;height:42px;object-fit:contain;border-radius:11px;background:#fff}.theme{float:right;padding:8px 10px;border-radius:9px;border:1px solid #dfe3eb;background:#fff;cursor:pointer}@media(prefers-color-scheme:dark){body.auto{background:#0e1118;color:#eef2f8}} </style></head>
-<body><button class="theme" id="themeBtn">🌙 Dark mode</button><main class="wrap"><div class="brandbar"><img src="assets/buye-logo.png" alt="BUYE logo"><strong>BUYE IELTS</strong></div><div id="app"><section class="hero"><p>BUYE IELTS · PHASE 2I</p><h1>Full Mock Centre</h1><p>Original practice with section timers, question navigation, flags, auto-save and performance-ready result flow.</p><div class="grid"><div class="card"><h2>Listening</h2><p>40 questions · ~30 minutes · browser speech simulation</p><button data-start="listening">Start Listening</button></div><div class="card"><h2>Academic Reading</h2><p>3 original passages · 40 questions · 60 minutes</p><button data-start="academic_reading">Start Academic Reading</button></div><div class="card"><h2>General Training Reading</h2><p>40 questions · 60 minutes</p><button data-start="general_reading">Start General Reading</button></div></div></section></div>
-<template id="template"><section class="test"><div class="top"><strong id="title"></strong><span id="timer" class="timer"></span></div><article><div id="passage" class="passage"></div><div id="question"></div><div class="actions"><button id="prev">← Previous</button><button id="next">Next →</button><button id="flag">⚐ Flag</button><button id="submit">Finish</button></div></article><aside><p id="counter"></p><h3>Question navigator</h3><div id="nav" class="nav"></div><p class="muted">Bold = answered · dashed = flagged.</p></aside></section></template></main><script src="js/phase2i-engine.js"></script></body></html><script>(function(){let k="buye_theme";if(localStorage.getItem(k)==="dark")document.body.classList.add("dark");let b=document.querySelector("#themeBtn");b&&b.addEventListener("click",()=>{document.body.classList.toggle("dark");localStorage.setItem(k,document.body.classList.contains("dark")?"dark":"light");b.textContent=document.body.classList.contains("dark")?"☀️ Light mode":"🌙 Dark mode"});})();</script>
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>BUYE IELTS Phase 2I Mock Centre</title>
+
+<style>
+/* =========================================================
+   BUYE IELTS — PRACTICE CENTRE BASE
+   ========================================================= */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  background: #f5f7fb;
+  color: #172033;
+  margin: 0;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
+}
+
+.wrap {
+  max-width: 1100px;
+  margin: auto;
+  padding: 28px;
+}
+
+.hero,
+.card,
+.result {
+  background: white;
+  border: 1px solid #e2e7ef;
+  border-radius: 18px;
+  padding: 24px;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.card button,
+.result button {
+  background: #172033;
+  color: white;
+  border: 0;
+  border-radius: 10px;
+  padding: 12px 16px;
+  cursor: pointer;
+}
+
+.test {
+  display: grid;
+  grid-template-columns: 1fr 280px;
+  gap: 18px;
+}
+
+.top {
+  grid-column: 1 / -1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.timer {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.passage {
+  white-space: pre-wrap;
+  background: #f7f8fb;
+  padding: 18px;
+  border-radius: 12px;
+  max-height: 360px;
+  overflow: auto;
+  border: 1px solid #e2e7ef;
+}
+
+.choice {
+  display: block;
+  width: 100%;
+  padding: 13px;
+  margin: 9px 0;
+  text-align: left;
+  border: 1px solid #dce2eb;
+  background: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.choice:hover {
+  background: #f7f9fc;
+}
+
+.selected {
+  outline: 2px solid #172033;
+}
+
+.nav {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 6px;
+}
+
+.nav button {
+  padding: 9px;
+  border: 1px solid #dce2eb;
+  background: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.nav .cur {
+  outline: 2px solid #172033;
+}
+
+.nav .ans {
+  font-weight: 800;
+}
+
+/* Flagged question */
+.nav .flag {
+  border-style: dashed;
+  border-width: 2px;
+  font-weight: 700;
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+.actions button {
+  padding: 10px 14px;
+  cursor: pointer;
+}
+
+#flag {
+  min-width: 105px;
+  font-weight: 600;
+}
+
+#flag.is-flagged {
+  font-weight: 700;
+}
+
+.big {
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+.big small {
+  font-size: 1.5rem;
+}
+
+.muted {
+  color: #687284;
+}
+
+.brandbar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+
+.brandbar img {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+  border-radius: 11px;
+  background: #fff;
+}
+
+.theme {
+  float: right;
+  padding: 8px 10px;
+  border-radius: 9px;
+  border: 1px solid #dfe3eb;
+  background: #fff;
+  color: #172033;
+  cursor: pointer;
+}
+
+/* =========================================================
+   DARK MODE
+   ========================================================= */
+
+body.dark {
+  background: #111827;
+  color: #f3f4f6;
+}
+
+body.dark .wrap {
+  color: #f3f4f6;
+}
+
+body.dark .hero,
+body.dark .card,
+body.dark .result {
+  background: #1f2937;
+  color: #f3f4f6;
+  border-color: #374151;
+}
+
+body.dark h1,
+body.dark h2,
+body.dark h3,
+body.dark p,
+body.dark strong,
+body.dark #counter {
+  color: #f3f4f6;
+}
+
+body.dark .muted {
+  color: #9ca3af;
+}
+
+body.dark .passage {
+  background: #111827;
+  color: #f3f4f6;
+  border-color: #374151;
+}
+
+body.dark .choice {
+  background: #1f2937;
+  color: #f3f4f6;
+  border-color: #4b5563;
+}
+
+body.dark .choice:hover {
+  background: #374151;
+}
+
+body.dark .choice.selected {
+  background: #263b63;
+  color: #ffffff;
+  border-color: #60a5fa;
+  outline: 2px solid #60a5fa;
+}
+
+body.dark .nav button {
+  background: #1f2937;
+  color: #f3f4f6;
+  border-color: #4b5563;
+}
+
+body.dark .nav button:hover {
+  background: #374151;
+}
+
+body.dark .nav .cur {
+  outline: 2px solid #f9fafb;
+}
+
+body.dark .nav .flag {
+  border-style: dashed;
+  border-width: 2px;
+  border-color: #fbbf24;
+}
+
+body.dark .theme {
+  background: #1f2937;
+  color: #f3f4f6;
+  border-color: #4b5563;
+}
+
+body.dark .actions button {
+  background: #1f2937;
+  color: #f3f4f6;
+  border-color: #4b5563;
+}
+
+body.dark .actions button:hover {
+  background: #374151;
+}
+
+body.dark .card button,
+body.dark .result button {
+  background: #f3f4f6;
+  color: #111827;
+}
+
+body.dark .brandbar img {
+  background: #ffffff;
+}
+
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+
+@media (max-width: 800px) {
+  .grid,
+  .test {
+    grid-template-columns: 1fr;
+  }
+
+  .wrap {
+    padding: 14px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<button class="theme" id="themeBtn" type="button">
+  🌙 Dark mode
+</button>
+
+<main class="wrap">
+
+  <div class="brandbar">
+    <img src="assets/buye-logo.png" alt="BUYE logo">
+    <strong>BUYE IELTS</strong>
+  </div>
+
+  <div id="app">
+
+    <section class="hero">
+
+      <p>BUYE IELTS · PHASE 2I</p>
+
+      <h1>Full Mock Centre</h1>
+
+      <p>
+        Original practice with section timers,
+        question navigation, flags, auto-save and
+        performance-ready result flow.
+      </p>
+
+      <div class="grid">
+
+        <div class="card">
+          <h2>Listening</h2>
+          <p>40 questions · ~30 minutes · browser speech simulation</p>
+          <button data-start="listening" type="button">
+            Start Listening
+          </button>
+        </div>
+
+        <div class="card">
+          <h2>Academic Reading</h2>
+          <p>3 original passages · 40 questions · 60 minutes</p>
+          <button data-start="academic_reading" type="button">
+            Start Academic Reading
+          </button>
+        </div>
+
+        <div class="card">
+          <h2>General Training Reading</h2>
+          <p>40 questions · 60 minutes</p>
+          <button data-start="general_reading" type="button">
+            Start General Reading
+          </button>
+        </div>
+
+      </div>
+
+    </section>
+
+  </div>
+
+  <template id="template">
+
+    <section class="test">
+
+      <div class="top">
+        <strong id="title"></strong>
+        <span id="timer" class="timer"></span>
+      </div>
+
+      <article>
+
+        <div id="passage" class="passage"></div>
+
+        <div id="question"></div>
+
+        <div class="actions">
+
+          <button id="prev" type="button">
+            ← Previous
+          </button>
+
+          <button id="next" type="button">
+            Next →
+          </button>
+
+          <button id="flag" type="button">
+            ⚐ Flag
+          </button>
+
+          <button id="submit" type="button">
+            Finish
+          </button>
+
+        </div>
+
+      </article>
+
+      <aside>
+
+        <p id="counter"></p>
+
+        <h3>Question navigator</h3>
+
+        <div id="nav" class="nav"></div>
+
+        <p class="muted">
+          <strong>Bold</strong> = answered ·
+          <span>Dashed</span> = flagged ·
+          <span>Double border</span> = current
+        </p>
+
+      </aside>
+
+    </section>
+
+  </template>
+
+</main>
+
+<script src="js/phase2i-engine.js"></script>
+
+<script>
+/* =========================================================
+   BUYE IELTS — DARK MODE
+   ========================================================= */
+
+(function () {
+
+  const key = "buye_theme";
+  const button = document.getElementById("themeBtn");
+
+  function applyTheme() {
+
+    const dark = localStorage.getItem(key) === "dark";
+
+    document.body.classList.toggle("dark", dark);
+
+    if (button) {
+
+      button.textContent =
+        dark
+          ? "☀️ Light mode"
+          : "🌙 Dark mode";
+
+      button.setAttribute(
+        "aria-pressed",
+        dark ? "true" : "false"
+      );
+
+    }
+
+  }
+
+  /* Apply saved theme when page loads */
+  applyTheme();
+
+  /* Toggle theme */
+  if (button) {
+
+    button.addEventListener("click", function () {
+
+      const dark =
+        !document.body.classList.contains("dark");
+
+      localStorage.setItem(
+        key,
+        dark ? "dark" : "light"
+      );
+
+      applyTheme();
+
+    });
+
+  }
+
+})();
+</script>
+
+</body>
+</html>
