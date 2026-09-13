@@ -1,0 +1,3613 @@
+[
+  {
+    "id": 1,
+    "track": "Listening",
+    "slug": "listening-prediction",
+    "title": "Predict the Answer Before You Listen",
+    "goal": "Predict answer type from grammar and context.",
+    "lesson": "Read the sentence around the blank. Decide whether you need a name, place, number, noun, adjective or verb before the audio begins.",
+    "practice": "Complete: The workshop will be held at _____. Predict the answer type, then listen for a location.",
+    "answer": "place/location",
+    "exercise": {
+      "id": "ex-1",
+      "question": "What is the main strategy to apply in \"Predict the Answer Before You Listen\"?",
+      "options": [
+        "Predict answer type from grammar and context.",
+        "Ignore the words around the answer and choose randomly.",
+        "Wait until the recording finishes before thinking about the question.",
+        "Focus only on individual words and ignore the speaker's meaning."
+      ],
+      "answer": 0,
+      "explanation": "The lesson focuses on predict answer type from grammar and context.",
+      "lesson_id": 1
+    }
+  },
+  {
+    "id": 2,
+    "track": "Listening",
+    "slug": "listening-signposts",
+    "title": "Follow the Speaker's Signposts",
+    "goal": "Use transition language to anticipate changes.",
+    "lesson": "Words such as however, finally, instead, first and moving on help you follow the speaker's structure. Treat them as navigation signals.",
+    "practice": "Write the likely next focus after: “Now let’s move on to the cost of the project.”",
+    "answer": "cost",
+    "exercise": {
+      "id": "ex-2",
+      "question": "When practising \"Follow the Speaker's Signposts\", which approach best matches the lesson goal?",
+      "options": [
+        "Ignore the words around the answer and choose randomly.",
+        "Wait until the recording finishes before thinking about the question.",
+        "Focus only on individual words and ignore the speaker's meaning.",
+        "Use transition language to anticipate changes."
+      ],
+      "answer": 3,
+      "explanation": "The lesson focuses on use transition language to anticipate changes.",
+      "lesson_id": 2
+    }
+  },
+  {
+    "id": 3,
+    "track": "Listening",
+    "slug": "listening-distractors",
+    "title": "Spot Corrections and Distractors",
+    "goal": "Avoid answers that are mentioned but rejected.",
+    "lesson": "Speakers may introduce one detail and then correct it. The final confirmed information is what matters.",
+    "practice": "Which answer should you keep? “The meeting was planned for Tuesday—actually, Wednesday afternoon is better.”",
+    "answer": "Wednesday afternoon",
+    "exercise": {
+      "id": "ex-3",
+      "question": "A learner is working on \"Spot Corrections and Distractors\". What should they focus on?",
+      "options": [
+        "Wait until the recording finishes before thinking about the question.",
+        "Focus only on individual words and ignore the speaker's meaning.",
+        "Avoid answers that are mentioned but rejected.",
+        "Ignore the words around the answer and choose randomly."
+      ],
+      "answer": 2,
+      "explanation": "The lesson focuses on avoid answers that are mentioned but rejected.",
+      "lesson_id": 3
+    }
+  },
+  {
+    "id": 4,
+    "track": "Listening",
+    "slug": "listening-spelling",
+    "title": "Protect Your Spelling Score",
+    "goal": "Check letters, plurals and word endings.",
+    "lesson": "Listening answers can be lost through small spelling errors. Pay attention to plural endings, double letters and common suffixes.",
+    "practice": "Write the correct form: accommodation / accomodation.",
+    "answer": "accommodation",
+    "exercise": {
+      "id": "ex-4",
+      "question": "Which action would most directly support the skill in \"Protect Your Spelling Score\"?",
+      "options": [
+        "Focus only on individual words and ignore the speaker's meaning.",
+        "Check letters, plurals and word endings.",
+        "Ignore the words around the answer and choose randomly.",
+        "Wait until the recording finishes before thinking about the question."
+      ],
+      "answer": 1,
+      "explanation": "The lesson focuses on check letters, plurals and word endings.",
+      "lesson_id": 4
+    }
+  },
+  {
+    "id": 5,
+    "track": "Listening",
+    "slug": "listening-numbers",
+    "title": "Handle Numbers and Dates",
+    "goal": "Record numerical information accurately.",
+    "lesson": "Separate the number from surrounding speech and confirm whether the speaker changes it.",
+    "practice": "“The fee is 60 pounds—sorry, 16 pounds.” Which figure is final?",
+    "answer": "16",
+    "exercise": {
+      "id": "ex-5",
+      "question": "What should a learner do when practising \"Handle Numbers and Dates\"?",
+      "options": [
+        "Record numerical information accurately.",
+        "Ignore the words around the answer and choose randomly.",
+        "Wait until the recording finishes before thinking about the question.",
+        "Focus only on individual words and ignore the speaker's meaning."
+      ],
+      "answer": 0,
+      "explanation": "The lesson focuses on record numerical information accurately.",
+      "lesson_id": 5
+    }
+  },
+  {
+    "id": 6,
+    "track": "Listening",
+    "slug": "listening-form",
+    "title": "Form Completion",
+    "goal": "Use grammar around a gap to predict the answer.",
+    "lesson": "The words before and after a gap often reveal the grammatical shape of the missing answer.",
+    "practice": "Complete: Participants should bring their _____. Predict the noun type.",
+    "answer": "equipment / materials",
+    "exercise": {
+      "id": "ex-6",
+      "question": "Which approach best demonstrates the skill taught in \"Form Completion\"?",
+      "options": [
+        "Ignore the words around the answer and choose randomly.",
+        "Wait until the recording finishes before thinking about the question.",
+        "Focus only on individual words and ignore the speaker's meaning.",
+        "Use grammar around a gap to predict the answer."
+      ],
+      "answer": 3,
+      "explanation": "The lesson focuses on use grammar around a gap to predict the answer.",
+      "lesson_id": 6
+    }
+  },
+  {
+    "id": 7,
+    "track": "Listening",
+    "slug": "listening-notes",
+    "title": "Note Completion",
+    "goal": "Follow compressed academic information.",
+    "lesson": "Notes remove grammar and preserve key ideas. Read the headings to understand the lecture's organisation.",
+    "practice": "Create a two-word note for: “The researchers observed a sharp rise in coastal erosion.”",
+    "answer": "sharp rise",
+    "exercise": {
+      "id": "ex-7",
+      "question": "What is the main strategy to apply in \"Note Completion\"?",
+      "options": [
+        "Wait until the recording finishes before thinking about the question.",
+        "Focus only on individual words and ignore the speaker's meaning.",
+        "Follow compressed academic information.",
+        "Ignore the words around the answer and choose randomly."
+      ],
+      "answer": 2,
+      "explanation": "The lesson focuses on follow compressed academic information.",
+      "lesson_id": 7
+    }
+  },
+  {
+    "id": 8,
+    "track": "Listening",
+    "slug": "listening-table",
+    "title": "Table Completion",
+    "goal": "Compare categories while listening.",
+    "lesson": "Tables often require you to track different people, products, places or time periods. Keep your eyes on the row and column.",
+    "practice": "Make a quick rule for avoiding answers from the wrong row.",
+    "answer": "Check both row and column before writing.",
+    "exercise": {
+      "id": "ex-8",
+      "question": "When practising \"Table Completion\", which approach best matches the lesson goal?",
+      "options": [
+        "Focus only on individual words and ignore the speaker's meaning.",
+        "Compare categories while listening.",
+        "Ignore the words around the answer and choose randomly.",
+        "Wait until the recording finishes before thinking about the question."
+      ],
+      "answer": 1,
+      "explanation": "The lesson focuses on compare categories while listening.",
+      "lesson_id": 8
+    }
+  },
+  {
+    "id": 9,
+    "track": "Listening",
+    "slug": "listening-matching",
+    "title": "Matching Speakers to Ideas",
+    "goal": "Track opinions across several voices.",
+    "lesson": "Before listening, distinguish the people or categories. After each opinion, mentally attach it to the correct label.",
+    "practice": "Speaker A supports online study; Speaker B prefers classroom interaction. Match each view to its speaker.",
+    "answer": "A—online study; B—classroom interaction",
+    "exercise": {
+      "id": "ex-9",
+      "question": "A learner is working on \"Matching Speakers to Ideas\". What should they focus on?",
+      "options": [
+        "Track opinions across several voices.",
+        "Ignore the words around the answer and choose randomly.",
+        "Wait until the recording finishes before thinking about the question.",
+        "Focus only on individual words and ignore the speaker's meaning."
+      ],
+      "answer": 0,
+      "explanation": "The lesson focuses on track opinions across several voices.",
+      "lesson_id": 9
+    }
+  },
+  {
+    "id": 10,
+    "track": "Listening",
+    "slug": "listening-multiple-choice",
+    "title": "Multiple Choice Without Guessing",
+    "goal": "Eliminate options using the speaker's complete meaning.",
+    "lesson": "An option can contain words you hear but still be wrong. Check the relationship between the words and the speaker's conclusion.",
+    "practice": "Speaker: “The original plan was expensive, so we chose a smaller design.” Which idea is supported: original plan / smaller design / both?",
+    "answer": "smaller design",
+    "exercise": {
+      "id": "ex-10",
+      "question": "Which action would most directly support the skill in \"Multiple Choice Without Guessing\"?",
+      "options": [
+        "Ignore the words around the answer and choose randomly.",
+        "Wait until the recording finishes before thinking about the question.",
+        "Focus only on individual words and ignore the speaker's meaning.",
+        "Eliminate options using the speaker's complete meaning."
+      ],
+      "answer": 3,
+      "explanation": "The lesson focuses on eliminate options using the speaker's complete meaning.",
+      "lesson_id": 10
+    }
+  },
+  {
+    "id": 11,
+    "track": "Listening",
+    "slug": "listening-map",
+    "title": "Map and Plan Navigation",
+    "goal": "Track movement language.",
+    "lesson": "Prepositions and movement verbs—opposite, beyond, beside, through, left of—are essential for map tasks.",
+    "practice": "From the entrance, the café is beyond the reception desk. Where is it relative to reception?",
+    "answer": "beyond/after reception",
+    "exercise": {
+      "id": "ex-11",
+      "question": "What should a learner do when practising \"Map and Plan Navigation\"?",
+      "options": [
+        "Wait until the recording finishes before thinking about the question.",
+        "Focus only on individual words and ignore the speaker's meaning.",
+        "Track movement language.",
+        "Ignore the words around the answer and choose randomly."
+      ],
+      "answer": 2,
+      "explanation": "The lesson focuses on track movement language.",
+      "lesson_id": 11
+    }
+  },
+  {
+    "id": 12,
+    "track": "Listening",
+    "slug": "listening-section1",
+    "title": "Section 1: Everyday Transactions",
+    "goal": "Build accuracy with practical conversations.",
+    "lesson": "Expect names, addresses, dates, prices and arrangements. Preview the form and predict what information each gap needs.",
+    "practice": "Create five answer-type predictions for a hotel booking form.",
+    "answer": "Name, date, number, place, time",
+    "exercise": {
+      "id": "ex-12",
+      "question": "Which approach best demonstrates the skill taught in \"Section 1: Everyday Transactions\"?",
+      "options": [
+        "Focus only on individual words and ignore the speaker's meaning.",
+        "Build accuracy with practical conversations.",
+        "Ignore the words around the answer and choose randomly.",
+        "Wait until the recording finishes before thinking about the question."
+      ],
+      "answer": 1,
+      "explanation": "The lesson focuses on build accuracy with practical conversations.",
+      "lesson_id": 12
+    }
+  },
+  {
+    "id": 13,
+    "track": "Listening",
+    "slug": "listening-section2",
+    "title": "Section 2: One-Speaker Organisation",
+    "goal": "Follow a planned talk.",
+    "lesson": "Use headings, sequencing phrases and examples to maintain your place in a longer monologue.",
+    "practice": "Identify the signpost: “There are three reasons for this change. First…”",
+    "answer": "reason 1",
+    "exercise": {
+      "id": "ex-13",
+      "question": "What is the main strategy to apply in \"Section 2: One-Speaker Organisation\"?",
+      "options": [
+        "Follow a planned talk.",
+        "Ignore the words around the answer and choose randomly.",
+        "Wait until the recording finishes before thinking about the question.",
+        "Focus only on individual words and ignore the speaker's meaning."
+      ],
+      "answer": 0,
+      "explanation": "The lesson focuses on follow a planned talk.",
+      "lesson_id": 13
+    }
+  },
+  {
+    "id": 14,
+    "track": "Listening",
+    "slug": "listening-section3",
+    "title": "Section 3: Academic Discussion",
+    "goal": "Track agreement and disagreement.",
+    "lesson": "Listen for soft disagreement: I see your point, but…; I'm not convinced…; another possibility is…",
+    "practice": "Rewrite “I disagree” as a softer academic discussion phrase.",
+    "answer": "I'm not convinced by that view.",
+    "exercise": {
+      "id": "ex-14",
+      "question": "When practising \"Section 3: Academic Discussion\", which approach best matches the lesson goal?",
+      "options": [
+        "Ignore the words around the answer and choose randomly.",
+        "Wait until the recording finishes before thinking about the question.",
+        "Focus only on individual words and ignore the speaker's meaning.",
+        "Track agreement and disagreement."
+      ],
+      "answer": 3,
+      "explanation": "The lesson focuses on track agreement and disagreement.",
+      "lesson_id": 14
+    }
+  },
+  {
+    "id": 15,
+    "track": "Listening",
+    "slug": "listening-section4",
+    "title": "Section 4: Lecture Control",
+    "goal": "Follow dense academic content.",
+    "lesson": "Do not try to understand every word. Follow the lecture's argument, examples and key terms.",
+    "practice": "Create a three-part note structure for a lecture: causes → evidence → implications.",
+    "answer": "causes / evidence / implications",
+    "exercise": {
+      "id": "ex-15",
+      "question": "A learner is working on \"Section 4: Lecture Control\". What should they focus on?",
+      "options": [
+        "Wait until the recording finishes before thinking about the question.",
+        "Focus only on individual words and ignore the speaker's meaning.",
+        "Follow dense academic content.",
+        "Ignore the words around the answer and choose randomly."
+      ],
+      "answer": 2,
+      "explanation": "The lesson focuses on follow dense academic content.",
+      "lesson_id": 15
+    }
+  },
+  {
+    "id": 16,
+    "track": "Listening",
+    "slug": "listening-transcript",
+    "title": "Use the Transcript as a Diagnostic Tool",
+    "goal": "Turn mistakes into targeted practice.",
+    "lesson": "After an attempt, compare the recording transcript with your prediction. Label the failure: vocabulary, attention, paraphrase, spelling or tracking.",
+    "practice": "Label this error: you knew the word but missed it because the speaker corrected the first answer.",
+    "answer": "attention/distractor",
+    "exercise": {
+      "id": "ex-16",
+      "question": "Which action would most directly support the skill in \"Use the Transcript as a Diagnostic Tool\"?",
+      "options": [
+        "Focus only on individual words and ignore the speaker's meaning.",
+        "Turn mistakes into targeted practice.",
+        "Ignore the words around the answer and choose randomly.",
+        "Wait until the recording finishes before thinking about the question."
+      ],
+      "answer": 1,
+      "explanation": "The lesson focuses on turn mistakes into targeted practice.",
+      "lesson_id": 16
+    }
+  },
+  {
+    "id": 17,
+    "track": "Listening",
+    "slug": "listening-paraphrase",
+    "title": "Paraphrase Radar",
+    "goal": "Recognise equivalent meaning.",
+    "lesson": "Ielts questions often use one expression while the recording uses another. Train meaning pairs, not isolated synonyms.",
+    "practice": "Question: “The course is compulsory.” Recording: “Students are required to take it.” Do they match?",
+    "answer": "Yes",
+    "exercise": {
+      "id": "ex-17",
+      "question": "What should a learner do when practising \"Paraphrase Radar\"?",
+      "options": [
+        "Recognise equivalent meaning.",
+        "Ignore the words around the answer and choose randomly.",
+        "Wait until the recording finishes before thinking about the question.",
+        "Focus only on individual words and ignore the speaker's meaning."
+      ],
+      "answer": 0,
+      "explanation": "The lesson focuses on recognise equivalent meaning.",
+      "lesson_id": 17
+    }
+  },
+  {
+    "id": 18,
+    "track": "Listening",
+    "slug": "listening-sequence",
+    "title": "Follow Cause and Effect",
+    "goal": "Track relationships, not just keywords.",
+    "lesson": "Listen for because, therefore, leads to, results in and consequently. These words connect facts.",
+    "practice": "Identify the effect: “Heavy rain caused the river to overflow.”",
+    "answer": "river overflow",
+    "exercise": {
+      "id": "ex-18",
+      "question": "Which approach best demonstrates the skill taught in \"Follow Cause and Effect\"?",
+      "options": [
+        "Ignore the words around the answer and choose randomly.",
+        "Wait until the recording finishes before thinking about the question.",
+        "Focus only on individual words and ignore the speaker's meaning.",
+        "Track relationships, not just keywords."
+      ],
+      "answer": 3,
+      "explanation": "The lesson focuses on track relationships, not just keywords.",
+      "lesson_id": 18
+    }
+  },
+  {
+    "id": 19,
+    "track": "Listening",
+    "slug": "listening-prediction2",
+    "title": "Predict Word Forms",
+    "goal": "Use grammar to narrow possibilities.",
+    "lesson": "A gap after an article often needs a noun; after 'to' it may need a base verb; after 'very' an adjective/adverb may fit.",
+    "practice": "Predict the form: “The project was highly ____.”",
+    "answer": "successful / effective",
+    "exercise": {
+      "id": "ex-19",
+      "question": "What is the main strategy to apply in \"Predict Word Forms\"?",
+      "options": [
+        "Wait until the recording finishes before thinking about the question.",
+        "Focus only on individual words and ignore the speaker's meaning.",
+        "Use grammar to narrow possibilities.",
+        "Ignore the words around the answer and choose randomly."
+      ],
+      "answer": 2,
+      "explanation": "The lesson focuses on use grammar to narrow possibilities.",
+      "lesson_id": 19
+    }
+  },
+  {
+    "id": 20,
+    "track": "Listening",
+    "slug": "listening-review",
+    "title": "Listening Error Review",
+    "goal": "Build a repeatable correction routine.",
+    "lesson": "After every practice, record the question number, mistake type, correct answer and prevention strategy.",
+    "practice": "Make a four-column error log for one listening test.",
+    "answer": "Question / Error / Cause / Fix",
+    "exercise": {
+      "id": "ex-20",
+      "question": "When practising \"Listening Error Review\", which approach best matches the lesson goal?",
+      "options": [
+        "Focus only on individual words and ignore the speaker's meaning.",
+        "Build a repeatable correction routine.",
+        "Ignore the words around the answer and choose randomly.",
+        "Wait until the recording finishes before thinking about the question."
+      ],
+      "answer": 1,
+      "explanation": "The lesson focuses on build a repeatable correction routine.",
+      "lesson_id": 20
+    }
+  },
+  {
+    "id": 21,
+    "track": "Reading",
+    "slug": "reading-skimming",
+    "title": "Skim for Structure",
+    "goal": "Find the map of a passage before detail reading.",
+    "lesson": "Read the title, opening lines and paragraph beginnings. Identify topic progression rather than trying to understand every sentence.",
+    "practice": "Give each paragraph a 3–5 word label.",
+    "answer": "Any accurate short label.",
+    "exercise": {
+      "id": "ex-21",
+      "question": "A learner is working on \"Skim for Structure\". What should they focus on?",
+      "options": [
+        "Find the map of a passage before detail reading.",
+        "Choose the first word that looks similar to the question.",
+        "Ignore paragraph meaning and rely only on familiar vocabulary.",
+        "Read every sentence without using the question to guide your search."
+      ],
+      "answer": 0,
+      "explanation": "The lesson focuses on find the map of a passage before detail reading.",
+      "lesson_id": 21
+    }
+  },
+  {
+    "id": 22,
+    "track": "Reading",
+    "slug": "reading-scanning",
+    "title": "Scan for Evidence",
+    "goal": "Locate likely evidence efficiently.",
+    "lesson": "Search for names, dates, unusual nouns and paraphrase signals, then read the surrounding sentences.",
+    "practice": "Find the evidence for a statement about a 2019 launch.",
+    "answer": "The sentence containing the launch detail.",
+    "exercise": {
+      "id": "ex-22",
+      "question": "Which action would most directly support the skill in \"Scan for Evidence\"?",
+      "options": [
+        "Choose the first word that looks similar to the question.",
+        "Ignore paragraph meaning and rely only on familiar vocabulary.",
+        "Read every sentence without using the question to guide your search.",
+        "Locate likely evidence efficiently."
+      ],
+      "answer": 3,
+      "explanation": "The lesson focuses on locate likely evidence efficiently.",
+      "lesson_id": 22
+    }
+  },
+  {
+    "id": 23,
+    "track": "Reading",
+    "slug": "reading-tfng",
+    "title": "True / False / Not Given",
+    "goal": "Separate contradiction from absence.",
+    "lesson": "TRUE is supported; FALSE conflicts; NOT GIVEN lacks enough information. Never use outside knowledge.",
+    "practice": "Passage says the garden opened in 2019. Statement: it opened in spring 2019.",
+    "answer": "NOT GIVEN",
+    "exercise": {
+      "id": "ex-23",
+      "question": "What should a learner do when practising \"True / False / Not Given\"?",
+      "options": [
+        "Ignore paragraph meaning and rely only on familiar vocabulary.",
+        "Read every sentence without using the question to guide your search.",
+        "Separate contradiction from absence.",
+        "Choose the first word that looks similar to the question."
+      ],
+      "answer": 2,
+      "explanation": "The lesson focuses on separate contradiction from absence.",
+      "lesson_id": 23
+    }
+  },
+  {
+    "id": 24,
+    "track": "Reading",
+    "slug": "reading-ynng",
+    "title": "Yes / No / Not Given",
+    "goal": "Handle writer's views.",
+    "lesson": "These questions concern claims or opinions attributed to the writer, not merely factual details.",
+    "practice": "Writer says the policy is promising but untested. Statement: writer believes it is proven.",
+    "answer": "NO",
+    "exercise": {
+      "id": "ex-24",
+      "question": "Which approach best demonstrates the skill taught in \"Yes / No / Not Given\"?",
+      "options": [
+        "Read every sentence without using the question to guide your search.",
+        "Handle writer's views.",
+        "Choose the first word that looks similar to the question.",
+        "Ignore paragraph meaning and rely only on familiar vocabulary."
+      ],
+      "answer": 1,
+      "explanation": "The lesson focuses on handle writer's views.",
+      "lesson_id": 24
+    }
+  },
+  {
+    "id": 25,
+    "track": "Reading",
+    "slug": "reading-headings",
+    "title": "Matching Headings",
+    "goal": "Match the central idea of a paragraph.",
+    "lesson": "Ignore attractive details. Ask what the paragraph is mainly doing or arguing.",
+    "practice": "Paragraph discusses causes, then explains one example. Choose a heading about causes rather than the example.",
+    "answer": "Causes heading",
+    "exercise": {
+      "id": "ex-25",
+      "question": "What is the main strategy to apply in \"Matching Headings\"?",
+      "options": [
+        "Match the central idea of a paragraph.",
+        "Choose the first word that looks similar to the question.",
+        "Ignore paragraph meaning and rely only on familiar vocabulary.",
+        "Read every sentence without using the question to guide your search."
+      ],
+      "answer": 0,
+      "explanation": "The lesson focuses on match the central idea of a paragraph.",
+      "lesson_id": 25
+    }
+  },
+  {
+    "id": 26,
+    "track": "Reading",
+    "slug": "reading-information",
+    "title": "Matching Information",
+    "goal": "Locate specific details across paragraphs.",
+    "lesson": "Match the requested information to the paragraph containing the evidence, even when the wording is heavily changed.",
+    "practice": "Find the paragraph that mentions an unexpected research result.",
+    "answer": "Paragraph containing that result",
+    "exercise": {
+      "id": "ex-26",
+      "question": "When practising \"Matching Information\", which approach best matches the lesson goal?",
+      "options": [
+        "Choose the first word that looks similar to the question.",
+        "Ignore paragraph meaning and rely only on familiar vocabulary.",
+        "Read every sentence without using the question to guide your search.",
+        "Locate specific details across paragraphs."
+      ],
+      "answer": 3,
+      "explanation": "The lesson focuses on locate specific details across paragraphs.",
+      "lesson_id": 26
+    }
+  },
+  {
+    "id": 27,
+    "track": "Reading",
+    "slug": "reading-mcq",
+    "title": "Multiple Choice Evidence",
+    "goal": "Choose only an option supported by the text.",
+    "lesson": "Underline the core claim in each option and prove or disprove it from the passage.",
+    "practice": "If three options are mentioned but only one answers the question, choose the one that completes the required relationship.",
+    "answer": "Evidence-supported option",
+    "exercise": {
+      "id": "ex-27",
+      "question": "A learner is working on \"Multiple Choice Evidence\". What should they focus on?",
+      "options": [
+        "Ignore paragraph meaning and rely only on familiar vocabulary.",
+        "Read every sentence without using the question to guide your search.",
+        "Choose only an option supported by the text.",
+        "Choose the first word that looks similar to the question."
+      ],
+      "answer": 2,
+      "explanation": "The lesson focuses on choose only an option supported by the text.",
+      "lesson_id": 27
+    }
+  },
+  {
+    "id": 28,
+    "track": "Reading",
+    "slug": "reading-sentence",
+    "title": "Sentence Completion",
+    "goal": "Respect word limits and grammar.",
+    "lesson": "Predict the grammatical form before locating evidence. Copy only what fits the sentence.",
+    "practice": "Complete: The experiment required ____ workers.",
+    "answer": "Two / a number matching the passage",
+    "exercise": {
+      "id": "ex-28",
+      "question": "Which action would most directly support the skill in \"Sentence Completion\"?",
+      "options": [
+        "Read every sentence without using the question to guide your search.",
+        "Respect word limits and grammar.",
+        "Choose the first word that looks similar to the question.",
+        "Ignore paragraph meaning and rely only on familiar vocabulary."
+      ],
+      "answer": 1,
+      "explanation": "The lesson focuses on respect word limits and grammar.",
+      "lesson_id": 28
+    }
+  },
+  {
+    "id": 29,
+    "track": "Reading",
+    "slug": "reading-summary",
+    "title": "Summary Completion",
+    "goal": "Read the summary as a compressed passage.",
+    "lesson": "The summary follows the source's ideas but changes wording. Predict missing meaning before searching.",
+    "practice": "Choose a word that names the process described in the source.",
+    "answer": "The source-supported term",
+    "exercise": {
+      "id": "ex-29",
+      "question": "What should a learner do when practising \"Summary Completion\"?",
+      "options": [
+        "Read the summary as a compressed passage.",
+        "Choose the first word that looks similar to the question.",
+        "Ignore paragraph meaning and rely only on familiar vocabulary.",
+        "Read every sentence without using the question to guide your search."
+      ],
+      "answer": 0,
+      "explanation": "The lesson focuses on read the summary as a compressed passage.",
+      "lesson_id": 29
+    }
+  },
+  {
+    "id": 30,
+    "track": "Reading",
+    "slug": "reading-classification",
+    "title": "Classification Questions",
+    "goal": "Match facts to categories.",
+    "lesson": "Create a quick list of category labels and attach each piece of evidence as you find it.",
+    "practice": "Match each invention to its inventor.",
+    "answer": "Inventor/category supported by passage",
+    "exercise": {
+      "id": "ex-30",
+      "question": "Which approach best demonstrates the skill taught in \"Classification Questions\"?",
+      "options": [
+        "Choose the first word that looks similar to the question.",
+        "Ignore paragraph meaning and rely only on familiar vocabulary.",
+        "Read every sentence without using the question to guide your search.",
+        "Match facts to categories."
+      ],
+      "answer": 3,
+      "explanation": "The lesson focuses on match facts to categories.",
+      "lesson_id": 30
+    }
+  },
+  {
+    "id": 31,
+    "track": "Reading",
+    "slug": "reading-paraphrase",
+    "title": "Reading Paraphrase Radar",
+    "goal": "Recognise changed wording.",
+    "lesson": "Compare meaning, not surface words. Look for word-family changes, active/passive shifts and noun/verb substitutions.",
+    "practice": "“reduce costs” and “lower expenditure” express the same idea.",
+    "answer": "Yes",
+    "exercise": {
+      "id": "ex-31",
+      "question": "What is the main strategy to apply in \"Reading Paraphrase Radar\"?",
+      "options": [
+        "Ignore paragraph meaning and rely only on familiar vocabulary.",
+        "Read every sentence without using the question to guide your search.",
+        "Recognise changed wording.",
+        "Choose the first word that looks similar to the question."
+      ],
+      "answer": 2,
+      "explanation": "The lesson focuses on recognise changed wording.",
+      "lesson_id": 31
+    }
+  },
+  {
+    "id": 32,
+    "track": "Reading",
+    "slug": "reading-keywords",
+    "title": "Keyword Quality",
+    "goal": "Choose search terms that are distinctive.",
+    "lesson": "Names, numbers and unusual concepts are usually better scanning anchors than common words.",
+    "practice": "Choose the better scan anchor: “important” or “1987 prototype reactor”.",
+    "answer": "1987 prototype reactor",
+    "exercise": {
+      "id": "ex-32",
+      "question": "When practising \"Keyword Quality\", which approach best matches the lesson goal?",
+      "options": [
+        "Read every sentence without using the question to guide your search.",
+        "Choose search terms that are distinctive.",
+        "Choose the first word that looks similar to the question.",
+        "Ignore paragraph meaning and rely only on familiar vocabulary."
+      ],
+      "answer": 1,
+      "explanation": "The lesson focuses on choose search terms that are distinctive.",
+      "lesson_id": 32
+    }
+  },
+  {
+    "id": 33,
+    "track": "Reading",
+    "slug": "reading-negative",
+    "title": "Handle Negative Questions",
+    "goal": "Find the one option that does not fit.",
+    "lesson": "Mark three supported options as you prove them, then identify the remaining unsupported choice.",
+    "practice": "Which option is NOT mentioned? Verify each option rather than guessing.",
+    "answer": "Unsupported option",
+    "exercise": {
+      "id": "ex-33",
+      "question": "A learner is working on \"Handle Negative Questions\". What should they focus on?",
+      "options": [
+        "Find the one option that does not fit.",
+        "Choose the first word that looks similar to the question.",
+        "Ignore paragraph meaning and rely only on familiar vocabulary.",
+        "Read every sentence without using the question to guide your search."
+      ],
+      "answer": 0,
+      "explanation": "The lesson focuses on find the one option that does not fit.",
+      "lesson_id": 33
+    }
+  },
+  {
+    "id": 34,
+    "track": "Reading",
+    "slug": "reading-matching",
+    "title": "Match People and Views",
+    "goal": "Track who believes what.",
+    "lesson": "Create a simple name → opinion map before selecting answers.",
+    "practice": "Researcher A favours regulation; Researcher B favours incentives.",
+    "answer": "A—regulation; B—incentives",
+    "exercise": {
+      "id": "ex-34",
+      "question": "Which action would most directly support the skill in \"Match People and Views\"?",
+      "options": [
+        "Choose the first word that looks similar to the question.",
+        "Ignore paragraph meaning and rely only on familiar vocabulary.",
+        "Read every sentence without using the question to guide your search.",
+        "Track who believes what."
+      ],
+      "answer": 3,
+      "explanation": "The lesson focuses on track who believes what.",
+      "lesson_id": 34
+    }
+  },
+  {
+    "id": 35,
+    "track": "Reading",
+    "slug": "reading-time",
+    "title": "Reading Time Control",
+    "goal": "Allocate time according to question difficulty.",
+    "lesson": "Avoid spending several minutes on one stubborn question. Mark it, move on and return if time permits.",
+    "practice": "Set a practical review rule for a difficult item.",
+    "answer": "Move on after a focused attempt.",
+    "exercise": {
+      "id": "ex-35",
+      "question": "What should a learner do when practising \"Reading Time Control\"?",
+      "options": [
+        "Ignore paragraph meaning and rely only on familiar vocabulary.",
+        "Read every sentence without using the question to guide your search.",
+        "Allocate time according to question difficulty.",
+        "Choose the first word that looks similar to the question."
+      ],
+      "answer": 2,
+      "explanation": "The lesson focuses on allocate time according to question difficulty.",
+      "lesson_id": 35
+    }
+  },
+  {
+    "id": 36,
+    "track": "Reading",
+    "slug": "reading-evidence",
+    "title": "Evidence First",
+    "goal": "Prove an answer before committing.",
+    "lesson": "For every answer, be able to point to the sentence or relationship that supports it.",
+    "practice": "Write one evidence sentence for your chosen answer.",
+    "answer": "A concise supporting sentence.",
+    "exercise": {
+      "id": "ex-36",
+      "question": "Which approach best demonstrates the skill taught in \"Evidence First\"?",
+      "options": [
+        "Read every sentence without using the question to guide your search.",
+        "Prove an answer before committing.",
+        "Choose the first word that looks similar to the question.",
+        "Ignore paragraph meaning and rely only on familiar vocabulary."
+      ],
+      "answer": 1,
+      "explanation": "The lesson focuses on prove an answer before committing.",
+      "lesson_id": 36
+    }
+  },
+  {
+    "id": 37,
+    "track": "Reading",
+    "slug": "reading-vocabulary",
+    "title": "Context Vocabulary",
+    "goal": "Infer unfamiliar words without panic.",
+    "lesson": "Use nearby definitions, contrasts, examples and grammar to estimate meaning.",
+    "practice": "If a word appears after “a process that…” infer that it is likely a noun/process label.",
+    "answer": "Context-supported meaning.",
+    "exercise": {
+      "id": "ex-37",
+      "question": "What is the main strategy to apply in \"Context Vocabulary\"?",
+      "options": [
+        "Infer unfamiliar words without panic.",
+        "Choose the first word that looks similar to the question.",
+        "Ignore paragraph meaning and rely only on familiar vocabulary.",
+        "Read every sentence without using the question to guide your search."
+      ],
+      "answer": 0,
+      "explanation": "The lesson focuses on infer unfamiliar words without panic.",
+      "lesson_id": 37
+    }
+  },
+  {
+    "id": 38,
+    "track": "Reading",
+    "slug": "reading-paragraph",
+    "title": "Paragraph Purpose",
+    "goal": "Identify why a paragraph exists.",
+    "lesson": "A paragraph may introduce a problem, challenge a belief, present evidence, compare views or propose a response.",
+    "practice": "Label a paragraph that presents an old assumption and then disproves it.",
+    "answer": "Challenge/correction.",
+    "exercise": {
+      "id": "ex-38",
+      "question": "When practising \"Paragraph Purpose\", which approach best matches the lesson goal?",
+      "options": [
+        "Choose the first word that looks similar to the question.",
+        "Ignore paragraph meaning and rely only on familiar vocabulary.",
+        "Read every sentence without using the question to guide your search.",
+        "Identify why a paragraph exists."
+      ],
+      "answer": 3,
+      "explanation": "The lesson focuses on identify why a paragraph exists.",
+      "lesson_id": 38
+    }
+  },
+  {
+    "id": 39,
+    "track": "Reading",
+    "slug": "reading-review",
+    "title": "Reading Error Review",
+    "goal": "Turn wrong answers into patterns.",
+    "lesson": "Classify errors as locating, interpreting, vocabulary, question-type or time-management problems.",
+    "practice": "Record one wrong answer using the five categories.",
+    "answer": "One category plus a corrective action.",
+    "exercise": {
+      "id": "ex-39",
+      "question": "A learner is working on \"Reading Error Review\". What should they focus on?",
+      "options": [
+        "Ignore paragraph meaning and rely only on familiar vocabulary.",
+        "Read every sentence without using the question to guide your search.",
+        "Turn wrong answers into patterns.",
+        "Choose the first word that looks similar to the question."
+      ],
+      "answer": 2,
+      "explanation": "The lesson focuses on turn wrong answers into patterns.",
+      "lesson_id": 39
+    }
+  },
+  {
+    "id": 40,
+    "track": "Writing Task 2",
+    "slug": "w2-decode",
+    "title": "Decode the Question",
+    "goal": "Identify the exact task before generating ideas.",
+    "lesson": "Underline topic, instruction and limits. Decide whether the question asks for opinion, discussion, comparison, causes, solutions or multiple answers.",
+    "practice": "Classify: “Why does this happen and what can be done?”",
+    "answer": "Problems/causes + solutions.",
+    "exercise": {
+      "id": "ex-40",
+      "question": "Which action would most directly support the skill in \"Decode the Question\"?",
+      "options": [
+        "Use complex language even when it makes the meaning unclear.",
+        "Identify the exact task before generating ideas.",
+        "Add ideas without explaining how they support the main point.",
+        "Memorise a fixed response and use it regardless of the question."
+      ],
+      "answer": 1,
+      "explanation": "The lesson focuses on identify the exact task before generating ideas.",
+      "lesson_id": 40
+    }
+  },
+  {
+    "id": 41,
+    "track": "Writing Task 2",
+    "slug": "w2-thesis",
+    "title": "Write a Direct Thesis",
+    "goal": "Make your position visible.",
+    "lesson": "A thesis should answer the question directly rather than announce that you will discuss it.",
+    "practice": "Write a thesis for: Should cities restrict private cars?",
+    "answer": "A clear position supporting or opposing restrictions.",
+    "exercise": {
+      "id": "ex-41",
+      "question": "What should a learner do when practising \"Write a Direct Thesis\"?",
+      "options": [
+        "Make your position visible.",
+        "Add ideas without explaining how they support the main point.",
+        "Memorise a fixed response and use it regardless of the question.",
+        "Use complex language even when it makes the meaning unclear."
+      ],
+      "answer": 0,
+      "explanation": "The lesson focuses on make your position visible.",
+      "lesson_id": 41
+    }
+  },
+  {
+    "id": 42,
+    "track": "Writing Task 2",
+    "slug": "w2-ideas",
+    "title": "Generate Two Strong Ideas",
+    "goal": "Prefer developable ideas to long lists.",
+    "lesson": "Choose ideas that you can explain, illustrate and connect to the question.",
+    "practice": "Generate two reasons for improving public transport.",
+    "answer": "Affordability/access; congestion/environment.",
+    "exercise": {
+      "id": "ex-42",
+      "question": "Which approach best demonstrates the skill taught in \"Generate Two Strong Ideas\"?",
+      "options": [
+        "Add ideas without explaining how they support the main point.",
+        "Memorise a fixed response and use it regardless of the question.",
+        "Use complex language even when it makes the meaning unclear.",
+        "Prefer developable ideas to long lists."
+      ],
+      "answer": 3,
+      "explanation": "The lesson focuses on prefer developable ideas to long lists.",
+      "lesson_id": 42
+    }
+  },
+  {
+    "id": 43,
+    "track": "Writing Task 2",
+    "slug": "w2-paragraph",
+    "title": "Build a Body Paragraph",
+    "goal": "Develop one main point fully.",
+    "lesson": "Use claim → reason → mechanism → example → link. One paragraph should have one dominant purpose.",
+    "practice": "Develop: flexible working can improve retention.",
+    "answer": "Any coherent development following the structure.",
+    "exercise": {
+      "id": "ex-43",
+      "question": "What is the main strategy to apply in \"Build a Body Paragraph\"?",
+      "options": [
+        "Memorise a fixed response and use it regardless of the question.",
+        "Use complex language even when it makes the meaning unclear.",
+        "Develop one main point fully.",
+        "Add ideas without explaining how they support the main point."
+      ],
+      "answer": 2,
+      "explanation": "The lesson focuses on develop one main point fully.",
+      "lesson_id": 43
+    }
+  },
+  {
+    "id": 44,
+    "track": "Writing Task 2",
+    "slug": "w2-opinion",
+    "title": "Opinion Essay",
+    "goal": "Maintain a consistent position.",
+    "lesson": "If the prompt asks whether you agree, your position should remain clear throughout the essay.",
+    "practice": "Write a one-sentence position on school uniforms.",
+    "answer": "Any consistent agree/disagree position.",
+    "exercise": {
+      "id": "ex-44",
+      "question": "When practising \"Opinion Essay\", which approach best matches the lesson goal?",
+      "options": [
+        "Use complex language even when it makes the meaning unclear.",
+        "Maintain a consistent position.",
+        "Add ideas without explaining how they support the main point.",
+        "Memorise a fixed response and use it regardless of the question."
+      ],
+      "answer": 1,
+      "explanation": "The lesson focuses on maintain a consistent position.",
+      "lesson_id": 44
+    }
+  },
+  {
+    "id": 45,
+    "track": "Writing Task 2",
+    "slug": "w2-discussion",
+    "title": "Discussion Essay",
+    "goal": "Represent both views fairly.",
+    "lesson": "Explain each side before giving your considered position when the question asks for it.",
+    "practice": "Give one fair point for each side of remote education.",
+    "answer": "Access/flexibility vs reduced interaction.",
+    "exercise": {
+      "id": "ex-45",
+      "question": "A learner is working on \"Discussion Essay\". What should they focus on?",
+      "options": [
+        "Represent both views fairly.",
+        "Add ideas without explaining how they support the main point.",
+        "Memorise a fixed response and use it regardless of the question.",
+        "Use complex language even when it makes the meaning unclear."
+      ],
+      "answer": 0,
+      "explanation": "The lesson focuses on represent both views fairly.",
+      "lesson_id": 45
+    }
+  },
+  {
+    "id": 46,
+    "track": "Writing Task 2",
+    "slug": "w2-advantages",
+    "title": "Advantages and Disadvantages",
+    "goal": "Compare benefits and costs logically.",
+    "lesson": "Use separate ideas and explain significance rather than listing.",
+    "practice": "Give one developed advantage of cycling infrastructure.",
+    "answer": "Health/transport benefits with explanation.",
+    "exercise": {
+      "id": "ex-46",
+      "question": "Which action would most directly support the skill in \"Advantages and Disadvantages\"?",
+      "options": [
+        "Add ideas without explaining how they support the main point.",
+        "Memorise a fixed response and use it regardless of the question.",
+        "Use complex language even when it makes the meaning unclear.",
+        "Compare benefits and costs logically."
+      ],
+      "answer": 3,
+      "explanation": "The lesson focuses on compare benefits and costs logically.",
+      "lesson_id": 46
+    }
+  },
+  {
+    "id": 47,
+    "track": "Writing Task 2",
+    "slug": "w2-problems",
+    "title": "Problem and Solution",
+    "goal": "Connect a problem to a realistic response.",
+    "lesson": "Explain the cause or consequence before proposing a solution that addresses it.",
+    "practice": "Problem: traffic congestion. Solution: reliable public transport.",
+    "answer": "Solution targets demand for private car use.",
+    "exercise": {
+      "id": "ex-47",
+      "question": "What should a learner do when practising \"Problem and Solution\"?",
+      "options": [
+        "Memorise a fixed response and use it regardless of the question.",
+        "Use complex language even when it makes the meaning unclear.",
+        "Connect a problem to a realistic response.",
+        "Add ideas without explaining how they support the main point."
+      ],
+      "answer": 2,
+      "explanation": "The lesson focuses on connect a problem to a realistic response.",
+      "lesson_id": 47
+    }
+  },
+  {
+    "id": 48,
+    "track": "Writing Task 2",
+    "slug": "w2-two-part",
+    "title": "Two-Part Questions",
+    "goal": "Answer both questions.",
+    "lesson": "Reserve planning time to create at least one developed response to each part.",
+    "practice": "Question asks why people migrate and whether it is positive. Give one idea for each.",
+    "answer": "Cause + evaluation.",
+    "exercise": {
+      "id": "ex-48",
+      "question": "Which approach best demonstrates the skill taught in \"Two-Part Questions\"?",
+      "options": [
+        "Use complex language even when it makes the meaning unclear.",
+        "Answer both questions.",
+        "Add ideas without explaining how they support the main point.",
+        "Memorise a fixed response and use it regardless of the question."
+      ],
+      "answer": 1,
+      "explanation": "The lesson focuses on answer both questions.",
+      "lesson_id": 48
+    }
+  },
+  {
+    "id": 49,
+    "track": "Writing Task 2",
+    "slug": "w2-cohesion",
+    "title": "Cohesion Without Over-Linking",
+    "goal": "Use logical relationships naturally.",
+    "lesson": "Coherence comes from clear ideas and referencing, not from inserting connectors into every sentence.",
+    "practice": "Replace repeated “Moreover” with a natural continuation.",
+    "answer": "Any accurate alternative or no connector where unnecessary.",
+    "exercise": {
+      "id": "ex-49",
+      "question": "What is the main strategy to apply in \"Cohesion Without Over-Linking\"?",
+      "options": [
+        "Use logical relationships naturally.",
+        "Add ideas without explaining how they support the main point.",
+        "Memorise a fixed response and use it regardless of the question.",
+        "Use complex language even when it makes the meaning unclear."
+      ],
+      "answer": 0,
+      "explanation": "The lesson focuses on use logical relationships naturally.",
+      "lesson_id": 49
+    }
+  },
+  {
+    "id": 50,
+    "track": "Writing Task 2",
+    "slug": "w2-examples",
+    "title": "Use Relevant Examples",
+    "goal": "Make examples support the claim.",
+    "lesson": "A useful example is specific enough to illustrate the mechanism but not so detailed that it becomes a story.",
+    "practice": "Create an example for digital learning improving access.",
+    "answer": "Remote learners in rural areas accessing specialist courses.",
+    "exercise": {
+      "id": "ex-50",
+      "question": "When practising \"Use Relevant Examples\", which approach best matches the lesson goal?",
+      "options": [
+        "Add ideas without explaining how they support the main point.",
+        "Memorise a fixed response and use it regardless of the question.",
+        "Use complex language even when it makes the meaning unclear.",
+        "Make examples support the claim."
+      ],
+      "answer": 3,
+      "explanation": "The lesson focuses on make examples support the claim.",
+      "lesson_id": 50
+    }
+  },
+  {
+    "id": 51,
+    "track": "Writing Task 2",
+    "slug": "w2-counterpoint",
+    "title": "Handle Counterarguments",
+    "goal": "Acknowledge limits without losing your position.",
+    "lesson": "Use a concession when it strengthens evaluation: although X, Y remains more significant because…",
+    "practice": "Write a concession about technology in classrooms.",
+    "answer": "Although technology can distract, controlled use can widen access.",
+    "exercise": {
+      "id": "ex-51",
+      "question": "A learner is working on \"Handle Counterarguments\". What should they focus on?",
+      "options": [
+        "Memorise a fixed response and use it regardless of the question.",
+        "Use complex language even when it makes the meaning unclear.",
+        "Acknowledge limits without losing your position.",
+        "Add ideas without explaining how they support the main point."
+      ],
+      "answer": 2,
+      "explanation": "The lesson focuses on acknowledge limits without losing your position.",
+      "lesson_id": 51
+    }
+  },
+  {
+    "id": 52,
+    "track": "Writing Task 2",
+    "slug": "w2-intro",
+    "title": "Write a Two-Sentence Introduction",
+    "goal": "Avoid long introductions.",
+    "lesson": "Paraphrase the issue, then state a direct thesis/roadmap only when useful.",
+    "practice": "Create a two-sentence opening for a recycling policy essay.",
+    "answer": "Issue paraphrase + position.",
+    "exercise": {
+      "id": "ex-52",
+      "question": "Which action would most directly support the skill in \"Write a Two-Sentence Introduction\"?",
+      "options": [
+        "Use complex language even when it makes the meaning unclear.",
+        "Avoid long introductions.",
+        "Add ideas without explaining how they support the main point.",
+        "Memorise a fixed response and use it regardless of the question."
+      ],
+      "answer": 1,
+      "explanation": "The lesson focuses on avoid long introductions.",
+      "lesson_id": 52
+    }
+  },
+  {
+    "id": 53,
+    "track": "Writing Task 2",
+    "slug": "w2-conclusion",
+    "title": "Write a Controlled Conclusion",
+    "goal": "Summarise rather than introduce new ideas.",
+    "lesson": "Restate the position and main reasoning in fresh wording.",
+    "practice": "Write a two-sentence conclusion for a public transport essay.",
+    "answer": "Position + concise synthesis.",
+    "exercise": {
+      "id": "ex-53",
+      "question": "What should a learner do when practising \"Write a Controlled Conclusion\"?",
+      "options": [
+        "Summarise rather than introduce new ideas.",
+        "Add ideas without explaining how they support the main point.",
+        "Memorise a fixed response and use it regardless of the question.",
+        "Use complex language even when it makes the meaning unclear."
+      ],
+      "answer": 0,
+      "explanation": "The lesson focuses on summarise rather than introduce new ideas.",
+      "lesson_id": 53
+    }
+  },
+  {
+    "id": 54,
+    "track": "Writing Task 2",
+    "slug": "w2-lexical",
+    "title": "Use Precise Topic Vocabulary",
+    "goal": "Choose accurate terms rather than obscure words.",
+    "lesson": "Build vocabulary around the topic and function: cause, effect, evaluation, comparison.",
+    "practice": "Replace “a lot of cars” in formal writing.",
+    "answer": "a large number of private vehicles.",
+    "exercise": {
+      "id": "ex-54",
+      "question": "Which approach best demonstrates the skill taught in \"Use Precise Topic Vocabulary\"?",
+      "options": [
+        "Add ideas without explaining how they support the main point.",
+        "Memorise a fixed response and use it regardless of the question.",
+        "Use complex language even when it makes the meaning unclear.",
+        "Choose accurate terms rather than obscure words."
+      ],
+      "answer": 3,
+      "explanation": "The lesson focuses on choose accurate terms rather than obscure words.",
+      "lesson_id": 54
+    }
+  },
+  {
+    "id": 55,
+    "track": "Writing Task 2",
+    "slug": "w2-grammar",
+    "title": "Control Complex Sentences",
+    "goal": "Use complexity only when controlled.",
+    "lesson": "Combine ideas with relative clauses, conditionals and subordination without creating run-ons.",
+    "practice": "Join two simple ideas about education.",
+    "answer": "A grammatically accurate complex sentence.",
+    "exercise": {
+      "id": "ex-55",
+      "question": "What is the main strategy to apply in \"Control Complex Sentences\"?",
+      "options": [
+        "Memorise a fixed response and use it regardless of the question.",
+        "Use complex language even when it makes the meaning unclear.",
+        "Use complexity only when controlled.",
+        "Add ideas without explaining how they support the main point."
+      ],
+      "answer": 2,
+      "explanation": "The lesson focuses on use complexity only when controlled.",
+      "lesson_id": 55
+    }
+  },
+  {
+    "id": 56,
+    "track": "Writing Task 2",
+    "slug": "w2-cause",
+    "title": "Explain Causes",
+    "goal": "Move from surface cause to mechanism.",
+    "lesson": "Ask “why?” twice, then show how the cause produces the outcome.",
+    "practice": "Develop why commuting is stressful.",
+    "answer": "Time loss → reduced personal time → fatigue.",
+    "exercise": {
+      "id": "ex-56",
+      "question": "When practising \"Explain Causes\", which approach best matches the lesson goal?",
+      "options": [
+        "Use complex language even when it makes the meaning unclear.",
+        "Move from surface cause to mechanism.",
+        "Add ideas without explaining how they support the main point.",
+        "Memorise a fixed response and use it regardless of the question."
+      ],
+      "answer": 1,
+      "explanation": "The lesson focuses on move from surface cause to mechanism.",
+      "lesson_id": 56
+    }
+  },
+  {
+    "id": 57,
+    "track": "Writing Task 2",
+    "slug": "w2-effect",
+    "title": "Explain Consequences",
+    "goal": "Show significance.",
+    "lesson": "A consequence paragraph should show who is affected and how.",
+    "practice": "Explain a consequence of air pollution.",
+    "answer": "Health costs and pressure on healthcare.",
+    "exercise": {
+      "id": "ex-57",
+      "question": "A learner is working on \"Explain Consequences\". What should they focus on?",
+      "options": [
+        "Show significance.",
+        "Add ideas without explaining how they support the main point.",
+        "Memorise a fixed response and use it regardless of the question.",
+        "Use complex language even when it makes the meaning unclear."
+      ],
+      "answer": 0,
+      "explanation": "The lesson focuses on show significance.",
+      "lesson_id": 57
+    }
+  },
+  {
+    "id": 58,
+    "track": "Writing Task 2",
+    "slug": "w2-compare",
+    "title": "Compare Alternatives",
+    "goal": "Evaluate options using the same criteria.",
+    "lesson": "Compare cost, access, effectiveness or long-term impact rather than making unrelated lists.",
+    "practice": "Compare public and private transport on access.",
+    "answer": "Public transport is more accessible at scale.",
+    "exercise": {
+      "id": "ex-58",
+      "question": "Which action would most directly support the skill in \"Compare Alternatives\"?",
+      "options": [
+        "Add ideas without explaining how they support the main point.",
+        "Memorise a fixed response and use it regardless of the question.",
+        "Use complex language even when it makes the meaning unclear.",
+        "Evaluate options using the same criteria."
+      ],
+      "answer": 3,
+      "explanation": "The lesson focuses on evaluate options using the same criteria.",
+      "lesson_id": 58
+    }
+  },
+  {
+    "id": 59,
+    "track": "Writing Task 2",
+    "slug": "w2-society",
+    "title": "Individual vs Society",
+    "goal": "Scale ideas appropriately.",
+    "lesson": "Some prompts need personal effects; others require broader social consequences.",
+    "practice": "Turn a personal benefit of exercise into a societal benefit.",
+    "answer": "Lower disease burden and healthcare pressure.",
+    "exercise": {
+      "id": "ex-59",
+      "question": "What should a learner do when practising \"Individual vs Society\"?",
+      "options": [
+        "Memorise a fixed response and use it regardless of the question.",
+        "Use complex language even when it makes the meaning unclear.",
+        "Scale ideas appropriately.",
+        "Add ideas without explaining how they support the main point."
+      ],
+      "answer": 2,
+      "explanation": "The lesson focuses on scale ideas appropriately.",
+      "lesson_id": 59
+    }
+  },
+  {
+    "id": 60,
+    "track": "Writing Task 2",
+    "slug": "w2-government",
+    "title": "Discuss Government Responsibility",
+    "goal": "Define what government can realistically do.",
+    "lesson": "Policies should be connected to incentives, infrastructure, regulation or education.",
+    "practice": "Propose one government response to food waste.",
+    "answer": "Collection incentives/standards.",
+    "exercise": {
+      "id": "ex-60",
+      "question": "Which approach best demonstrates the skill taught in \"Discuss Government Responsibility\"?",
+      "options": [
+        "Use complex language even when it makes the meaning unclear.",
+        "Define what government can realistically do.",
+        "Add ideas without explaining how they support the main point.",
+        "Memorise a fixed response and use it regardless of the question."
+      ],
+      "answer": 1,
+      "explanation": "The lesson focuses on define what government can realistically do.",
+      "lesson_id": 60
+    }
+  },
+  {
+    "id": 61,
+    "track": "Writing Task 2",
+    "slug": "w2-education",
+    "title": "Education Essay Toolkit",
+    "goal": "Develop common education arguments.",
+    "lesson": "Useful dimensions include access, quality, skills, equity, motivation and cost.",
+    "practice": "Develop an argument for vocational training.",
+    "answer": "Job-relevant skills can shorten transition to employment.",
+    "exercise": {
+      "id": "ex-61",
+      "question": "What is the main strategy to apply in \"Education Essay Toolkit\"?",
+      "options": [
+        "Develop common education arguments.",
+        "Add ideas without explaining how they support the main point.",
+        "Memorise a fixed response and use it regardless of the question.",
+        "Use complex language even when it makes the meaning unclear."
+      ],
+      "answer": 0,
+      "explanation": "The lesson focuses on develop common education arguments.",
+      "lesson_id": 61
+    }
+  },
+  {
+    "id": 62,
+    "track": "Writing Task 2",
+    "slug": "w2-environment",
+    "title": "Environment Essay Toolkit",
+    "goal": "Avoid generic environmental claims.",
+    "lesson": "Use specific mechanisms such as emissions, land use, resource consumption or conservation.",
+    "practice": "Explain why efficient transport can help the environment.",
+    "answer": "Fewer vehicle emissions per passenger.",
+    "exercise": {
+      "id": "ex-62",
+      "question": "When practising \"Environment Essay Toolkit\", which approach best matches the lesson goal?",
+      "options": [
+        "Add ideas without explaining how they support the main point.",
+        "Memorise a fixed response and use it regardless of the question.",
+        "Use complex language even when it makes the meaning unclear.",
+        "Avoid generic environmental claims."
+      ],
+      "answer": 3,
+      "explanation": "The lesson focuses on avoid generic environmental claims.",
+      "lesson_id": 62
+    }
+  },
+  {
+    "id": 63,
+    "track": "Writing Task 2",
+    "slug": "w2-technology",
+    "title": "Technology Essay Toolkit",
+    "goal": "Balance innovation with human factors.",
+    "lesson": "Consider access, productivity, privacy, dependency and skills.",
+    "practice": "Develop one balanced point about AI at work.",
+    "answer": "Productivity gains require reskilling and oversight.",
+    "exercise": {
+      "id": "ex-63",
+      "question": "A learner is working on \"Technology Essay Toolkit\". What should they focus on?",
+      "options": [
+        "Memorise a fixed response and use it regardless of the question.",
+        "Use complex language even when it makes the meaning unclear.",
+        "Balance innovation with human factors.",
+        "Add ideas without explaining how they support the main point."
+      ],
+      "answer": 2,
+      "explanation": "The lesson focuses on balance innovation with human factors.",
+      "lesson_id": 63
+    }
+  },
+  {
+    "id": 64,
+    "track": "Writing Task 2",
+    "slug": "w2-crime",
+    "title": "Crime Essay Toolkit",
+    "goal": "Distinguish prevention from punishment.",
+    "lesson": "Discuss incentives, rehabilitation, enforcement and social causes.",
+    "practice": "Give one reason rehabilitation can reduce reoffending.",
+    "answer": "Addresses skills and behaviour after release.",
+    "exercise": {
+      "id": "ex-64",
+      "question": "Which action would most directly support the skill in \"Crime Essay Toolkit\"?",
+      "options": [
+        "Use complex language even when it makes the meaning unclear.",
+        "Distinguish prevention from punishment.",
+        "Add ideas without explaining how they support the main point.",
+        "Memorise a fixed response and use it regardless of the question."
+      ],
+      "answer": 1,
+      "explanation": "The lesson focuses on distinguish prevention from punishment.",
+      "lesson_id": 64
+    }
+  },
+  {
+    "id": 65,
+    "track": "Writing Task 2",
+    "slug": "w2-media",
+    "title": "Media and Advertising Toolkit",
+    "goal": "Separate information from persuasion.",
+    "lesson": "Discuss consumer behaviour, public awareness, misinformation and regulation.",
+    "practice": "Explain one effect of targeted advertising.",
+    "answer": "Personalised exposure can shape purchasing decisions.",
+    "exercise": {
+      "id": "ex-65",
+      "question": "What should a learner do when practising \"Media and Advertising Toolkit\"?",
+      "options": [
+        "Separate information from persuasion.",
+        "Add ideas without explaining how they support the main point.",
+        "Memorise a fixed response and use it regardless of the question.",
+        "Use complex language even when it makes the meaning unclear."
+      ],
+      "answer": 0,
+      "explanation": "The lesson focuses on separate information from persuasion.",
+      "lesson_id": 65
+    }
+  },
+  {
+    "id": 66,
+    "track": "Writing Task 2",
+    "slug": "w2-planning",
+    "title": "Plan in Five Minutes",
+    "goal": "Turn planning into a repeatable habit.",
+    "lesson": "Spend a short period choosing position, two main ideas, support and paragraph order.",
+    "practice": "Create a five-line plan for a city housing prompt.",
+    "answer": "Position + BP1 + BP2 + example + conclusion.",
+    "exercise": {
+      "id": "ex-66",
+      "question": "Which approach best demonstrates the skill taught in \"Plan in Five Minutes\"?",
+      "options": [
+        "Add ideas without explaining how they support the main point.",
+        "Memorise a fixed response and use it regardless of the question.",
+        "Use complex language even when it makes the meaning unclear.",
+        "Turn planning into a repeatable habit."
+      ],
+      "answer": 3,
+      "explanation": "The lesson focuses on turn planning into a repeatable habit.",
+      "lesson_id": 66
+    }
+  },
+  {
+    "id": 67,
+    "track": "Writing Task 2",
+    "slug": "w2-edit",
+    "title": "Edit for Band Improvement",
+    "goal": "Prioritise recurring errors.",
+    "lesson": "Check task response first, then grammar, vocabulary and sentence clarity.",
+    "practice": "Find one subject-verb, article and punctuation error in your own paragraph.",
+    "answer": "Correct each identified error.",
+    "exercise": {
+      "id": "ex-67",
+      "question": "What is the main strategy to apply in \"Edit for Band Improvement\"?",
+      "options": [
+        "Memorise a fixed response and use it regardless of the question.",
+        "Use complex language even when it makes the meaning unclear.",
+        "Prioritise recurring errors.",
+        "Add ideas without explaining how they support the main point."
+      ],
+      "answer": 2,
+      "explanation": "The lesson focuses on prioritise recurring errors.",
+      "lesson_id": 67
+    }
+  },
+  {
+    "id": 68,
+    "track": "Writing Task 2",
+    "slug": "w2-selfcheck",
+    "title": "Task 2 Self-Check",
+    "goal": "Use a final checklist.",
+    "lesson": "Confirm every question part is answered, position is consistent, ideas are developed and language is controlled.",
+    "practice": "Create a four-point final check.",
+    "answer": "Task / structure / development / accuracy.",
+    "exercise": {
+      "id": "ex-68",
+      "question": "When practising \"Task 2 Self-Check\", which approach best matches the lesson goal?",
+      "options": [
+        "Use complex language even when it makes the meaning unclear.",
+        "Use a final checklist.",
+        "Add ideas without explaining how they support the main point.",
+        "Memorise a fixed response and use it regardless of the question."
+      ],
+      "answer": 1,
+      "explanation": "The lesson focuses on use a final checklist.",
+      "lesson_id": 68
+    }
+  },
+  {
+    "id": 69,
+    "track": "Writing Task 1",
+    "slug": "w1-overview",
+    "title": "Overview First",
+    "goal": "Identify the biggest patterns before details.",
+    "lesson": "An overview should highlight dominant trends, extremes, major differences or stability without becoming a number list.",
+    "practice": "Given a chart with one category rising sharply and another falling, write the overview.",
+    "answer": "Rising category + falling category + notable comparison.",
+    "exercise": {
+      "id": "ex-69",
+      "question": "A learner is working on \"Overview First\". What should they focus on?",
+      "options": [
+        "Identify the biggest patterns before details.",
+        "List every figure separately without identifying important comparisons.",
+        "Add personal opinions instead of describing the information provided.",
+        "Give every detail equal attention even when some information is less important."
+      ],
+      "answer": 0,
+      "explanation": "The lesson focuses on identify the biggest patterns before details.",
+      "lesson_id": 69
+    }
+  },
+  {
+    "id": 70,
+    "track": "Writing Task 1",
+    "slug": "w1-bar",
+    "title": "Bar Chart Comparison",
+    "goal": "Group categories meaningfully.",
+    "lesson": "Compare rather than describe bars one by one. Group similar values and identify extremes.",
+    "practice": "Write two comparison sentences for four categories.",
+    "answer": "Any accurate grouped comparison.",
+    "exercise": {
+      "id": "ex-70",
+      "question": "Which action would most directly support the skill in \"Bar Chart Comparison\"?",
+      "options": [
+        "List every figure separately without identifying important comparisons.",
+        "Add personal opinions instead of describing the information provided.",
+        "Give every detail equal attention even when some information is less important.",
+        "Group categories meaningfully."
+      ],
+      "answer": 3,
+      "explanation": "The lesson focuses on group categories meaningfully.",
+      "lesson_id": 70
+    }
+  },
+  {
+    "id": 71,
+    "track": "Writing Task 1",
+    "slug": "w1-line",
+    "title": "Line Graph Trends",
+    "goal": "Describe movement over time.",
+    "lesson": "Use verbs and nouns for rises, falls, stability, peaks and fluctuations.",
+    "practice": "Describe a line that rises, peaks, then declines.",
+    "answer": "It rose to a peak before falling.",
+    "exercise": {
+      "id": "ex-71",
+      "question": "What should a learner do when practising \"Line Graph Trends\"?",
+      "options": [
+        "Add personal opinions instead of describing the information provided.",
+        "Give every detail equal attention even when some information is less important.",
+        "Describe movement over time.",
+        "List every figure separately without identifying important comparisons."
+      ],
+      "answer": 2,
+      "explanation": "The lesson focuses on describe movement over time.",
+      "lesson_id": 71
+    }
+  },
+  {
+    "id": 72,
+    "track": "Writing Task 1",
+    "slug": "w1-pie",
+    "title": "Pie Chart Shares",
+    "goal": "Focus on proportions.",
+    "lesson": "Compare the largest/smallest shares and meaningful groups.",
+    "practice": "If A is 45% and B 10%, state the key contrast.",
+    "answer": "A accounted for 45%, over four times B's share.",
+    "exercise": {
+      "id": "ex-72",
+      "question": "Which approach best demonstrates the skill taught in \"Pie Chart Shares\"?",
+      "options": [
+        "Give every detail equal attention even when some information is less important.",
+        "Focus on proportions.",
+        "List every figure separately without identifying important comparisons.",
+        "Add personal opinions instead of describing the information provided."
+      ],
+      "answer": 1,
+      "explanation": "The lesson focuses on focus on proportions.",
+      "lesson_id": 72
+    }
+  },
+  {
+    "id": 73,
+    "track": "Writing Task 1",
+    "slug": "w1-table",
+    "title": "Table Data Selection",
+    "goal": "Select useful figures.",
+    "lesson": "Do not report every number. Choose extremes, clusters and meaningful contrasts.",
+    "practice": "Select three figures from a six-category table.",
+    "answer": "Highest, lowest and representative comparison.",
+    "exercise": {
+      "id": "ex-73",
+      "question": "What is the main strategy to apply in \"Table Data Selection\"?",
+      "options": [
+        "Select useful figures.",
+        "List every figure separately without identifying important comparisons.",
+        "Add personal opinions instead of describing the information provided.",
+        "Give every detail equal attention even when some information is less important."
+      ],
+      "answer": 0,
+      "explanation": "The lesson focuses on select useful figures.",
+      "lesson_id": 73
+    }
+  },
+  {
+    "id": 74,
+    "track": "Writing Task 1",
+    "slug": "w1-process",
+    "title": "Process Description",
+    "goal": "Show stages in order.",
+    "lesson": "Identify start/end, number of stages and whether the process is linear or cyclical.",
+    "practice": "Outline a six-stage recycling process.",
+    "answer": "Input → sorting → processing → production → use → collection.",
+    "exercise": {
+      "id": "ex-74",
+      "question": "When practising \"Process Description\", which approach best matches the lesson goal?",
+      "options": [
+        "List every figure separately without identifying important comparisons.",
+        "Add personal opinions instead of describing the information provided.",
+        "Give every detail equal attention even when some information is less important.",
+        "Show stages in order."
+      ],
+      "answer": 3,
+      "explanation": "The lesson focuses on show stages in order.",
+      "lesson_id": 74
+    }
+  },
+  {
+    "id": 75,
+    "track": "Writing Task 1",
+    "slug": "w1-map",
+    "title": "Map Comparison",
+    "goal": "Describe spatial change.",
+    "lesson": "Use location language and group related changes: added, removed, relocated, converted.",
+    "practice": "Describe a park that gains a café and loses a car park.",
+    "answer": "Café added; car park converted.",
+    "exercise": {
+      "id": "ex-75",
+      "question": "A learner is working on \"Map Comparison\". What should they focus on?",
+      "options": [
+        "Add personal opinions instead of describing the information provided.",
+        "Give every detail equal attention even when some information is less important.",
+        "Describe spatial change.",
+        "List every figure separately without identifying important comparisons."
+      ],
+      "answer": 2,
+      "explanation": "The lesson focuses on describe spatial change.",
+      "lesson_id": 75
+    }
+  },
+  {
+    "id": 76,
+    "track": "Writing Task 1",
+    "slug": "w1-gt-purpose",
+    "title": "General Training Letter Purpose",
+    "goal": "Make the purpose clear.",
+    "lesson": "Identify why you are writing before choosing tone and details.",
+    "practice": "Write the purpose for requesting a schedule change.",
+    "answer": "Request a change and explain the reason.",
+    "exercise": {
+      "id": "ex-76",
+      "question": "Which action would most directly support the skill in \"General Training Letter Purpose\"?",
+      "options": [
+        "Give every detail equal attention even when some information is less important.",
+        "Make the purpose clear.",
+        "List every figure separately without identifying important comparisons.",
+        "Add personal opinions instead of describing the information provided."
+      ],
+      "answer": 1,
+      "explanation": "The lesson focuses on make the purpose clear.",
+      "lesson_id": 76
+    }
+  },
+  {
+    "id": 77,
+    "track": "Writing Task 1",
+    "slug": "w1-gt-tone",
+    "title": "Formal and Informal Tone",
+    "goal": "Match tone to relationship.",
+    "lesson": "Use contractions and friendly phrasing only when the situation permits.",
+    "practice": "Classify a letter to a manager versus a friend.",
+    "answer": "Manager—formal; friend—informal.",
+    "exercise": {
+      "id": "ex-77",
+      "question": "What should a learner do when practising \"Formal and Informal Tone\"?",
+      "options": [
+        "Match tone to relationship.",
+        "List every figure separately without identifying important comparisons.",
+        "Add personal opinions instead of describing the information provided.",
+        "Give every detail equal attention even when some information is less important."
+      ],
+      "answer": 0,
+      "explanation": "The lesson focuses on match tone to relationship.",
+      "lesson_id": 77
+    }
+  },
+  {
+    "id": 78,
+    "track": "Writing Task 1",
+    "slug": "w1-gt-bullets",
+    "title": "Cover Every Bullet",
+    "goal": "Prevent partial task response.",
+    "lesson": "Turn each bullet into a clear content target and check it before finishing.",
+    "practice": "Create a three-item checklist from three prompts.",
+    "answer": "One checklist item per bullet.",
+    "exercise": {
+      "id": "ex-78",
+      "question": "Which approach best demonstrates the skill taught in \"Cover Every Bullet\"?",
+      "options": [
+        "List every figure separately without identifying important comparisons.",
+        "Add personal opinions instead of describing the information provided.",
+        "Give every detail equal attention even when some information is less important.",
+        "Prevent partial task response."
+      ],
+      "answer": 3,
+      "explanation": "The lesson focuses on prevent partial task response.",
+      "lesson_id": 78
+    }
+  },
+  {
+    "id": 79,
+    "track": "Writing Task 1",
+    "slug": "w1-data",
+    "title": "Data Accuracy",
+    "goal": "Avoid changing the numbers.",
+    "lesson": "Copy figures carefully and use approximation only when appropriate.",
+    "practice": "Convert 1,982 to an approximate formal expression.",
+    "answer": "about 2,000.",
+    "exercise": {
+      "id": "ex-79",
+      "question": "What is the main strategy to apply in \"Data Accuracy\"?",
+      "options": [
+        "Add personal opinions instead of describing the information provided.",
+        "Give every detail equal attention even when some information is less important.",
+        "Avoid changing the numbers.",
+        "List every figure separately without identifying important comparisons."
+      ],
+      "answer": 2,
+      "explanation": "The lesson focuses on avoid changing the numbers.",
+      "lesson_id": 79
+    }
+  },
+  {
+    "id": 80,
+    "track": "Writing Task 1",
+    "slug": "w1-comparison",
+    "title": "Comparison Language",
+    "goal": "Make relationships explicit.",
+    "lesson": "Use compared with, whereas, while, respectively, higher than and similar to accurately.",
+    "practice": "Combine two sentences about two categories.",
+    "answer": "One accurate comparison sentence.",
+    "exercise": {
+      "id": "ex-80",
+      "question": "When practising \"Comparison Language\", which approach best matches the lesson goal?",
+      "options": [
+        "Give every detail equal attention even when some information is less important.",
+        "Make relationships explicit.",
+        "List every figure separately without identifying important comparisons.",
+        "Add personal opinions instead of describing the information provided."
+      ],
+      "answer": 1,
+      "explanation": "The lesson focuses on make relationships explicit.",
+      "lesson_id": 80
+    }
+  },
+  {
+    "id": 81,
+    "track": "Writing Task 1",
+    "slug": "w1-change",
+    "title": "Language of Change",
+    "goal": "Vary accurate trend vocabulary.",
+    "lesson": "Rise, increase, climb, grow; fall, decline, drop; remain stable; fluctuate.",
+    "practice": "Choose a suitable verb for a small gradual rise.",
+    "answer": "edged up / increased gradually.",
+    "exercise": {
+      "id": "ex-81",
+      "question": "A learner is working on \"Language of Change\". What should they focus on?",
+      "options": [
+        "Vary accurate trend vocabulary.",
+        "List every figure separately without identifying important comparisons.",
+        "Add personal opinions instead of describing the information provided.",
+        "Give every detail equal attention even when some information is less important."
+      ],
+      "answer": 0,
+      "explanation": "The lesson focuses on vary accurate trend vocabulary.",
+      "lesson_id": 81
+    }
+  },
+  {
+    "id": 82,
+    "track": "Writing Task 1",
+    "slug": "w1-static",
+    "title": "Static Charts",
+    "goal": "Describe data without inventing time trends.",
+    "lesson": "If no time is shown, use comparison language rather than rose/fell.",
+    "practice": "Describe two categories where one is larger.",
+    "answer": "A was considerably higher than B.",
+    "exercise": {
+      "id": "ex-82",
+      "question": "Which action would most directly support the skill in \"Static Charts\"?",
+      "options": [
+        "List every figure separately without identifying important comparisons.",
+        "Add personal opinions instead of describing the information provided.",
+        "Give every detail equal attention even when some information is less important.",
+        "Describe data without inventing time trends."
+      ],
+      "answer": 3,
+      "explanation": "The lesson focuses on describe data without inventing time trends.",
+      "lesson_id": 82
+    }
+  },
+  {
+    "id": 83,
+    "track": "Writing Task 1",
+    "slug": "w1-multi",
+    "title": "Multiple Visuals",
+    "goal": "Connect charts when two visuals appear.",
+    "lesson": "Identify whether the visuals show related measures and write a unified overview.",
+    "practice": "Explain how to organise a bar chart plus table.",
+    "answer": "Overview first, then grouped details.",
+    "exercise": {
+      "id": "ex-83",
+      "question": "What should a learner do when practising \"Multiple Visuals\"?",
+      "options": [
+        "Add personal opinions instead of describing the information provided.",
+        "Give every detail equal attention even when some information is less important.",
+        "Connect charts when two visuals appear.",
+        "List every figure separately without identifying important comparisons."
+      ],
+      "answer": 2,
+      "explanation": "The lesson focuses on connect charts when two visuals appear.",
+      "lesson_id": 83
+    }
+  },
+  {
+    "id": 84,
+    "track": "Writing Task 1",
+    "slug": "w1-paragraphs",
+    "title": "Task 1 Paragraphing",
+    "goal": "Keep the report easy to follow.",
+    "lesson": "A simple structure is introduction, overview and two detail paragraphs.",
+    "practice": "Group six data points into two logical detail groups.",
+    "answer": "Two related comparison groups.",
+    "exercise": {
+      "id": "ex-84",
+      "question": "Which approach best demonstrates the skill taught in \"Task 1 Paragraphing\"?",
+      "options": [
+        "Give every detail equal attention even when some information is less important.",
+        "Keep the report easy to follow.",
+        "List every figure separately without identifying important comparisons.",
+        "Add personal opinions instead of describing the information provided."
+      ],
+      "answer": 1,
+      "explanation": "The lesson focuses on keep the report easy to follow.",
+      "lesson_id": 84
+    }
+  },
+  {
+    "id": 85,
+    "track": "Writing Task 1",
+    "slug": "w1-intropar",
+    "title": "Paraphrase the Prompt",
+    "goal": "Restate the task accurately.",
+    "lesson": "Change wording and grammar without changing the data or scope.",
+    "practice": "Rewrite “The chart shows the percentage of…”",
+    "answer": "Any accurate paraphrase.",
+    "exercise": {
+      "id": "ex-85",
+      "question": "What is the main strategy to apply in \"Paraphrase the Prompt\"?",
+      "options": [
+        "Restate the task accurately.",
+        "List every figure separately without identifying important comparisons.",
+        "Add personal opinions instead of describing the information provided.",
+        "Give every detail equal attention even when some information is less important."
+      ],
+      "answer": 0,
+      "explanation": "The lesson focuses on restate the task accurately.",
+      "lesson_id": 85
+    }
+  },
+  {
+    "id": 86,
+    "track": "Writing Task 1",
+    "slug": "w1-noopinion",
+    "title": "Avoid Personal Opinion",
+    "goal": "Describe rather than evaluate.",
+    "lesson": "Academic Task 1 is an information report, so avoid claims such as “this is good”.",
+    "practice": "Remove an opinion from a report sentence.",
+    "answer": "Neutral factual description.",
+    "exercise": {
+      "id": "ex-86",
+      "question": "When practising \"Avoid Personal Opinion\", which approach best matches the lesson goal?",
+      "options": [
+        "List every figure separately without identifying important comparisons.",
+        "Add personal opinions instead of describing the information provided.",
+        "Give every detail equal attention even when some information is less important.",
+        "Describe rather than evaluate."
+      ],
+      "answer": 3,
+      "explanation": "The lesson focuses on describe rather than evaluate.",
+      "lesson_id": 86
+    }
+  },
+  {
+    "id": 87,
+    "track": "Writing Task 1",
+    "slug": "w1-check",
+    "title": "Task 1 Final Check",
+    "goal": "Catch avoidable errors.",
+    "lesson": "Check units, tense, comparisons, articles and whether the overview is present.",
+    "practice": "Make a five-point final checklist.",
+    "answer": "Units / trends / comparisons / grammar / overview.",
+    "exercise": {
+      "id": "ex-87",
+      "question": "A learner is working on \"Task 1 Final Check\". What should they focus on?",
+      "options": [
+        "Add personal opinions instead of describing the information provided.",
+        "Give every detail equal attention even when some information is less important.",
+        "Catch avoidable errors.",
+        "List every figure separately without identifying important comparisons."
+      ],
+      "answer": 2,
+      "explanation": "The lesson focuses on catch avoidable errors.",
+      "lesson_id": 87
+    }
+  },
+  {
+    "id": 88,
+    "track": "Writing Task 1",
+    "slug": "w1-band",
+    "title": "Task 1 Band Improvement",
+    "goal": "Improve selection before fancy language.",
+    "lesson": "Better data selection and accurate comparisons often help more than forcing rare vocabulary.",
+    "practice": "Identify one weak sentence and replace it with a clearer comparison.",
+    "answer": "Any concise accurate comparison.",
+    "exercise": {
+      "id": "ex-88",
+      "question": "Which action would most directly support the skill in \"Task 1 Band Improvement\"?",
+      "options": [
+        "Give every detail equal attention even when some information is less important.",
+        "Improve selection before fancy language.",
+        "List every figure separately without identifying important comparisons.",
+        "Add personal opinions instead of describing the information provided."
+      ],
+      "answer": 1,
+      "explanation": "The lesson focuses on improve selection before fancy language.",
+      "lesson_id": 88
+    }
+  },
+  {
+    "id": 89,
+    "track": "Speaking",
+    "slug": "speaking-p1-direct",
+    "title": "Part 1: Answer Directly",
+    "goal": "Give a natural first response.",
+    "lesson": "Start with a direct answer, then add a reason or detail. Avoid memorised mini-speeches.",
+    "practice": "Question: Do you enjoy cooking? Give a two-sentence answer.",
+    "answer": "Any direct answer + reason/detail.",
+    "exercise": {
+      "id": "ex-89",
+      "question": "What should a learner do when practising \"Part 1: Answer Directly\"?",
+      "options": [
+        "Give a natural first response.",
+        "Give very short answers and stop as soon as possible.",
+        "Memorise a complete script and repeat it for every topic.",
+        "Use difficult vocabulary even when a simpler accurate expression is better."
+      ],
+      "answer": 0,
+      "explanation": "The lesson focuses on give a natural first response.",
+      "lesson_id": 89
+    }
+  },
+  {
+    "id": 90,
+    "track": "Speaking",
+    "slug": "speaking-p1-extend",
+    "title": "Part 1: Extend Naturally",
+    "goal": "Add useful detail without rambling.",
+    "lesson": "Use answer → reason → example/detail.",
+    "practice": "Extend: Do you like mornings?",
+    "answer": "Any natural extension.",
+    "exercise": {
+      "id": "ex-90",
+      "question": "Which approach best demonstrates the skill taught in \"Part 1: Extend Naturally\"?",
+      "options": [
+        "Give very short answers and stop as soon as possible.",
+        "Memorise a complete script and repeat it for every topic.",
+        "Use difficult vocabulary even when a simpler accurate expression is better.",
+        "Add useful detail without rambling."
+      ],
+      "answer": 3,
+      "explanation": "The lesson focuses on add useful detail without rambling.",
+      "lesson_id": 90
+    }
+  },
+  {
+    "id": 91,
+    "track": "Speaking",
+    "slug": "speaking-p1-past",
+    "title": "Part 1: Past Habits",
+    "goal": "Talk about previous routines accurately.",
+    "lesson": "Use used to, would and past simple where appropriate.",
+    "practice": "Describe a hobby you had as a child.",
+    "answer": "Any accurate past response.",
+    "exercise": {
+      "id": "ex-91",
+      "question": "What is the main strategy to apply in \"Part 1: Past Habits\"?",
+      "options": [
+        "Memorise a complete script and repeat it for every topic.",
+        "Use difficult vocabulary even when a simpler accurate expression is better.",
+        "Talk about previous routines accurately.",
+        "Give very short answers and stop as soon as possible."
+      ],
+      "answer": 2,
+      "explanation": "The lesson focuses on talk about previous routines accurately.",
+      "lesson_id": 91
+    }
+  },
+  {
+    "id": 92,
+    "track": "Speaking",
+    "slug": "speaking-p1-future",
+    "title": "Part 1: Future Plans",
+    "goal": "Discuss intentions naturally.",
+    "lesson": "Use plan to, hope to, would like to and might according to certainty.",
+    "practice": "What would you like to learn next year?",
+    "answer": "Any natural future response.",
+    "exercise": {
+      "id": "ex-92",
+      "question": "When practising \"Part 1: Future Plans\", which approach best matches the lesson goal?",
+      "options": [
+        "Use difficult vocabulary even when a simpler accurate expression is better.",
+        "Discuss intentions naturally.",
+        "Give very short answers and stop as soon as possible.",
+        "Memorise a complete script and repeat it for every topic."
+      ],
+      "answer": 1,
+      "explanation": "The lesson focuses on discuss intentions naturally.",
+      "lesson_id": 92
+    }
+  },
+  {
+    "id": 93,
+    "track": "Speaking",
+    "slug": "speaking-p1-frequency",
+    "title": "Part 1: Frequency",
+    "goal": "Use frequency language precisely.",
+    "lesson": "Practise always, usually, often, occasionally, rarely and hardly ever.",
+    "practice": "Answer: How often do you exercise?",
+    "answer": "Any consistent frequency answer.",
+    "exercise": {
+      "id": "ex-93",
+      "question": "A learner is working on \"Part 1: Frequency\". What should they focus on?",
+      "options": [
+        "Use frequency language precisely.",
+        "Give very short answers and stop as soon as possible.",
+        "Memorise a complete script and repeat it for every topic.",
+        "Use difficult vocabulary even when a simpler accurate expression is better."
+      ],
+      "answer": 0,
+      "explanation": "The lesson focuses on use frequency language precisely.",
+      "lesson_id": 93
+    }
+  },
+  {
+    "id": 94,
+    "track": "Speaking",
+    "slug": "speaking-p1-preference",
+    "title": "Part 1: Preferences",
+    "goal": "Explain choices.",
+    "lesson": "Use because, whereas, compared with and especially to explain preferences.",
+    "practice": "Tea or coffee? Explain.",
+    "answer": "Preference + reason.",
+    "exercise": {
+      "id": "ex-94",
+      "question": "Which action would most directly support the skill in \"Part 1: Preferences\"?",
+      "options": [
+        "Give very short answers and stop as soon as possible.",
+        "Memorise a complete script and repeat it for every topic.",
+        "Use difficult vocabulary even when a simpler accurate expression is better.",
+        "Explain choices."
+      ],
+      "answer": 3,
+      "explanation": "The lesson focuses on explain choices.",
+      "lesson_id": 94
+    }
+  },
+  {
+    "id": 95,
+    "track": "Speaking",
+    "slug": "speaking-p2-cue",
+    "title": "Part 2: Cue Card Map",
+    "goal": "Turn prompts into four speaking anchors.",
+    "lesson": "Use person/place/experience/reason or the actual cue-card bullets as memory anchors.",
+    "practice": "Create four keywords for a memorable trip.",
+    "answer": "Any four useful anchors.",
+    "exercise": {
+      "id": "ex-95",
+      "question": "What should a learner do when practising \"Part 2: Cue Card Map\"?",
+      "options": [
+        "Memorise a complete script and repeat it for every topic.",
+        "Use difficult vocabulary even when a simpler accurate expression is better.",
+        "Turn prompts into four speaking anchors.",
+        "Give very short answers and stop as soon as possible."
+      ],
+      "answer": 2,
+      "explanation": "The lesson focuses on turn prompts into four speaking anchors.",
+      "lesson_id": 95
+    }
+  },
+  {
+    "id": 96,
+    "track": "Speaking",
+    "slug": "speaking-p2-minute",
+    "title": "Part 2: Use the Preparation Minute",
+    "goal": "Plan ideas, not sentences.",
+    "lesson": "Write nouns, verbs and reminders rather than a script.",
+    "practice": "Create a 60-second plan for a useful object.",
+    "answer": "4–6 keywords.",
+    "exercise": {
+      "id": "ex-96",
+      "question": "Which approach best demonstrates the skill taught in \"Part 2: Use the Preparation Minute\"?",
+      "options": [
+        "Use difficult vocabulary even when a simpler accurate expression is better.",
+        "Plan ideas, not sentences.",
+        "Give very short answers and stop as soon as possible.",
+        "Memorise a complete script and repeat it for every topic."
+      ],
+      "answer": 1,
+      "explanation": "The lesson focuses on plan ideas, not sentences.",
+      "lesson_id": 96
+    }
+  },
+  {
+    "id": 97,
+    "track": "Speaking",
+    "slug": "speaking-p2-story",
+    "title": "Part 2: Tell a Coherent Story",
+    "goal": "Sequence an experience.",
+    "lesson": "Use before → event → reaction → result.",
+    "practice": "Describe a time you solved a problem.",
+    "answer": "Any coherent sequence.",
+    "exercise": {
+      "id": "ex-97",
+      "question": "What is the main strategy to apply in \"Part 2: Tell a Coherent Story\"?",
+      "options": [
+        "Sequence an experience.",
+        "Give very short answers and stop as soon as possible.",
+        "Memorise a complete script and repeat it for every topic.",
+        "Use difficult vocabulary even when a simpler accurate expression is better."
+      ],
+      "answer": 0,
+      "explanation": "The lesson focuses on sequence an experience.",
+      "lesson_id": 97
+    }
+  },
+  {
+    "id": 98,
+    "track": "Speaking",
+    "slug": "speaking-p2-description",
+    "title": "Part 2: Describe a Place",
+    "goal": "Use sensory and location language.",
+    "lesson": "Move from overview to specific details and personal reaction.",
+    "practice": "Describe a favourite place.",
+    "answer": "Overview + details + reaction.",
+    "exercise": {
+      "id": "ex-98",
+      "question": "When practising \"Part 2: Describe a Place\", which approach best matches the lesson goal?",
+      "options": [
+        "Give very short answers and stop as soon as possible.",
+        "Memorise a complete script and repeat it for every topic.",
+        "Use difficult vocabulary even when a simpler accurate expression is better.",
+        "Use sensory and location language."
+      ],
+      "answer": 3,
+      "explanation": "The lesson focuses on use sensory and location language.",
+      "lesson_id": 98
+    }
+  },
+  {
+    "id": 99,
+    "track": "Speaking",
+    "slug": "speaking-p2-person",
+    "title": "Part 2: Describe a Person",
+    "goal": "Combine facts with relationship and examples.",
+    "lesson": "Explain who the person is, how you know them and why they matter.",
+    "practice": "Describe someone who influenced you.",
+    "answer": "Any developed response.",
+    "exercise": {
+      "id": "ex-99",
+      "question": "A learner is working on \"Part 2: Describe a Person\". What should they focus on?",
+      "options": [
+        "Memorise a complete script and repeat it for every topic.",
+        "Use difficult vocabulary even when a simpler accurate expression is better.",
+        "Combine facts with relationship and examples.",
+        "Give very short answers and stop as soon as possible."
+      ],
+      "answer": 2,
+      "explanation": "The lesson focuses on combine facts with relationship and examples.",
+      "lesson_id": 99
+    }
+  },
+  {
+    "id": 100,
+    "track": "Speaking",
+    "slug": "speaking-p2-object",
+    "title": "Part 2: Describe an Object",
+    "goal": "Explain use and significance.",
+    "lesson": "State what it is, how you got it, how you use it and why it matters.",
+    "practice": "Describe a useful device.",
+    "answer": "Any coherent response.",
+    "exercise": {
+      "id": "ex-100",
+      "question": "Which action would most directly support the skill in \"Part 2: Describe an Object\"?",
+      "options": [
+        "Use difficult vocabulary even when a simpler accurate expression is better.",
+        "Explain use and significance.",
+        "Give very short answers and stop as soon as possible.",
+        "Memorise a complete script and repeat it for every topic."
+      ],
+      "answer": 1,
+      "explanation": "The lesson focuses on explain use and significance.",
+      "lesson_id": 100
+    }
+  },
+  {
+    "id": 101,
+    "track": "Speaking",
+    "slug": "speaking-p3-why",
+    "title": "Part 3: Explain Why",
+    "goal": "Move from opinion to cause.",
+    "lesson": "Use because, partly because, due to and this means that.",
+    "practice": "Why do people move to cities?",
+    "answer": "Cause + explanation.",
+    "exercise": {
+      "id": "ex-101",
+      "question": "What should a learner do when practising \"Part 3: Explain Why\"?",
+      "options": [
+        "Move from opinion to cause.",
+        "Give very short answers and stop as soon as possible.",
+        "Memorise a complete script and repeat it for every topic.",
+        "Use difficult vocabulary even when a simpler accurate expression is better."
+      ],
+      "answer": 0,
+      "explanation": "The lesson focuses on move from opinion to cause.",
+      "lesson_id": 101
+    }
+  },
+  {
+    "id": 102,
+    "track": "Speaking",
+    "slug": "speaking-p3-effects",
+    "title": "Part 3: Discuss Effects",
+    "goal": "Show consequences.",
+    "lesson": "Discuss immediate and longer-term effects.",
+    "practice": "Effect of remote work on cities.",
+    "answer": "Any developed consequence.",
+    "exercise": {
+      "id": "ex-102",
+      "question": "Which approach best demonstrates the skill taught in \"Part 3: Discuss Effects\"?",
+      "options": [
+        "Give very short answers and stop as soon as possible.",
+        "Memorise a complete script and repeat it for every topic.",
+        "Use difficult vocabulary even when a simpler accurate expression is better.",
+        "Show consequences."
+      ],
+      "answer": 3,
+      "explanation": "The lesson focuses on show consequences.",
+      "lesson_id": 102
+    }
+  },
+  {
+    "id": 103,
+    "track": "Speaking",
+    "slug": "speaking-p3-compare",
+    "title": "Part 3: Compare Generations",
+    "goal": "Use balanced comparison.",
+    "lesson": "Use whereas, unlike, more likely to, less common among.",
+    "practice": "Compare young and older people's media use.",
+    "answer": "Any evidence-like comparison.",
+    "exercise": {
+      "id": "ex-103",
+      "question": "What is the main strategy to apply in \"Part 3: Compare Generations\"?",
+      "options": [
+        "Memorise a complete script and repeat it for every topic.",
+        "Use difficult vocabulary even when a simpler accurate expression is better.",
+        "Use balanced comparison.",
+        "Give very short answers and stop as soon as possible."
+      ],
+      "answer": 2,
+      "explanation": "The lesson focuses on use balanced comparison.",
+      "lesson_id": 103
+    }
+  },
+  {
+    "id": 104,
+    "track": "Speaking",
+    "slug": "speaking-p3-evaluate",
+    "title": "Part 3: Evaluate",
+    "goal": "Judge significance.",
+    "lesson": "Use likely, effective, limited, beneficial, problematic and depends on.",
+    "practice": "Is public transport always better?",
+    "answer": "Qualified evaluation.",
+    "exercise": {
+      "id": "ex-104",
+      "question": "When practising \"Part 3: Evaluate\", which approach best matches the lesson goal?",
+      "options": [
+        "Use difficult vocabulary even when a simpler accurate expression is better.",
+        "Judge significance.",
+        "Give very short answers and stop as soon as possible.",
+        "Memorise a complete script and repeat it for every topic."
+      ],
+      "answer": 1,
+      "explanation": "The lesson focuses on judge significance.",
+      "lesson_id": 104
+    }
+  },
+  {
+    "id": 105,
+    "track": "Speaking",
+    "slug": "speaking-p3-future",
+    "title": "Part 3: Predict",
+    "goal": "Make cautious predictions.",
+    "lesson": "Use may, might, likely to and could.",
+    "practice": "How might cities change?",
+    "answer": "Any plausible qualified prediction.",
+    "exercise": {
+      "id": "ex-105",
+      "question": "A learner is working on \"Part 3: Predict\". What should they focus on?",
+      "options": [
+        "Make cautious predictions.",
+        "Give very short answers and stop as soon as possible.",
+        "Memorise a complete script and repeat it for every topic.",
+        "Use difficult vocabulary even when a simpler accurate expression is better."
+      ],
+      "answer": 0,
+      "explanation": "The lesson focuses on make cautious predictions.",
+      "lesson_id": 105
+    }
+  },
+  {
+    "id": 106,
+    "track": "Speaking",
+    "slug": "speaking-p3-example",
+    "title": "Part 3: Give Examples",
+    "goal": "Support abstract claims.",
+    "lesson": "Introduce an example with for instance or consider.",
+    "practice": "Give an example of technology changing work.",
+    "answer": "Any relevant example.",
+    "exercise": {
+      "id": "ex-106",
+      "question": "Which action would most directly support the skill in \"Part 3: Give Examples\"?",
+      "options": [
+        "Give very short answers and stop as soon as possible.",
+        "Memorise a complete script and repeat it for every topic.",
+        "Use difficult vocabulary even when a simpler accurate expression is better.",
+        "Support abstract claims."
+      ],
+      "answer": 3,
+      "explanation": "The lesson focuses on support abstract claims.",
+      "lesson_id": 106
+    }
+  },
+  {
+    "id": 107,
+    "track": "Speaking",
+    "slug": "speaking-p3-concession",
+    "title": "Part 3: Concede and Qualify",
+    "goal": "Avoid extreme claims.",
+    "lesson": "Use although, while, to some extent and in certain cases.",
+    "practice": "Respond to “Technology makes life easier.”",
+    "answer": "Qualified agreement/disagreement.",
+    "exercise": {
+      "id": "ex-107",
+      "question": "What should a learner do when practising \"Part 3: Concede and Qualify\"?",
+      "options": [
+        "Memorise a complete script and repeat it for every topic.",
+        "Use difficult vocabulary even when a simpler accurate expression is better.",
+        "Avoid extreme claims.",
+        "Give very short answers and stop as soon as possible."
+      ],
+      "answer": 2,
+      "explanation": "The lesson focuses on avoid extreme claims.",
+      "lesson_id": 107
+    }
+  },
+  {
+    "id": 108,
+    "track": "Speaking",
+    "slug": "speaking-fluency",
+    "title": "Fluency: Keep Moving",
+    "goal": "Reduce long silent gaps.",
+    "lesson": "Use natural planning phrases and paraphrase when a word is missing.",
+    "practice": "Replace silence with a short thinking phrase.",
+    "answer": "“Let me think about that…”",
+    "exercise": {
+      "id": "ex-108",
+      "question": "Which approach best demonstrates the skill taught in \"Fluency: Keep Moving\"?",
+      "options": [
+        "Use difficult vocabulary even when a simpler accurate expression is better.",
+        "Reduce long silent gaps.",
+        "Give very short answers and stop as soon as possible.",
+        "Memorise a complete script and repeat it for every topic."
+      ],
+      "answer": 1,
+      "explanation": "The lesson focuses on reduce long silent gaps.",
+      "lesson_id": 108
+    }
+  },
+  {
+    "id": 109,
+    "track": "Speaking",
+    "slug": "speaking-repair",
+    "title": "Fluency: Self-Correct Smoothly",
+    "goal": "Repair without restarting everything.",
+    "lesson": "Correct briefly and continue. Do not repeat the entire answer.",
+    "practice": "Practise: “He go—sorry, he goes…”",
+    "answer": "Brief correction + continuation.",
+    "exercise": {
+      "id": "ex-109",
+      "question": "What is the main strategy to apply in \"Fluency: Self-Correct Smoothly\"?",
+      "options": [
+        "Repair without restarting everything.",
+        "Give very short answers and stop as soon as possible.",
+        "Memorise a complete script and repeat it for every topic.",
+        "Use difficult vocabulary even when a simpler accurate expression is better."
+      ],
+      "answer": 0,
+      "explanation": "The lesson focuses on repair without restarting everything.",
+      "lesson_id": 109
+    }
+  },
+  {
+    "id": 110,
+    "track": "Speaking",
+    "slug": "speaking-pronunciation",
+    "title": "Pronunciation: Chunking",
+    "goal": "Speak in meaningful groups.",
+    "lesson": "Pause between ideas rather than every word. Stress key content words.",
+    "practice": "Mark pauses in a two-sentence answer.",
+    "answer": "Any sensible thought groups.",
+    "exercise": {
+      "id": "ex-110",
+      "question": "When practising \"Pronunciation: Chunking\", which approach best matches the lesson goal?",
+      "options": [
+        "Give very short answers and stop as soon as possible.",
+        "Memorise a complete script and repeat it for every topic.",
+        "Use difficult vocabulary even when a simpler accurate expression is better.",
+        "Speak in meaningful groups."
+      ],
+      "answer": 3,
+      "explanation": "The lesson focuses on speak in meaningful groups.",
+      "lesson_id": 110
+    }
+  },
+  {
+    "id": 111,
+    "track": "Speaking",
+    "slug": "speaking-pronunciation2",
+    "title": "Pronunciation: Word Stress",
+    "goal": "Make important words clear.",
+    "lesson": "Incorrect stress can make familiar words harder to understand.",
+    "practice": "Mark stress in: development, economic, photography.",
+    "answer": "deVELOPment; ecoNOMic; phoTOGraphy.",
+    "exercise": {
+      "id": "ex-111",
+      "question": "A learner is working on \"Pronunciation: Word Stress\". What should they focus on?",
+      "options": [
+        "Memorise a complete script and repeat it for every topic.",
+        "Use difficult vocabulary even when a simpler accurate expression is better.",
+        "Make important words clear.",
+        "Give very short answers and stop as soon as possible."
+      ],
+      "answer": 2,
+      "explanation": "The lesson focuses on make important words clear.",
+      "lesson_id": 111
+    }
+  },
+  {
+    "id": 112,
+    "track": "Speaking",
+    "slug": "speaking-vocab",
+    "title": "Speaking Vocabulary: Flexible Words",
+    "goal": "Avoid repeating one basic word.",
+    "lesson": "Build families around common topics and learn natural combinations.",
+    "practice": "Replace repeated “good” in three contexts.",
+    "answer": "effective / enjoyable / beneficial.",
+    "exercise": {
+      "id": "ex-112",
+      "question": "Which action would most directly support the skill in \"Speaking Vocabulary: Flexible Words\"?",
+      "options": [
+        "Use difficult vocabulary even when a simpler accurate expression is better.",
+        "Avoid repeating one basic word.",
+        "Give very short answers and stop as soon as possible.",
+        "Memorise a complete script and repeat it for every topic."
+      ],
+      "answer": 1,
+      "explanation": "The lesson focuses on avoid repeating one basic word.",
+      "lesson_id": 112
+    }
+  },
+  {
+    "id": 113,
+    "track": "Speaking",
+    "slug": "speaking-grammar",
+    "title": "Speaking Grammar: Range with Control",
+    "goal": "Use a mix of simple and complex forms.",
+    "lesson": "Combine accurate simple statements with occasional relative clauses, conditionals and contrast.",
+    "practice": "Answer using one complex sentence.",
+    "answer": "Any accurate complex sentence.",
+    "exercise": {
+      "id": "ex-113",
+      "question": "What should a learner do when practising \"Speaking Grammar: Range with Control\"?",
+      "options": [
+        "Use a mix of simple and complex forms.",
+        "Give very short answers and stop as soon as possible.",
+        "Memorise a complete script and repeat it for every topic.",
+        "Use difficult vocabulary even when a simpler accurate expression is better."
+      ],
+      "answer": 0,
+      "explanation": "The lesson focuses on use a mix of simple and complex forms.",
+      "lesson_id": 113
+    }
+  },
+  {
+    "id": 114,
+    "track": "Speaking",
+    "slug": "speaking-topic-education",
+    "title": "Topic: Education",
+    "goal": "Build ideas for a common IELTS theme.",
+    "lesson": "Useful dimensions: access, cost, skills, assessment, technology and equality.",
+    "practice": "Give two reasons online learning can help.",
+    "answer": "Access and flexibility.",
+    "exercise": {
+      "id": "ex-114",
+      "question": "Which approach best demonstrates the skill taught in \"Topic: Education\"?",
+      "options": [
+        "Give very short answers and stop as soon as possible.",
+        "Memorise a complete script and repeat it for every topic.",
+        "Use difficult vocabulary even when a simpler accurate expression is better.",
+        "Build ideas for a common IELTS theme."
+      ],
+      "answer": 3,
+      "explanation": "The lesson focuses on build ideas for a common ielts theme.",
+      "lesson_id": 114
+    }
+  },
+  {
+    "id": 115,
+    "track": "Speaking",
+    "slug": "speaking-topic-environment",
+    "title": "Topic: Environment",
+    "goal": "Build flexible environmental ideas.",
+    "lesson": "Think in causes, consequences, policy and individual behaviour.",
+    "practice": "Why is recycling difficult?",
+    "answer": "Convenience, infrastructure, awareness.",
+    "exercise": {
+      "id": "ex-115",
+      "question": "What is the main strategy to apply in \"Topic: Environment\"?",
+      "options": [
+        "Memorise a complete script and repeat it for every topic.",
+        "Use difficult vocabulary even when a simpler accurate expression is better.",
+        "Build flexible environmental ideas.",
+        "Give very short answers and stop as soon as possible."
+      ],
+      "answer": 2,
+      "explanation": "The lesson focuses on build flexible environmental ideas.",
+      "lesson_id": 115
+    }
+  },
+  {
+    "id": 116,
+    "track": "Speaking",
+    "slug": "speaking-topic-technology",
+    "title": "Topic: Technology",
+    "goal": "Discuss benefits and trade-offs.",
+    "lesson": "Consider productivity, access, privacy, dependency and skills.",
+    "practice": "Give one benefit and one risk of AI.",
+    "answer": "Efficiency; skill/privacy risk.",
+    "exercise": {
+      "id": "ex-116",
+      "question": "When practising \"Topic: Technology\", which approach best matches the lesson goal?",
+      "options": [
+        "Use difficult vocabulary even when a simpler accurate expression is better.",
+        "Discuss benefits and trade-offs.",
+        "Give very short answers and stop as soon as possible.",
+        "Memorise a complete script and repeat it for every topic."
+      ],
+      "answer": 1,
+      "explanation": "The lesson focuses on discuss benefits and trade-offs.",
+      "lesson_id": 116
+    }
+  },
+  {
+    "id": 117,
+    "track": "Speaking",
+    "slug": "speaking-record",
+    "title": "Self-Recording Review",
+    "goal": "Use recordings to improve.",
+    "lesson": "Listen once for fluency, once for vocabulary, once for grammar/pronunciation.",
+    "practice": "Record a one-minute answer and write three observations.",
+    "answer": "Three specific observations.",
+    "exercise": {
+      "id": "ex-117",
+      "question": "A learner is working on \"Self-Recording Review\". What should they focus on?",
+      "options": [
+        "Use recordings to improve.",
+        "Give very short answers and stop as soon as possible.",
+        "Memorise a complete script and repeat it for every topic.",
+        "Use difficult vocabulary even when a simpler accurate expression is better."
+      ],
+      "answer": 0,
+      "explanation": "The lesson focuses on use recordings to improve.",
+      "lesson_id": 117
+    }
+  },
+  {
+    "id": 118,
+    "track": "Vocabulary",
+    "slug": "vocab-education",
+    "title": "Education Vocabulary",
+    "goal": "Build usable words for study and policy.",
+    "lesson": "access, curriculum, assessment, tuition, vocational training, literacy. Learn collocations, not isolated words.",
+    "practice": "Write one speaking and one writing sentence with “vocational training”.",
+    "answer": "Two accurate contextual sentences.",
+    "exercise": {
+      "id": "ex-118",
+      "question": "Which action would most directly support the skill in \"Education Vocabulary\"?",
+      "options": [
+        "Memorise isolated words without considering how they are used.",
+        "Choose advanced-looking words even when they do not fit the context.",
+        "Ignore common word combinations and focus only on dictionary definitions.",
+        "Build usable words for study and policy."
+      ],
+      "answer": 3,
+      "explanation": "The lesson focuses on build usable words for study and policy.",
+      "lesson_id": 118
+    }
+  },
+  {
+    "id": 119,
+    "track": "Vocabulary",
+    "slug": "vocab-environment",
+    "title": "Environment Vocabulary",
+    "goal": "Describe environmental problems and responses.",
+    "lesson": "emissions, conservation, renewable energy, biodiversity, waste management, resource consumption.",
+    "practice": "Combine “renewable energy” with a cause/effect sentence.",
+    "answer": "Accurate sentence.",
+    "exercise": {
+      "id": "ex-119",
+      "question": "What should a learner do when practising \"Environment Vocabulary\"?",
+      "options": [
+        "Choose advanced-looking words even when they do not fit the context.",
+        "Ignore common word combinations and focus only on dictionary definitions.",
+        "Describe environmental problems and responses.",
+        "Memorise isolated words without considering how they are used."
+      ],
+      "answer": 2,
+      "explanation": "The lesson focuses on describe environmental problems and responses.",
+      "lesson_id": 119
+    }
+  },
+  {
+    "id": 120,
+    "track": "Vocabulary",
+    "slug": "vocab-technology",
+    "title": "Technology Vocabulary",
+    "goal": "Discuss innovation and its effects.",
+    "lesson": "automation, digital access, privacy, artificial intelligence, productivity, dependency.",
+    "practice": "Write a sentence contrasting productivity and dependency.",
+    "answer": "Accurate contrast.",
+    "exercise": {
+      "id": "ex-120",
+      "question": "Which approach best demonstrates the skill taught in \"Technology Vocabulary\"?",
+      "options": [
+        "Ignore common word combinations and focus only on dictionary definitions.",
+        "Discuss innovation and its effects.",
+        "Memorise isolated words without considering how they are used.",
+        "Choose advanced-looking words even when they do not fit the context."
+      ],
+      "answer": 1,
+      "explanation": "The lesson focuses on discuss innovation and its effects.",
+      "lesson_id": 120
+    }
+  },
+  {
+    "id": 121,
+    "track": "Vocabulary",
+    "slug": "vocab-health",
+    "title": "Health Vocabulary",
+    "goal": "Discuss individual and public health.",
+    "lesson": "preventive care, sedentary lifestyle, healthcare system, obesity, mental wellbeing, public health.",
+    "practice": "Use “preventive care” in a policy sentence.",
+    "answer": "Accurate sentence.",
+    "exercise": {
+      "id": "ex-121",
+      "question": "What is the main strategy to apply in \"Health Vocabulary\"?",
+      "options": [
+        "Discuss individual and public health.",
+        "Memorise isolated words without considering how they are used.",
+        "Choose advanced-looking words even when they do not fit the context.",
+        "Ignore common word combinations and focus only on dictionary definitions."
+      ],
+      "answer": 0,
+      "explanation": "The lesson focuses on discuss individual and public health.",
+      "lesson_id": 121
+    }
+  },
+  {
+    "id": 122,
+    "track": "Vocabulary",
+    "slug": "vocab-work",
+    "title": "Work Vocabulary",
+    "goal": "Discuss employment and workplace change.",
+    "lesson": "job security, flexible working, career progression, reskilling, workforce, productivity.",
+    "practice": "Explain why reskilling matters.",
+    "answer": "Accurate explanation.",
+    "exercise": {
+      "id": "ex-122",
+      "question": "When practising \"Work Vocabulary\", which approach best matches the lesson goal?",
+      "options": [
+        "Memorise isolated words without considering how they are used.",
+        "Choose advanced-looking words even when they do not fit the context.",
+        "Ignore common word combinations and focus only on dictionary definitions.",
+        "Discuss employment and workplace change."
+      ],
+      "answer": 3,
+      "explanation": "The lesson focuses on discuss employment and workplace change.",
+      "lesson_id": 122
+    }
+  },
+  {
+    "id": 123,
+    "track": "Vocabulary",
+    "slug": "vocab-crime",
+    "title": "Crime Vocabulary",
+    "goal": "Discuss causes, prevention and punishment.",
+    "lesson": "rehabilitation, deterrence, reoffending, law enforcement, social causes.",
+    "practice": "Contrast deterrence and rehabilitation.",
+    "answer": "Accurate contrast.",
+    "exercise": {
+      "id": "ex-123",
+      "question": "A learner is working on \"Crime Vocabulary\". What should they focus on?",
+      "options": [
+        "Choose advanced-looking words even when they do not fit the context.",
+        "Ignore common word combinations and focus only on dictionary definitions.",
+        "Discuss causes, prevention and punishment.",
+        "Memorise isolated words without considering how they are used."
+      ],
+      "answer": 2,
+      "explanation": "The lesson focuses on discuss causes, prevention and punishment.",
+      "lesson_id": 123
+    }
+  },
+  {
+    "id": 124,
+    "track": "Vocabulary",
+    "slug": "vocab-transport",
+    "title": "Transport Vocabulary",
+    "goal": "Discuss mobility and urban systems.",
+    "lesson": "congestion, public transit, infrastructure, commuting, pedestrian-friendly, emissions.",
+    "practice": "Use two terms in one comparison.",
+    "answer": "Accurate comparison.",
+    "exercise": {
+      "id": "ex-124",
+      "question": "Which action would most directly support the skill in \"Transport Vocabulary\"?",
+      "options": [
+        "Ignore common word combinations and focus only on dictionary definitions.",
+        "Discuss mobility and urban systems.",
+        "Memorise isolated words without considering how they are used.",
+        "Choose advanced-looking words even when they do not fit the context."
+      ],
+      "answer": 1,
+      "explanation": "The lesson focuses on discuss mobility and urban systems.",
+      "lesson_id": 124
+    }
+  },
+  {
+    "id": 125,
+    "track": "Vocabulary",
+    "slug": "vocab-tourism",
+    "title": "Tourism Vocabulary",
+    "goal": "Discuss travel impacts.",
+    "lesson": "destination, heritage, local economy, overcrowding, sustainable tourism, cultural exchange.",
+    "practice": "Explain one tourism benefit and one risk.",
+    "answer": "Both accurately explained.",
+    "exercise": {
+      "id": "ex-125",
+      "question": "What should a learner do when practising \"Tourism Vocabulary\"?",
+      "options": [
+        "Discuss travel impacts.",
+        "Memorise isolated words without considering how they are used.",
+        "Choose advanced-looking words even when they do not fit the context.",
+        "Ignore common word combinations and focus only on dictionary definitions."
+      ],
+      "answer": 0,
+      "explanation": "The lesson focuses on discuss travel impacts.",
+      "lesson_id": 125
+    }
+  },
+  {
+    "id": 126,
+    "track": "Vocabulary",
+    "slug": "vocab-media",
+    "title": "Media Vocabulary",
+    "goal": "Discuss information and persuasion.",
+    "lesson": "misinformation, journalism, audience, advertising, credibility, social platforms.",
+    "practice": "Explain why credibility matters.",
+    "answer": "Accurate explanation.",
+    "exercise": {
+      "id": "ex-126",
+      "question": "Which approach best demonstrates the skill taught in \"Media Vocabulary\"?",
+      "options": [
+        "Memorise isolated words without considering how they are used.",
+        "Choose advanced-looking words even when they do not fit the context.",
+        "Ignore common word combinations and focus only on dictionary definitions.",
+        "Discuss information and persuasion."
+      ],
+      "answer": 3,
+      "explanation": "The lesson focuses on discuss information and persuasion.",
+      "lesson_id": 126
+    }
+  },
+  {
+    "id": 127,
+    "track": "Vocabulary",
+    "slug": "vocab-family",
+    "title": "Family Vocabulary",
+    "goal": "Discuss relationships and responsibilities.",
+    "lesson": "parenting, household responsibilities, childcare, generation gap, family support.",
+    "practice": "Use two terms in a natural response.",
+    "answer": "Accurate response.",
+    "exercise": {
+      "id": "ex-127",
+      "question": "What is the main strategy to apply in \"Family Vocabulary\"?",
+      "options": [
+        "Choose advanced-looking words even when they do not fit the context.",
+        "Ignore common word combinations and focus only on dictionary definitions.",
+        "Discuss relationships and responsibilities.",
+        "Memorise isolated words without considering how they are used."
+      ],
+      "answer": 2,
+      "explanation": "The lesson focuses on discuss relationships and responsibilities.",
+      "lesson_id": 127
+    }
+  },
+  {
+    "id": 128,
+    "track": "Vocabulary",
+    "slug": "vocab-business",
+    "title": "Business Vocabulary",
+    "goal": "Discuss commerce and consumers.",
+    "lesson": "competition, consumer demand, market share, entrepreneurship, regulation, advertising.",
+    "practice": "Explain one effect of competition.",
+    "answer": "Accurate explanation.",
+    "exercise": {
+      "id": "ex-128",
+      "question": "When practising \"Business Vocabulary\", which approach best matches the lesson goal?",
+      "options": [
+        "Ignore common word combinations and focus only on dictionary definitions.",
+        "Discuss commerce and consumers.",
+        "Memorise isolated words without considering how they are used.",
+        "Choose advanced-looking words even when they do not fit the context."
+      ],
+      "answer": 1,
+      "explanation": "The lesson focuses on discuss commerce and consumers.",
+      "lesson_id": 128
+    }
+  },
+  {
+    "id": 129,
+    "track": "Vocabulary",
+    "slug": "vocab-government",
+    "title": "Government Vocabulary",
+    "goal": "Discuss policy and public services.",
+    "lesson": "public spending, regulation, subsidy, taxation, infrastructure, welfare.",
+    "practice": "Use “subsidy” accurately.",
+    "answer": "Accurate sentence.",
+    "exercise": {
+      "id": "ex-129",
+      "question": "A learner is working on \"Government Vocabulary\". What should they focus on?",
+      "options": [
+        "Discuss policy and public services.",
+        "Memorise isolated words without considering how they are used.",
+        "Choose advanced-looking words even when they do not fit the context.",
+        "Ignore common word combinations and focus only on dictionary definitions."
+      ],
+      "answer": 0,
+      "explanation": "The lesson focuses on discuss policy and public services.",
+      "lesson_id": 129
+    }
+  },
+  {
+    "id": 130,
+    "track": "Vocabulary",
+    "slug": "vocab-science",
+    "title": "Science Vocabulary",
+    "goal": "Discuss research and evidence.",
+    "lesson": "research findings, experiment, hypothesis, evidence, innovation, scientific method.",
+    "practice": "Use evidence and findings in a sentence.",
+    "answer": "Accurate sentence.",
+    "exercise": {
+      "id": "ex-130",
+      "question": "Which action would most directly support the skill in \"Science Vocabulary\"?",
+      "options": [
+        "Memorise isolated words without considering how they are used.",
+        "Choose advanced-looking words even when they do not fit the context.",
+        "Ignore common word combinations and focus only on dictionary definitions.",
+        "Discuss research and evidence."
+      ],
+      "answer": 3,
+      "explanation": "The lesson focuses on discuss research and evidence.",
+      "lesson_id": 130
+    }
+  },
+  {
+    "id": 131,
+    "track": "Vocabulary",
+    "slug": "vocab-housing",
+    "title": "Housing Vocabulary",
+    "goal": "Discuss cities and homes.",
+    "lesson": "affordable housing, rental market, urban density, residential area, housing shortage.",
+    "practice": "Explain housing affordability.",
+    "answer": "Accurate explanation.",
+    "exercise": {
+      "id": "ex-131",
+      "question": "What should a learner do when practising \"Housing Vocabulary\"?",
+      "options": [
+        "Choose advanced-looking words even when they do not fit the context.",
+        "Ignore common word combinations and focus only on dictionary definitions.",
+        "Discuss cities and homes.",
+        "Memorise isolated words without considering how they are used."
+      ],
+      "answer": 2,
+      "explanation": "The lesson focuses on discuss cities and homes.",
+      "lesson_id": 131
+    }
+  },
+  {
+    "id": 132,
+    "track": "Vocabulary",
+    "slug": "vocab-culture",
+    "title": "Culture Vocabulary",
+    "goal": "Discuss identity and change.",
+    "lesson": "heritage, customs, cultural identity, diversity, preservation, assimilation.",
+    "practice": "Discuss preservation vs change.",
+    "answer": "Balanced response.",
+    "exercise": {
+      "id": "ex-132",
+      "question": "Which approach best demonstrates the skill taught in \"Culture Vocabulary\"?",
+      "options": [
+        "Ignore common word combinations and focus only on dictionary definitions.",
+        "Discuss identity and change.",
+        "Memorise isolated words without considering how they are used.",
+        "Choose advanced-looking words even when they do not fit the context."
+      ],
+      "answer": 1,
+      "explanation": "The lesson focuses on discuss identity and change.",
+      "lesson_id": 132
+    }
+  },
+  {
+    "id": 133,
+    "track": "Vocabulary",
+    "slug": "vocab-food",
+    "title": "Food Vocabulary",
+    "goal": "Discuss diet and agriculture.",
+    "lesson": "nutrition, processed food, food security, agriculture, consumption, dietary habits.",
+    "practice": "Explain one public-health concern.",
+    "answer": "Accurate explanation.",
+    "exercise": {
+      "id": "ex-133",
+      "question": "What is the main strategy to apply in \"Food Vocabulary\"?",
+      "options": [
+        "Discuss diet and agriculture.",
+        "Memorise isolated words without considering how they are used.",
+        "Choose advanced-looking words even when they do not fit the context.",
+        "Ignore common word combinations and focus only on dictionary definitions."
+      ],
+      "answer": 0,
+      "explanation": "The lesson focuses on discuss diet and agriculture.",
+      "lesson_id": 133
+    }
+  },
+  {
+    "id": 134,
+    "track": "Vocabulary",
+    "slug": "vocab-sport",
+    "title": "Sport Vocabulary",
+    "goal": "Discuss exercise and competition.",
+    "lesson": "physical activity, participation, professional sport, teamwork, fitness, sporting facilities.",
+    "practice": "Explain why participation matters.",
+    "answer": "Accurate explanation.",
+    "exercise": {
+      "id": "ex-134",
+      "question": "When practising \"Sport Vocabulary\", which approach best matches the lesson goal?",
+      "options": [
+        "Memorise isolated words without considering how they are used.",
+        "Choose advanced-looking words even when they do not fit the context.",
+        "Ignore common word combinations and focus only on dictionary definitions.",
+        "Discuss exercise and competition."
+      ],
+      "answer": 3,
+      "explanation": "The lesson focuses on discuss exercise and competition.",
+      "lesson_id": 134
+    }
+  },
+  {
+    "id": 135,
+    "track": "Vocabulary",
+    "slug": "vocab-communication",
+    "title": "Communication Vocabulary",
+    "goal": "Discuss language and interaction.",
+    "lesson": "misunderstanding, interaction, non-verbal communication, fluency, multilingualism.",
+    "practice": "Use multilingualism in a sentence.",
+    "answer": "Accurate sentence.",
+    "exercise": {
+      "id": "ex-135",
+      "question": "A learner is working on \"Communication Vocabulary\". What should they focus on?",
+      "options": [
+        "Choose advanced-looking words even when they do not fit the context.",
+        "Ignore common word combinations and focus only on dictionary definitions.",
+        "Discuss language and interaction.",
+        "Memorise isolated words without considering how they are used."
+      ],
+      "answer": 2,
+      "explanation": "The lesson focuses on discuss language and interaction.",
+      "lesson_id": 135
+    }
+  },
+  {
+    "id": 136,
+    "track": "Vocabulary",
+    "slug": "vocab-collocations",
+    "title": "Collocation Builder",
+    "goal": "Sound natural through word partnerships.",
+    "lesson": "Examples: pose a risk, play a role, reach a conclusion, address a problem, meet a demand.",
+    "practice": "Create three original collocations with “problem”.",
+    "answer": "Any natural combinations.",
+    "exercise": {
+      "id": "ex-136",
+      "question": "Which action would most directly support the skill in \"Collocation Builder\"?",
+      "options": [
+        "Ignore common word combinations and focus only on dictionary definitions.",
+        "Sound natural through word partnerships.",
+        "Memorise isolated words without considering how they are used.",
+        "Choose advanced-looking words even when they do not fit the context."
+      ],
+      "answer": 1,
+      "explanation": "The lesson focuses on sound natural through word partnerships.",
+      "lesson_id": 136
+    }
+  },
+  {
+    "id": 137,
+    "track": "Vocabulary",
+    "slug": "vocab-wordfamily",
+    "title": "Word Family Builder",
+    "goal": "Use different forms accurately.",
+    "lesson": "economy/economic/economically; benefit/beneficial; develop/development.",
+    "practice": "Create four forms from “succeed” and use two.",
+    "answer": "success, successful, successfully, succeed.",
+    "exercise": {
+      "id": "ex-137",
+      "question": "What should a learner do when practising \"Word Family Builder\"?",
+      "options": [
+        "Use different forms accurately.",
+        "Memorise isolated words without considering how they are used.",
+        "Choose advanced-looking words even when they do not fit the context.",
+        "Ignore common word combinations and focus only on dictionary definitions."
+      ],
+      "answer": 0,
+      "explanation": "The lesson focuses on use different forms accurately.",
+      "lesson_id": 137
+    }
+  },
+  {
+    "id": 138,
+    "track": "Grammar",
+    "slug": "grammar-present",
+    "title": "Present Simple vs Continuous",
+    "goal": "Choose tense by meaning.",
+    "lesson": "Present simple suits routines/facts; continuous highlights temporary or current activity.",
+    "practice": "“People increasingly use online banking.” Which tense and why?",
+    "answer": "Present simple for a current trend/general fact.",
+    "exercise": {
+      "id": "ex-138",
+      "question": "Which approach best demonstrates the skill taught in \"Present Simple vs Continuous\"?",
+      "options": [
+        "Choose a complex grammar form even when the sentence becomes inaccurate.",
+        "Change grammar forms randomly without considering the meaning.",
+        "Focus on grammatical complexity while ignoring whether the sentence is correct.",
+        "Choose tense by meaning."
+      ],
+      "answer": 3,
+      "explanation": "The lesson focuses on choose tense by meaning.",
+      "lesson_id": 138
+    }
+  },
+  {
+    "id": 139,
+    "track": "Grammar",
+    "slug": "grammar-past",
+    "title": "Past Simple vs Present Perfect",
+    "goal": "Separate finished past time from experience/change to now.",
+    "lesson": "Past simple usually has a finished time; present perfect connects past experience or change to the present.",
+    "practice": "“I visited Delhi in 2024.” vs “I have visited Delhi.”",
+    "answer": "Past simple has finished time; present perfect has present relevance.",
+    "exercise": {
+      "id": "ex-139",
+      "question": "What is the main strategy to apply in \"Past Simple vs Present Perfect\"?",
+      "options": [
+        "Change grammar forms randomly without considering the meaning.",
+        "Focus on grammatical complexity while ignoring whether the sentence is correct.",
+        "Separate finished past time from experience/change to now.",
+        "Choose a complex grammar form even when the sentence becomes inaccurate."
+      ],
+      "answer": 2,
+      "explanation": "The lesson focuses on separate finished past time from experience/change to now.",
+      "lesson_id": 139
+    }
+  },
+  {
+    "id": 140,
+    "track": "Grammar",
+    "slug": "grammar-perfect",
+    "title": "Present Perfect in IELTS",
+    "goal": "Use the perfect for changes and experience.",
+    "lesson": "It is useful when a time period continues or the result matters now.",
+    "practice": "Write a sentence about technology changing in recent years.",
+    "answer": "Accurate present perfect.",
+    "exercise": {
+      "id": "ex-140",
+      "question": "When practising \"Present Perfect in IELTS\", which approach best matches the lesson goal?",
+      "options": [
+        "Focus on grammatical complexity while ignoring whether the sentence is correct.",
+        "Use the perfect for changes and experience.",
+        "Choose a complex grammar form even when the sentence becomes inaccurate.",
+        "Change grammar forms randomly without considering the meaning."
+      ],
+      "answer": 1,
+      "explanation": "The lesson focuses on use the perfect for changes and experience.",
+      "lesson_id": 140
+    }
+  },
+  {
+    "id": 141,
+    "track": "Grammar",
+    "slug": "grammar-continuous",
+    "title": "Present Perfect Continuous",
+    "goal": "Show an activity continuing over time.",
+    "lesson": "Use it for ongoing/recent activity with duration or visible effect.",
+    "practice": "“I have been studying for two hours.” Explain the emphasis.",
+    "answer": "Duration/ongoing activity.",
+    "exercise": {
+      "id": "ex-141",
+      "question": "A learner is working on \"Present Perfect Continuous\". What should they focus on?",
+      "options": [
+        "Show an activity continuing over time.",
+        "Choose a complex grammar form even when the sentence becomes inaccurate.",
+        "Change grammar forms randomly without considering the meaning.",
+        "Focus on grammatical complexity while ignoring whether the sentence is correct."
+      ],
+      "answer": 0,
+      "explanation": "The lesson focuses on show an activity continuing over time.",
+      "lesson_id": 141
+    }
+  },
+  {
+    "id": 142,
+    "track": "Grammar",
+    "slug": "grammar-articles",
+    "title": "Articles",
+    "goal": "Control a/an/the and zero article.",
+    "lesson": "Use articles according to specificity, countability and whether a noun is general or specific.",
+    "practice": "Correct: “Government should provide the solution.”",
+    "answer": "“The government should provide a solution.” or context-dependent alternatives.",
+    "exercise": {
+      "id": "ex-142",
+      "question": "Which action would most directly support the skill in \"Articles\"?",
+      "options": [
+        "Choose a complex grammar form even when the sentence becomes inaccurate.",
+        "Change grammar forms randomly without considering the meaning.",
+        "Focus on grammatical complexity while ignoring whether the sentence is correct.",
+        "Control a/an/the and zero article."
+      ],
+      "answer": 3,
+      "explanation": "The lesson focuses on control a/an/the and zero article.",
+      "lesson_id": 142
+    }
+  },
+  {
+    "id": 143,
+    "track": "Grammar",
+    "slug": "grammar-countability",
+    "title": "Countable and Uncountable Nouns",
+    "goal": "Avoid common noun errors.",
+    "lesson": "Information, advice, equipment and research are commonly uncountable.",
+    "practice": "Correct: “many informations”.",
+    "answer": "much information / pieces of information.",
+    "exercise": {
+      "id": "ex-143",
+      "question": "What should a learner do when practising \"Countable and Uncountable Nouns\"?",
+      "options": [
+        "Change grammar forms randomly without considering the meaning.",
+        "Focus on grammatical complexity while ignoring whether the sentence is correct.",
+        "Avoid common noun errors.",
+        "Choose a complex grammar form even when the sentence becomes inaccurate."
+      ],
+      "answer": 2,
+      "explanation": "The lesson focuses on avoid common noun errors.",
+      "lesson_id": 143
+    }
+  },
+  {
+    "id": 144,
+    "track": "Grammar",
+    "slug": "grammar-agreement",
+    "title": "Subject–Verb Agreement",
+    "goal": "Keep the verb aligned with the subject.",
+    "lesson": "Ignore intervening phrases when identifying the grammatical subject.",
+    "practice": "Correct: “The number of students are increasing.”",
+    "answer": "The number of students is increasing.",
+    "exercise": {
+      "id": "ex-144",
+      "question": "Which approach best demonstrates the skill taught in \"Subject–Verb Agreement\"?",
+      "options": [
+        "Focus on grammatical complexity while ignoring whether the sentence is correct.",
+        "Keep the verb aligned with the subject.",
+        "Choose a complex grammar form even when the sentence becomes inaccurate.",
+        "Change grammar forms randomly without considering the meaning."
+      ],
+      "answer": 1,
+      "explanation": "The lesson focuses on keep the verb aligned with the subject.",
+      "lesson_id": 144
+    }
+  },
+  {
+    "id": 145,
+    "track": "Grammar",
+    "slug": "grammar-prepositions",
+    "title": "Preposition Accuracy",
+    "goal": "Learn common combinations.",
+    "lesson": "Focus on phrases such as depend on, responsible for, interested in and impact on.",
+    "practice": "Correct: “depend of technology”.",
+    "answer": "depend on technology.",
+    "exercise": {
+      "id": "ex-145",
+      "question": "What is the main strategy to apply in \"Preposition Accuracy\"?",
+      "options": [
+        "Learn common combinations.",
+        "Choose a complex grammar form even when the sentence becomes inaccurate.",
+        "Change grammar forms randomly without considering the meaning.",
+        "Focus on grammatical complexity while ignoring whether the sentence is correct."
+      ],
+      "answer": 0,
+      "explanation": "The lesson focuses on learn common combinations.",
+      "lesson_id": 145
+    }
+  },
+  {
+    "id": 146,
+    "track": "Grammar",
+    "slug": "grammar-conditionals",
+    "title": "Conditionals for Arguments",
+    "goal": "Express hypothetical results.",
+    "lesson": "Use real and hypothetical conditional forms to discuss policy and consequences.",
+    "practice": "Write a conditional about public transport investment.",
+    "answer": "If cities invest..., congestion may decrease.",
+    "exercise": {
+      "id": "ex-146",
+      "question": "When practising \"Conditionals for Arguments\", which approach best matches the lesson goal?",
+      "options": [
+        "Choose a complex grammar form even when the sentence becomes inaccurate.",
+        "Change grammar forms randomly without considering the meaning.",
+        "Focus on grammatical complexity while ignoring whether the sentence is correct.",
+        "Express hypothetical results."
+      ],
+      "answer": 3,
+      "explanation": "The lesson focuses on express hypothetical results.",
+      "lesson_id": 146
+    }
+  },
+  {
+    "id": 147,
+    "track": "Grammar",
+    "slug": "grammar-modals",
+    "title": "Modals for Caution",
+    "goal": "Avoid overclaiming.",
+    "lesson": "May, might, could and would allow careful academic claims.",
+    "practice": "Change “Technology will solve unemployment” to a cautious claim.",
+    "answer": "Technology may help reduce some unemployment.",
+    "exercise": {
+      "id": "ex-147",
+      "question": "A learner is working on \"Modals for Caution\". What should they focus on?",
+      "options": [
+        "Change grammar forms randomly without considering the meaning.",
+        "Focus on grammatical complexity while ignoring whether the sentence is correct.",
+        "Avoid overclaiming.",
+        "Choose a complex grammar form even when the sentence becomes inaccurate."
+      ],
+      "answer": 2,
+      "explanation": "The lesson focuses on avoid overclaiming.",
+      "lesson_id": 147
+    }
+  },
+  {
+    "id": 148,
+    "track": "Grammar",
+    "slug": "grammar-relative",
+    "title": "Relative Clauses",
+    "goal": "Add controlled detail.",
+    "lesson": "Use who, which, that and where to combine related information.",
+    "practice": "Join two sentences about a policy.",
+    "answer": "An accurate relative clause.",
+    "exercise": {
+      "id": "ex-148",
+      "question": "Which action would most directly support the skill in \"Relative Clauses\"?",
+      "options": [
+        "Focus on grammatical complexity while ignoring whether the sentence is correct.",
+        "Add controlled detail.",
+        "Choose a complex grammar form even when the sentence becomes inaccurate.",
+        "Change grammar forms randomly without considering the meaning."
+      ],
+      "answer": 1,
+      "explanation": "The lesson focuses on add controlled detail.",
+      "lesson_id": 148
+    }
+  },
+  {
+    "id": 149,
+    "track": "Grammar",
+    "slug": "grammar-passive",
+    "title": "Passive Voice",
+    "goal": "Focus on process or action rather than actor.",
+    "lesson": "Useful when the actor is unknown, obvious or less important.",
+    "practice": "Change “Researchers collected the data” to passive.",
+    "answer": "The data were collected by researchers.",
+    "exercise": {
+      "id": "ex-149",
+      "question": "What should a learner do when practising \"Passive Voice\"?",
+      "options": [
+        "Focus on process or action rather than actor.",
+        "Choose a complex grammar form even when the sentence becomes inaccurate.",
+        "Change grammar forms randomly without considering the meaning.",
+        "Focus on grammatical complexity while ignoring whether the sentence is correct."
+      ],
+      "answer": 0,
+      "explanation": "The lesson focuses on focus on process or action rather than actor.",
+      "lesson_id": 149
+    }
+  },
+  {
+    "id": 150,
+    "track": "Grammar",
+    "slug": "grammar-comparatives",
+    "title": "Comparatives and Superlatives",
+    "goal": "Make precise comparisons.",
+    "lesson": "Use higher than, the highest, less common, considerably more etc.",
+    "practice": "Compare two transport modes.",
+    "answer": "Accurate comparative.",
+    "exercise": {
+      "id": "ex-150",
+      "question": "Which approach best demonstrates the skill taught in \"Comparatives and Superlatives\"?",
+      "options": [
+        "Choose a complex grammar form even when the sentence becomes inaccurate.",
+        "Change grammar forms randomly without considering the meaning.",
+        "Focus on grammatical complexity while ignoring whether the sentence is correct.",
+        "Make precise comparisons."
+      ],
+      "answer": 3,
+      "explanation": "The lesson focuses on make precise comparisons.",
+      "lesson_id": 150
+    }
+  },
+  {
+    "id": 151,
+    "track": "Grammar",
+    "slug": "grammar-linking",
+    "title": "Subordination and Linking",
+    "goal": "Show logical relationships through grammar.",
+    "lesson": "Because, although, while, whereas and therefore can express cause/contrast/result.",
+    "practice": "Combine a cause and consequence.",
+    "answer": "Accurate complex sentence.",
+    "exercise": {
+      "id": "ex-151",
+      "question": "What is the main strategy to apply in \"Subordination and Linking\"?",
+      "options": [
+        "Change grammar forms randomly without considering the meaning.",
+        "Focus on grammatical complexity while ignoring whether the sentence is correct.",
+        "Show logical relationships through grammar.",
+        "Choose a complex grammar form even when the sentence becomes inaccurate."
+      ],
+      "answer": 2,
+      "explanation": "The lesson focuses on show logical relationships through grammar.",
+      "lesson_id": 151
+    }
+  },
+  {
+    "id": 152,
+    "track": "Grammar",
+    "slug": "grammar-punctuation",
+    "title": "Sentence Boundaries",
+    "goal": "Prevent run-ons and fragments.",
+    "lesson": "Use full stops, commas and conjunctions to control sentence boundaries.",
+    "practice": "Fix: “Cities grow rapidly this creates pressure.”",
+    "answer": "Cities grow rapidly, creating pressure. / Cities grow rapidly. This creates pressure.",
+    "exercise": {
+      "id": "ex-152",
+      "question": "When practising \"Sentence Boundaries\", which approach best matches the lesson goal?",
+      "options": [
+        "Focus on grammatical complexity while ignoring whether the sentence is correct.",
+        "Prevent run-ons and fragments.",
+        "Choose a complex grammar form even when the sentence becomes inaccurate.",
+        "Change grammar forms randomly without considering the meaning."
+      ],
+      "answer": 1,
+      "explanation": "The lesson focuses on prevent run-ons and fragments.",
+      "lesson_id": 152
+    }
+  },
+  {
+    "id": 153,
+    "track": "Grammar",
+    "slug": "grammar-gerunds",
+    "title": "Gerunds and Infinitives",
+    "goal": "Use verb patterns correctly.",
+    "lesson": "Some verbs take -ing, others infinitive; some allow both with changed meaning.",
+    "practice": "Complete: “People avoid ____ (drive) at peak times.”",
+    "answer": "driving",
+    "exercise": {
+      "id": "ex-153",
+      "question": "A learner is working on \"Gerunds and Infinitives\". What should they focus on?",
+      "options": [
+        "Use verb patterns correctly.",
+        "Choose a complex grammar form even when the sentence becomes inaccurate.",
+        "Change grammar forms randomly without considering the meaning.",
+        "Focus on grammatical complexity while ignoring whether the sentence is correct."
+      ],
+      "answer": 0,
+      "explanation": "The lesson focuses on use verb patterns correctly.",
+      "lesson_id": 153
+    }
+  },
+  {
+    "id": 154,
+    "track": "Grammar",
+    "slug": "grammar-nominalisation",
+    "title": "Controlled Academic Nouns",
+    "goal": "Use noun forms without overcomplicating.",
+    "lesson": "Nominalisation can compress ideas, but clarity comes first.",
+    "practice": "Turn “people consume more” into a noun phrase.",
+    "answer": "increased consumption.",
+    "exercise": {
+      "id": "ex-154",
+      "question": "Which action would most directly support the skill in \"Controlled Academic Nouns\"?",
+      "options": [
+        "Choose a complex grammar form even when the sentence becomes inaccurate.",
+        "Change grammar forms randomly without considering the meaning.",
+        "Focus on grammatical complexity while ignoring whether the sentence is correct.",
+        "Use noun forms without overcomplicating."
+      ],
+      "answer": 3,
+      "explanation": "The lesson focuses on use noun forms without overcomplicating.",
+      "lesson_id": 154
+    }
+  },
+  {
+    "id": 155,
+    "track": "Grammar",
+    "slug": "grammar-parallel",
+    "title": "Parallel Structure",
+    "goal": "Keep lists grammatically balanced.",
+    "lesson": "Items joined by and/or should have matching forms.",
+    "practice": "Fix: “The policy aims to reduce waste, improving recycling and cleaner cities.”",
+    "answer": "reduce waste, improve recycling and create cleaner cities.",
+    "exercise": {
+      "id": "ex-155",
+      "question": "What should a learner do when practising \"Parallel Structure\"?",
+      "options": [
+        "Change grammar forms randomly without considering the meaning.",
+        "Focus on grammatical complexity while ignoring whether the sentence is correct.",
+        "Keep lists grammatically balanced.",
+        "Choose a complex grammar form even when the sentence becomes inaccurate."
+      ],
+      "answer": 2,
+      "explanation": "The lesson focuses on keep lists grammatically balanced.",
+      "lesson_id": 155
+    }
+  },
+  {
+    "id": 156,
+    "track": "Grammar",
+    "slug": "grammar-editing",
+    "title": "Grammar Editing Routine",
+    "goal": "Find recurring errors quickly.",
+    "lesson": "Check verbs, articles, nouns, prepositions and sentence boundaries in that order.",
+    "practice": "Edit one paragraph using the five-step routine.",
+    "answer": "All detected errors corrected.",
+    "exercise": {
+      "id": "ex-156",
+      "question": "Which approach best demonstrates the skill taught in \"Grammar Editing Routine\"?",
+      "options": [
+        "Focus on grammatical complexity while ignoring whether the sentence is correct.",
+        "Find recurring errors quickly.",
+        "Choose a complex grammar form even when the sentence becomes inaccurate.",
+        "Change grammar forms randomly without considering the meaning."
+      ],
+      "answer": 1,
+      "explanation": "The lesson focuses on find recurring errors quickly.",
+      "lesson_id": 156
+    }
+  },
+  {
+    "id": 157,
+    "track": "Grammar",
+    "slug": "grammar-range",
+    "title": "Grammar Range Strategy",
+    "goal": "Use variety without forcing complexity.",
+    "lesson": "Mix accurate simple, compound and complex sentences. Complexity is useful only when it communicates a relationship.",
+    "practice": "Rewrite two short sentences as one accurate complex sentence.",
+    "answer": "Any accurate combination.",
+    "exercise": {
+      "id": "ex-157",
+      "question": "What is the main strategy to apply in \"Grammar Range Strategy\"?",
+      "options": [
+        "Use variety without forcing complexity.",
+        "Choose a complex grammar form even when the sentence becomes inaccurate.",
+        "Change grammar forms randomly without considering the meaning.",
+        "Focus on grammatical complexity while ignoring whether the sentence is correct."
+      ],
+      "answer": 0,
+      "explanation": "The lesson focuses on use variety without forcing complexity.",
+      "lesson_id": 157
+    }
+  }
+]

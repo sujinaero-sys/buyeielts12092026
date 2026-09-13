@@ -1,0 +1,1708 @@
+{
+  "version": "2I",
+  "original_content": true,
+  "listening": [
+    {
+      "id": 1,
+      "type": "multiple_choice",
+      "prompt": "Why is the community hall booking being changed?",
+      "options": [
+        "The room is being repaired",
+        "The original room is already booked",
+        "The organiser needs more seats",
+        "The event has been cancelled"
+      ],
+      "answer": "B",
+      "explanation": "The original room has already been reserved.",
+      "script": "Welcome to the Riverside Community Centre. The volunteer induction begins at nine thirty, not nine as printed earlier. Please bring a packed lunch. Registration is beside the library entrance."
+    },
+    {
+      "id": 2,
+      "type": "form_completion",
+      "prompt": "What is the revised start time?",
+      "options": [
+        "08:30",
+        "09:00",
+        "09:30",
+        "10:00"
+      ],
+      "answer": "C",
+      "explanation": "The revised start time is 9:30.",
+      "script": "For your study plan, start by making a weekly schedule. Review mistakes for at least fifteen minutes after each session. The workshop will be held in the computer lab."
+    },
+    {
+      "id": 3,
+      "type": "multiple_choice",
+      "prompt": "Which item should volunteers bring?",
+      "options": [
+        "A laptop",
+        "A name badge",
+        "A packed lunch",
+        "A printed map"
+      ],
+      "answer": "C",
+      "explanation": "Volunteers are asked to bring lunch.",
+      "script": "The museum has changed its display because several objects on loan had to be returned. Visitors receive a numbered card at the entrance. The guided tour takes about forty-five minutes. The children's room is closed today."
+    },
+    {
+      "id": 4,
+      "type": "multiple_choice",
+      "prompt": "Where is the registration desk?",
+      "options": [
+        "Beside the library entrance",
+        "Near the car park",
+        "Inside the café",
+        "Next to the theatre"
+      ],
+      "answer": "A",
+      "explanation": "The desk is beside the library entrance.",
+      "script": "Our customer survey will be sent by email first. It will stay open for seven days. We are trying to improve the way we collect and use customer feedback."
+    },
+    {
+      "id": 5,
+      "type": "multiple_choice",
+      "prompt": "What problem occurred last week?",
+      "options": [
+        "A bus was late",
+        "A train was cancelled",
+        "A ticket was lost",
+        "A meeting was moved"
+      ],
+      "answer": "A",
+      "explanation": "The speaker mentions a late bus.",
+      "script": "The delivery could not be completed because the address supplied was incomplete. We will request a corrected address and arrange a replacement delivery for Tuesday."
+    },
+    {
+      "id": 6,
+      "type": "multiple_choice",
+      "prompt": "What does the tutor recommend first?",
+      "options": [
+        "Buying a textbook",
+        "Joining a study group",
+        "Making a weekly plan",
+        "Taking a mock test"
+      ],
+      "answer": "C",
+      "explanation": "The first step is a realistic weekly plan.",
+      "script": "Welcome to the Riverside Community Centre. The volunteer induction begins at nine thirty, not nine as printed earlier. Please bring a packed lunch. Registration is beside the library entrance."
+    },
+    {
+      "id": 7,
+      "type": "sentence_completion",
+      "prompt": "Students should spend at least ______ minutes reviewing errors.",
+      "options": [
+        "10",
+        "15",
+        "20",
+        "30"
+      ],
+      "answer": "B",
+      "explanation": "The recommendation is fifteen minutes.",
+      "script": "For your study plan, start by making a weekly schedule. Review mistakes for at least fifteen minutes after each session. The workshop will be held in the computer lab."
+    },
+    {
+      "id": 8,
+      "type": "multiple_choice",
+      "prompt": "Where will the workshop take place?",
+      "options": [
+        "Room 204",
+        "The main theatre",
+        "The computer lab",
+        "The café"
+      ],
+      "answer": "C",
+      "explanation": "It will be held in the computer lab.",
+      "script": "The museum has changed its display because several objects on loan had to be returned. Visitors receive a numbered card at the entrance. The guided tour takes about forty-five minutes. The children's room is closed today."
+    },
+    {
+      "id": 9,
+      "type": "multiple_choice",
+      "prompt": "What feature is most useful in the new app?",
+      "options": [
+        "Offline maps",
+        "Automatic reminders",
+        "Video calls",
+        "Shared photos"
+      ],
+      "answer": "B",
+      "explanation": "Automatic reminders are highlighted.",
+      "script": "Our customer survey will be sent by email first. It will stay open for seven days. We are trying to improve the way we collect and use customer feedback."
+    },
+    {
+      "id": 10,
+      "type": "multiple_choice",
+      "prompt": "When does the speaker usually study?",
+      "options": [
+        "Early morning",
+        "At lunchtime",
+        "Late afternoon",
+        "At midnight"
+      ],
+      "answer": "A",
+      "explanation": "Morning is described as the most productive.",
+      "script": "The delivery could not be completed because the address supplied was incomplete. We will request a corrected address and arrange a replacement delivery for Tuesday."
+    },
+    {
+      "id": 11,
+      "type": "multiple_choice",
+      "prompt": "Why did the museum change its display?",
+      "options": [
+        "A loan ended",
+        "Visitors complained",
+        "The lighting failed",
+        "The building was enlarged"
+      ],
+      "answer": "A",
+      "explanation": "Several objects on loan had to be returned.",
+      "script": "Welcome to the Riverside Community Centre. The volunteer induction begins at nine thirty, not nine as printed earlier. Please bring a packed lunch. Registration is beside the library entrance."
+    },
+    {
+      "id": 12,
+      "type": "multiple_choice",
+      "prompt": "What will visitors receive at the entrance?",
+      "options": [
+        "A free guide",
+        "A numbered card",
+        "A discount voucher",
+        "A headset"
+      ],
+      "answer": "B",
+      "explanation": "Visitors receive a numbered card.",
+      "script": "For your study plan, start by making a weekly schedule. Review mistakes for at least fifteen minutes after each session. The workshop will be held in the computer lab."
+    },
+    {
+      "id": 13,
+      "type": "multiple_choice",
+      "prompt": "How long does the guided tour last?",
+      "options": [
+        "25 minutes",
+        "35 minutes",
+        "45 minutes",
+        "60 minutes"
+      ],
+      "answer": "C",
+      "explanation": "The tour takes about 45 minutes.",
+      "script": "The museum has changed its display because several objects on loan had to be returned. Visitors receive a numbered card at the entrance. The guided tour takes about forty-five minutes. The children's room is closed today."
+    },
+    {
+      "id": 14,
+      "type": "multiple_choice",
+      "prompt": "Which area is closed today?",
+      "options": [
+        "The garden",
+        "The café",
+        "The archive",
+        "The children's room"
+      ],
+      "answer": "D",
+      "explanation": "The children's room is closed for maintenance.",
+      "script": "Our customer survey will be sent by email first. It will stay open for seven days. We are trying to improve the way we collect and use customer feedback."
+    },
+    {
+      "id": 15,
+      "type": "multiple_choice",
+      "prompt": "What does the manager want to improve?",
+      "options": [
+        "Staff uniforms",
+        "Customer feedback",
+        "Parking signs",
+        "Kitchen equipment"
+      ],
+      "answer": "B",
+      "explanation": "The meeting concerns customer feedback.",
+      "script": "The delivery could not be completed because the address supplied was incomplete. We will request a corrected address and arrange a replacement delivery for Tuesday."
+    },
+    {
+      "id": 16,
+      "type": "multiple_choice",
+      "prompt": "What is the first survey step?",
+      "options": [
+        "Call customers",
+        "Email a link",
+        "Print questionnaires",
+        "Analyse results"
+      ],
+      "answer": "B",
+      "explanation": "The survey link will be emailed.",
+      "script": "Welcome to the Riverside Community Centre. The volunteer induction begins at nine thirty, not nine as printed earlier. Please bring a packed lunch. Registration is beside the library entrance."
+    },
+    {
+      "id": 17,
+      "type": "multiple_choice",
+      "prompt": "How long will the survey remain open?",
+      "options": [
+        "Three days",
+        "Five days",
+        "Seven days",
+        "Fourteen days"
+      ],
+      "answer": "C",
+      "explanation": "The survey stays open for seven days.",
+      "script": "For your study plan, start by making a weekly schedule. Review mistakes for at least fifteen minutes after each session. The workshop will be held in the computer lab."
+    },
+    {
+      "id": 18,
+      "type": "multiple_choice",
+      "prompt": "What caused the delivery delay?",
+      "options": [
+        "Bad weather",
+        "A warehouse error",
+        "Heavy traffic",
+        "An incomplete address"
+      ],
+      "answer": "D",
+      "explanation": "The address was incomplete.",
+      "script": "The museum has changed its display because several objects on loan had to be returned. Visitors receive a numbered card at the entrance. The guided tour takes about forty-five minutes. The children's room is closed today."
+    },
+    {
+      "id": 19,
+      "type": "multiple_choice",
+      "prompt": "What will happen next?",
+      "options": [
+        "The order is refunded",
+        "The customer collects it",
+        "The driver returns today",
+        "A new address is requested"
+      ],
+      "answer": "D",
+      "explanation": "A correct address will be requested.",
+      "script": "Our customer survey will be sent by email first. It will stay open for seven days. We are trying to improve the way we collect and use customer feedback."
+    },
+    {
+      "id": 20,
+      "type": "multiple_choice",
+      "prompt": "When is the replacement delivery expected?",
+      "options": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Friday"
+      ],
+      "answer": "B",
+      "explanation": "The replacement is expected Tuesday.",
+      "script": "The delivery could not be completed because the address supplied was incomplete. We will request a corrected address and arrange a replacement delivery for Tuesday."
+    },
+    {
+      "id": 21,
+      "type": "multiple_choice",
+      "prompt": "Which statement is correct according to the recording?",
+      "options": [
+        "It gives practical schedule or procedure information",
+        "It describes a personal preference",
+        "It announces a cancellation",
+        "It reports a price increase"
+      ],
+      "answer": "A",
+      "explanation": "The recording gives practical information about a schedule or procedure.",
+      "script": "Welcome to the Riverside Community Centre. The volunteer induction begins at nine thirty, not nine as printed earlier. Please bring a packed lunch. Registration is beside the library entrance."
+    },
+    {
+      "id": 22,
+      "type": "form_completion",
+      "prompt": "Which statement is correct according to the recording?",
+      "options": [
+        "It gives practical schedule or procedure information",
+        "It describes a personal preference",
+        "It announces a cancellation",
+        "It reports a price increase"
+      ],
+      "answer": "A",
+      "explanation": "The recording gives practical information about a schedule or procedure.",
+      "script": "For your study plan, start by making a weekly schedule. Review mistakes for at least fifteen minutes after each session. The workshop will be held in the computer lab."
+    },
+    {
+      "id": 23,
+      "type": "multiple_choice",
+      "prompt": "Which statement is correct according to the recording?",
+      "options": [
+        "It gives practical schedule or procedure information",
+        "It describes a personal preference",
+        "It announces a cancellation",
+        "It reports a price increase"
+      ],
+      "answer": "A",
+      "explanation": "The recording gives practical information about a schedule or procedure.",
+      "script": "The museum has changed its display because several objects on loan had to be returned. Visitors receive a numbered card at the entrance. The guided tour takes about forty-five minutes. The children's room is closed today."
+    },
+    {
+      "id": 24,
+      "type": "multiple_choice",
+      "prompt": "Which statement is correct according to the recording?",
+      "options": [
+        "It gives practical schedule or procedure information",
+        "It describes a personal preference",
+        "It announces a cancellation",
+        "It reports a price increase"
+      ],
+      "answer": "A",
+      "explanation": "The recording gives practical information about a schedule or procedure.",
+      "script": "Our customer survey will be sent by email first. It will stay open for seven days. We are trying to improve the way we collect and use customer feedback."
+    },
+    {
+      "id": 25,
+      "type": "multiple_choice",
+      "prompt": "Which statement is correct according to the recording?",
+      "options": [
+        "It gives practical schedule or procedure information",
+        "It describes a personal preference",
+        "It announces a cancellation",
+        "It reports a price increase"
+      ],
+      "answer": "A",
+      "explanation": "The recording gives practical information about a schedule or procedure.",
+      "script": "The delivery could not be completed because the address supplied was incomplete. We will request a corrected address and arrange a replacement delivery for Tuesday."
+    },
+    {
+      "id": 26,
+      "type": "multiple_choice",
+      "prompt": "Which statement is correct according to the recording?",
+      "options": [
+        "It gives practical schedule or procedure information",
+        "It describes a personal preference",
+        "It announces a cancellation",
+        "It reports a price increase"
+      ],
+      "answer": "A",
+      "explanation": "The recording gives practical information about a schedule or procedure.",
+      "script": "Welcome to the Riverside Community Centre. The volunteer induction begins at nine thirty, not nine as printed earlier. Please bring a packed lunch. Registration is beside the library entrance."
+    },
+    {
+      "id": 27,
+      "type": "sentence_completion",
+      "prompt": "Which statement is correct according to the recording?",
+      "options": [
+        "It gives practical schedule or procedure information",
+        "It describes a personal preference",
+        "It announces a cancellation",
+        "It reports a price increase"
+      ],
+      "answer": "A",
+      "explanation": "The recording gives practical information about a schedule or procedure.",
+      "script": "For your study plan, start by making a weekly schedule. Review mistakes for at least fifteen minutes after each session. The workshop will be held in the computer lab."
+    },
+    {
+      "id": 28,
+      "type": "multiple_choice",
+      "prompt": "Which statement is correct according to the recording?",
+      "options": [
+        "It gives practical schedule or procedure information",
+        "It describes a personal preference",
+        "It announces a cancellation",
+        "It reports a price increase"
+      ],
+      "answer": "A",
+      "explanation": "The recording gives practical information about a schedule or procedure.",
+      "script": "The museum has changed its display because several objects on loan had to be returned. Visitors receive a numbered card at the entrance. The guided tour takes about forty-five minutes. The children's room is closed today."
+    },
+    {
+      "id": 29,
+      "type": "multiple_choice",
+      "prompt": "Which statement is correct according to the recording?",
+      "options": [
+        "It gives practical schedule or procedure information",
+        "It describes a personal preference",
+        "It announces a cancellation",
+        "It reports a price increase"
+      ],
+      "answer": "A",
+      "explanation": "The recording gives practical information about a schedule or procedure.",
+      "script": "Our customer survey will be sent by email first. It will stay open for seven days. We are trying to improve the way we collect and use customer feedback."
+    },
+    {
+      "id": 30,
+      "type": "multiple_choice",
+      "prompt": "Which statement is correct according to the recording?",
+      "options": [
+        "It gives practical schedule or procedure information",
+        "It describes a personal preference",
+        "It announces a cancellation",
+        "It reports a price increase"
+      ],
+      "answer": "A",
+      "explanation": "The recording gives practical information about a schedule or procedure.",
+      "script": "The delivery could not be completed because the address supplied was incomplete. We will request a corrected address and arrange a replacement delivery for Tuesday."
+    },
+    {
+      "id": 31,
+      "type": "multiple_choice",
+      "prompt": "Which statement is correct according to the recording?",
+      "options": [
+        "It gives practical schedule or procedure information",
+        "It describes a personal preference",
+        "It announces a cancellation",
+        "It reports a price increase"
+      ],
+      "answer": "A",
+      "explanation": "The recording gives practical information about a schedule or procedure.",
+      "script": "Welcome to the Riverside Community Centre. The volunteer induction begins at nine thirty, not nine as printed earlier. Please bring a packed lunch. Registration is beside the library entrance."
+    },
+    {
+      "id": 32,
+      "type": "multiple_choice",
+      "prompt": "Which statement is correct according to the recording?",
+      "options": [
+        "It gives practical schedule or procedure information",
+        "It describes a personal preference",
+        "It announces a cancellation",
+        "It reports a price increase"
+      ],
+      "answer": "A",
+      "explanation": "The recording gives practical information about a schedule or procedure.",
+      "script": "For your study plan, start by making a weekly schedule. Review mistakes for at least fifteen minutes after each session. The workshop will be held in the computer lab."
+    },
+    {
+      "id": 33,
+      "type": "multiple_choice",
+      "prompt": "Which statement is correct according to the recording?",
+      "options": [
+        "It gives practical schedule or procedure information",
+        "It describes a personal preference",
+        "It announces a cancellation",
+        "It reports a price increase"
+      ],
+      "answer": "A",
+      "explanation": "The recording gives practical information about a schedule or procedure.",
+      "script": "The museum has changed its display because several objects on loan had to be returned. Visitors receive a numbered card at the entrance. The guided tour takes about forty-five minutes. The children's room is closed today."
+    },
+    {
+      "id": 34,
+      "type": "multiple_choice",
+      "prompt": "Which statement is correct according to the recording?",
+      "options": [
+        "It gives practical schedule or procedure information",
+        "It describes a personal preference",
+        "It announces a cancellation",
+        "It reports a price increase"
+      ],
+      "answer": "A",
+      "explanation": "The recording gives practical information about a schedule or procedure.",
+      "script": "Our customer survey will be sent by email first. It will stay open for seven days. We are trying to improve the way we collect and use customer feedback."
+    },
+    {
+      "id": 35,
+      "type": "multiple_choice",
+      "prompt": "Which statement is correct according to the recording?",
+      "options": [
+        "It gives practical schedule or procedure information",
+        "It describes a personal preference",
+        "It announces a cancellation",
+        "It reports a price increase"
+      ],
+      "answer": "A",
+      "explanation": "The recording gives practical information about a schedule or procedure.",
+      "script": "The delivery could not be completed because the address supplied was incomplete. We will request a corrected address and arrange a replacement delivery for Tuesday."
+    },
+    {
+      "id": 36,
+      "type": "multiple_choice",
+      "prompt": "Which statement is correct according to the recording?",
+      "options": [
+        "It gives practical schedule or procedure information",
+        "It describes a personal preference",
+        "It announces a cancellation",
+        "It reports a price increase"
+      ],
+      "answer": "A",
+      "explanation": "The recording gives practical information about a schedule or procedure.",
+      "script": "Welcome to the Riverside Community Centre. The volunteer induction begins at nine thirty, not nine as printed earlier. Please bring a packed lunch. Registration is beside the library entrance."
+    },
+    {
+      "id": 37,
+      "type": "multiple_choice",
+      "prompt": "Which statement is correct according to the recording?",
+      "options": [
+        "It gives practical schedule or procedure information",
+        "It describes a personal preference",
+        "It announces a cancellation",
+        "It reports a price increase"
+      ],
+      "answer": "A",
+      "explanation": "The recording gives practical information about a schedule or procedure.",
+      "script": "For your study plan, start by making a weekly schedule. Review mistakes for at least fifteen minutes after each session. The workshop will be held in the computer lab."
+    },
+    {
+      "id": 38,
+      "type": "multiple_choice",
+      "prompt": "Which statement is correct according to the recording?",
+      "options": [
+        "It gives practical schedule or procedure information",
+        "It describes a personal preference",
+        "It announces a cancellation",
+        "It reports a price increase"
+      ],
+      "answer": "A",
+      "explanation": "The recording gives practical information about a schedule or procedure.",
+      "script": "The museum has changed its display because several objects on loan had to be returned. Visitors receive a numbered card at the entrance. The guided tour takes about forty-five minutes. The children's room is closed today."
+    },
+    {
+      "id": 39,
+      "type": "multiple_choice",
+      "prompt": "Which statement is correct according to the recording?",
+      "options": [
+        "It gives practical schedule or procedure information",
+        "It describes a personal preference",
+        "It announces a cancellation",
+        "It reports a price increase"
+      ],
+      "answer": "A",
+      "explanation": "The recording gives practical information about a schedule or procedure.",
+      "script": "Our customer survey will be sent by email first. It will stay open for seven days. We are trying to improve the way we collect and use customer feedback."
+    },
+    {
+      "id": 40,
+      "type": "multiple_choice",
+      "prompt": "Which statement is correct according to the recording?",
+      "options": [
+        "It gives practical schedule or procedure information",
+        "It describes a personal preference",
+        "It announces a cancellation",
+        "It reports a price increase"
+      ],
+      "answer": "A",
+      "explanation": "The recording gives practical information about a schedule or procedure.",
+      "script": "The delivery could not be completed because the address supplied was incomplete. We will request a corrected address and arrange a replacement delivery for Tuesday."
+    }
+  ],
+  "academic_reading": [
+    {
+      "id": 1,
+      "type": "multiple_choice",
+      "prompt": "What is one purpose of repair events?",
+      "options": [
+        "To sell new products",
+        "To transfer practical knowledge",
+        "To replace manufacturers",
+        "To reduce online learning"
+      ],
+      "answer": "B",
+      "explanation": "They can transfer practical knowledge.",
+      "passage": "R1",
+      "passage_text": "For decades, many household products were designed around replacement rather than repair. Recently, however, repair has become more visible through tool libraries, repair cafés and online instruction. These activities can extend the useful life of everyday objects while also transferring practical knowledge between generations.\n\nBusinesses are responding unevenly. Some manufacturers publish repair manuals or sell components directly, but a manual is of little use if a replacement part is unavailable. Researchers therefore distinguish between willingness and opportunity: people may want to repair an item but lack time, tools, information or confidence.\n\nThere is also an environmental argument. Extending a product's life can delay the costs associated with producing and transporting a replacement. The size of that benefit varies by product, so repair is best viewed as one part of a wider strategy for reducing material waste."
+    },
+    {
+      "id": 2,
+      "type": "true_false_ng",
+      "prompt": "The repair movement is presented as being only about saving money.",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "answer": "B",
+      "explanation": "The passage gives knowledge transfer and environmental reasons too.",
+      "passage": "R1",
+      "passage_text": "For decades, many household products were designed around replacement rather than repair. Recently, however, repair has become more visible through tool libraries, repair cafés and online instruction. These activities can extend the useful life of everyday objects while also transferring practical knowledge between generations.\n\nBusinesses are responding unevenly. Some manufacturers publish repair manuals or sell components directly, but a manual is of little use if a replacement part is unavailable. Researchers therefore distinguish between willingness and opportunity: people may want to repair an item but lack time, tools, information or confidence.\n\nThere is also an environmental argument. Extending a product's life can delay the costs associated with producing and transporting a replacement. The size of that benefit varies by product, so repair is best viewed as one part of a wider strategy for reducing material waste."
+    },
+    {
+      "id": 3,
+      "type": "matching_headings",
+      "prompt": "Which heading best fits the paragraph about willingness and opportunity?",
+      "options": [
+        "A. Motivation is not enough",
+        "B. Urban planting",
+        "C. Product pricing",
+        "D. Team memory"
+      ],
+      "answer": "A",
+      "explanation": "That paragraph lists practical barriers to repair.",
+      "passage": "R1",
+      "passage_text": "For decades, many household products were designed around replacement rather than repair. Recently, however, repair has become more visible through tool libraries, repair cafés and online instruction. These activities can extend the useful life of everyday objects while also transferring practical knowledge between generations.\n\nBusinesses are responding unevenly. Some manufacturers publish repair manuals or sell components directly, but a manual is of little use if a replacement part is unavailable. Researchers therefore distinguish between willingness and opportunity: people may want to repair an item but lack time, tools, information or confidence.\n\nThere is also an environmental argument. Extending a product's life can delay the costs associated with producing and transporting a replacement. The size of that benefit varies by product, so repair is best viewed as one part of a wider strategy for reducing material waste."
+    },
+    {
+      "id": 4,
+      "type": "sentence_completion",
+      "prompt": "Researchers distinguish between willingness and ______.",
+      "options": [
+        "opportunity",
+        "confidence",
+        "recycling",
+        "transport"
+      ],
+      "answer": "A",
+      "explanation": "The passage uses the phrase willingness and opportunity.",
+      "passage": "R1",
+      "passage_text": "For decades, many household products were designed around replacement rather than repair. Recently, however, repair has become more visible through tool libraries, repair cafés and online instruction. These activities can extend the useful life of everyday objects while also transferring practical knowledge between generations.\n\nBusinesses are responding unevenly. Some manufacturers publish repair manuals or sell components directly, but a manual is of little use if a replacement part is unavailable. Researchers therefore distinguish between willingness and opportunity: people may want to repair an item but lack time, tools, information or confidence.\n\nThere is also an environmental argument. Extending a product's life can delay the costs associated with producing and transporting a replacement. The size of that benefit varies by product, so repair is best viewed as one part of a wider strategy for reducing material waste."
+    },
+    {
+      "id": 5,
+      "type": "multiple_choice",
+      "prompt": "Why might a repair manual be insufficient?",
+      "options": [
+        "It may be too expensive",
+        "It may be unavailable",
+        "A replacement part may be unavailable",
+        "It may increase energy use"
+      ],
+      "answer": "C",
+      "explanation": "A manual cannot solve an unavailable-parts problem.",
+      "passage": "R1",
+      "passage_text": "For decades, many household products were designed around replacement rather than repair. Recently, however, repair has become more visible through tool libraries, repair cafés and online instruction. These activities can extend the useful life of everyday objects while also transferring practical knowledge between generations.\n\nBusinesses are responding unevenly. Some manufacturers publish repair manuals or sell components directly, but a manual is of little use if a replacement part is unavailable. Researchers therefore distinguish between willingness and opportunity: people may want to repair an item but lack time, tools, information or confidence.\n\nThere is also an environmental argument. Extending a product's life can delay the costs associated with producing and transporting a replacement. The size of that benefit varies by product, so repair is best viewed as one part of a wider strategy for reducing material waste."
+    },
+    {
+      "id": 6,
+      "type": "true_false_ng",
+      "prompt": "The environmental benefit of repair is identical for every product.",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "answer": "B",
+      "explanation": "The text says the benefit varies by product.",
+      "passage": "R1",
+      "passage_text": "For decades, many household products were designed around replacement rather than repair. Recently, however, repair has become more visible through tool libraries, repair cafés and online instruction. These activities can extend the useful life of everyday objects while also transferring practical knowledge between generations.\n\nBusinesses are responding unevenly. Some manufacturers publish repair manuals or sell components directly, but a manual is of little use if a replacement part is unavailable. Researchers therefore distinguish between willingness and opportunity: people may want to repair an item but lack time, tools, information or confidence.\n\nThere is also an environmental argument. Extending a product's life can delay the costs associated with producing and transporting a replacement. The size of that benefit varies by product, so repair is best viewed as one part of a wider strategy for reducing material waste."
+    },
+    {
+      "id": 7,
+      "type": "multiple_choice",
+      "prompt": "What is the main point of the final sentence?",
+      "options": [
+        "Repair is the only solution",
+        "Repair is one part of a wider strategy",
+        "Manufacturing should stop",
+        "Recycling has no value"
+      ],
+      "answer": "B",
+      "explanation": "Repair is presented as one component of waste reduction.",
+      "passage": "R1",
+      "passage_text": "For decades, many household products were designed around replacement rather than repair. Recently, however, repair has become more visible through tool libraries, repair cafés and online instruction. These activities can extend the useful life of everyday objects while also transferring practical knowledge between generations.\n\nBusinesses are responding unevenly. Some manufacturers publish repair manuals or sell components directly, but a manual is of little use if a replacement part is unavailable. Researchers therefore distinguish between willingness and opportunity: people may want to repair an item but lack time, tools, information or confidence.\n\nThere is also an environmental argument. Extending a product's life can delay the costs associated with producing and transporting a replacement. The size of that benefit varies by product, so repair is best viewed as one part of a wider strategy for reducing material waste."
+    },
+    {
+      "id": 8,
+      "type": "matching_information",
+      "prompt": "Which paragraph mentions knowledge transfer between generations?",
+      "options": [
+        "Paragraph 1",
+        "Paragraph 2",
+        "Paragraph 3"
+      ],
+      "answer": "A",
+      "explanation": "The first paragraph mentions intergenerational knowledge transfer.",
+      "passage": "R1",
+      "passage_text": "For decades, many household products were designed around replacement rather than repair. Recently, however, repair has become more visible through tool libraries, repair cafés and online instruction. These activities can extend the useful life of everyday objects while also transferring practical knowledge between generations.\n\nBusinesses are responding unevenly. Some manufacturers publish repair manuals or sell components directly, but a manual is of little use if a replacement part is unavailable. Researchers therefore distinguish between willingness and opportunity: people may want to repair an item but lack time, tools, information or confidence.\n\nThere is also an environmental argument. Extending a product's life can delay the costs associated with producing and transporting a replacement. The size of that benefit varies by product, so repair is best viewed as one part of a wider strategy for reducing material waste."
+    },
+    {
+      "id": 9,
+      "type": "multiple_choice",
+      "prompt": "Why are urban trees treated as infrastructure?",
+      "options": [
+        "They need no care",
+        "They provide functional urban benefits",
+        "They replace roads",
+        "They eliminate pollution"
+      ],
+      "answer": "B",
+      "explanation": "The passage identifies shade, air movement and rainwater benefits.",
+      "passage": "R2",
+      "passage_text": "Urban trees are increasingly treated as infrastructure rather than decoration. Their canopies can reduce direct sunlight, influence local air movement and help manage rainwater. These benefits matter particularly in dense neighbourhoods dominated by hard surfaces.\n\nSpecies differ in canopy size, growth rate, water needs and pollution tolerance. A fast-growing tree may provide shade quickly but require more maintenance later. Planning must also consider underground pipes, cables and foundations because roots need adequate growing space.\n\nResidents can influence whether tree programmes succeed. During establishment, trees need care and protection. Where residents understand why species and locations were selected, support can be stronger. Effective programmes therefore combine ecological knowledge, engineering constraints and social planning."
+    },
+    {
+      "id": 10,
+      "type": "true_false_ng",
+      "prompt": "All tree species are equally suitable for every street.",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "answer": "B",
+      "explanation": "Species characteristics differ.",
+      "passage": "R2",
+      "passage_text": "Urban trees are increasingly treated as infrastructure rather than decoration. Their canopies can reduce direct sunlight, influence local air movement and help manage rainwater. These benefits matter particularly in dense neighbourhoods dominated by hard surfaces.\n\nSpecies differ in canopy size, growth rate, water needs and pollution tolerance. A fast-growing tree may provide shade quickly but require more maintenance later. Planning must also consider underground pipes, cables and foundations because roots need adequate growing space.\n\nResidents can influence whether tree programmes succeed. During establishment, trees need care and protection. Where residents understand why species and locations were selected, support can be stronger. Effective programmes therefore combine ecological knowledge, engineering constraints and social planning."
+    },
+    {
+      "id": 11,
+      "type": "sentence_completion",
+      "prompt": "Roots may compete with pipes, cables and ______.",
+      "options": [
+        "roads",
+        "foundations",
+        "vehicles",
+        "lights"
+      ],
+      "answer": "B",
+      "explanation": "Foundations are specifically mentioned.",
+      "passage": "R2",
+      "passage_text": "Urban trees are increasingly treated as infrastructure rather than decoration. Their canopies can reduce direct sunlight, influence local air movement and help manage rainwater. These benefits matter particularly in dense neighbourhoods dominated by hard surfaces.\n\nSpecies differ in canopy size, growth rate, water needs and pollution tolerance. A fast-growing tree may provide shade quickly but require more maintenance later. Planning must also consider underground pipes, cables and foundations because roots need adequate growing space.\n\nResidents can influence whether tree programmes succeed. During establishment, trees need care and protection. Where residents understand why species and locations were selected, support can be stronger. Effective programmes therefore combine ecological knowledge, engineering constraints and social planning."
+    },
+    {
+      "id": 12,
+      "type": "multiple_choice",
+      "prompt": "What can strengthen residents' support?",
+      "options": [
+        "Avoiding communication",
+        "Explaining species and location choices",
+        "Planting only fast-growing trees",
+        "Removing all objections"
+      ],
+      "answer": "B",
+      "explanation": "Understanding the choices can strengthen support.",
+      "passage": "R2",
+      "passage_text": "Urban trees are increasingly treated as infrastructure rather than decoration. Their canopies can reduce direct sunlight, influence local air movement and help manage rainwater. These benefits matter particularly in dense neighbourhoods dominated by hard surfaces.\n\nSpecies differ in canopy size, growth rate, water needs and pollution tolerance. A fast-growing tree may provide shade quickly but require more maintenance later. Planning must also consider underground pipes, cables and foundations because roots need adequate growing space.\n\nResidents can influence whether tree programmes succeed. During establishment, trees need care and protection. Where residents understand why species and locations were selected, support can be stronger. Effective programmes therefore combine ecological knowledge, engineering constraints and social planning."
+    },
+    {
+      "id": 13,
+      "type": "multiple_choice",
+      "prompt": "What does the final sentence imply?",
+      "options": [
+        "Planting numbers are everything",
+        "Good planning combines several types of knowledge",
+        "Trees require no engineering",
+        "Social issues are irrelevant"
+      ],
+      "answer": "B",
+      "explanation": "Ecological, engineering and social planning are combined.",
+      "passage": "R2",
+      "passage_text": "Urban trees are increasingly treated as infrastructure rather than decoration. Their canopies can reduce direct sunlight, influence local air movement and help manage rainwater. These benefits matter particularly in dense neighbourhoods dominated by hard surfaces.\n\nSpecies differ in canopy size, growth rate, water needs and pollution tolerance. A fast-growing tree may provide shade quickly but require more maintenance later. Planning must also consider underground pipes, cables and foundations because roots need adequate growing space.\n\nResidents can influence whether tree programmes succeed. During establishment, trees need care and protection. Where residents understand why species and locations were selected, support can be stronger. Effective programmes therefore combine ecological knowledge, engineering constraints and social planning."
+    },
+    {
+      "id": 14,
+      "type": "matching_information",
+      "prompt": "Which paragraph discusses underground space?",
+      "options": [
+        "Paragraph 1",
+        "Paragraph 2",
+        "Paragraph 3"
+      ],
+      "answer": "B",
+      "explanation": "The second paragraph discusses roots and infrastructure.",
+      "passage": "R2",
+      "passage_text": "Urban trees are increasingly treated as infrastructure rather than decoration. Their canopies can reduce direct sunlight, influence local air movement and help manage rainwater. These benefits matter particularly in dense neighbourhoods dominated by hard surfaces.\n\nSpecies differ in canopy size, growth rate, water needs and pollution tolerance. A fast-growing tree may provide shade quickly but require more maintenance later. Planning must also consider underground pipes, cables and foundations because roots need adequate growing space.\n\nResidents can influence whether tree programmes succeed. During establishment, trees need care and protection. Where residents understand why species and locations were selected, support can be stronger. Effective programmes therefore combine ecological knowledge, engineering constraints and social planning."
+    },
+    {
+      "id": 15,
+      "type": "multiple_choice",
+      "prompt": "What is a transactive memory system in practice?",
+      "options": [
+        "Everyone memorises the same facts",
+        "A group knows where knowledge is located",
+        "A digital backup",
+        "A test of individual memory"
+      ],
+      "answer": "B",
+      "explanation": "Members learn who is likely to know what.",
+      "passage": "R3",
+      "passage_text": "Teams can develop shared ways of remembering. One person may remember a customer preference while another recalls technical history; together they can reconstruct information that neither could easily retrieve alone. This works best when members understand who is likely to know what.\n\nTechnology can strengthen or weaken this process. Searchable records reduce dependence on personal memory, but excessive documentation can cause people to stop learning information they may need. Teams are also vulnerable to shared errors: repeated incorrect explanations can increase confidence without improving accuracy.\n\nThe strongest systems combine human knowledge with external records. People provide context, judgement and flexible interpretation, while records provide stable reference points. Important assumptions still need checking, especially when decisions have significant consequences."
+    },
+    {
+      "id": 16,
+      "type": "true_false_ng",
+      "prompt": "Technology always improves team memory.",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "answer": "B",
+      "explanation": "Technology can strengthen or weaken it.",
+      "passage": "R3",
+      "passage_text": "Teams can develop shared ways of remembering. One person may remember a customer preference while another recalls technical history; together they can reconstruct information that neither could easily retrieve alone. This works best when members understand who is likely to know what.\n\nTechnology can strengthen or weaken this process. Searchable records reduce dependence on personal memory, but excessive documentation can cause people to stop learning information they may need. Teams are also vulnerable to shared errors: repeated incorrect explanations can increase confidence without improving accuracy.\n\nThe strongest systems combine human knowledge with external records. People provide context, judgement and flexible interpretation, while records provide stable reference points. Important assumptions still need checking, especially when decisions have significant consequences."
+    },
+    {
+      "id": 17,
+      "type": "sentence_completion",
+      "prompt": "Excessive documentation may cause people to stop ______ information themselves.",
+      "options": [
+        "learning",
+        "checking",
+        "sharing",
+        "printing"
+      ],
+      "answer": "A",
+      "explanation": "The passage warns that people may stop learning information.",
+      "passage": "R3",
+      "passage_text": "Teams can develop shared ways of remembering. One person may remember a customer preference while another recalls technical history; together they can reconstruct information that neither could easily retrieve alone. This works best when members understand who is likely to know what.\n\nTechnology can strengthen or weaken this process. Searchable records reduce dependence on personal memory, but excessive documentation can cause people to stop learning information they may need. Teams are also vulnerable to shared errors: repeated incorrect explanations can increase confidence without improving accuracy.\n\nThe strongest systems combine human knowledge with external records. People provide context, judgement and flexible interpretation, while records provide stable reference points. Important assumptions still need checking, especially when decisions have significant consequences."
+    },
+    {
+      "id": 18,
+      "type": "multiple_choice",
+      "prompt": "Why can shared errors be dangerous?",
+      "options": [
+        "They improve accuracy",
+        "Confidence can rise without accuracy improving",
+        "They reduce storage",
+        "They remove judgement"
+      ],
+      "answer": "B",
+      "explanation": "Repeated errors can become more confidently believed.",
+      "passage": "R3",
+      "passage_text": "Teams can develop shared ways of remembering. One person may remember a customer preference while another recalls technical history; together they can reconstruct information that neither could easily retrieve alone. This works best when members understand who is likely to know what.\n\nTechnology can strengthen or weaken this process. Searchable records reduce dependence on personal memory, but excessive documentation can cause people to stop learning information they may need. Teams are also vulnerable to shared errors: repeated incorrect explanations can increase confidence without improving accuracy.\n\nThe strongest systems combine human knowledge with external records. People provide context, judgement and flexible interpretation, while records provide stable reference points. Important assumptions still need checking, especially when decisions have significant consequences."
+    },
+    {
+      "id": 19,
+      "type": "matching_headings",
+      "prompt": "Which heading best fits the conclusion?",
+      "options": [
+        "A. Combining people and records",
+        "B. Eliminating human judgement",
+        "C. Avoiding records",
+        "D. Increasing paperwork"
+      ],
+      "answer": "A",
+      "explanation": "The conclusion advocates a combined system.",
+      "passage": "R3",
+      "passage_text": "Teams can develop shared ways of remembering. One person may remember a customer preference while another recalls technical history; together they can reconstruct information that neither could easily retrieve alone. This works best when members understand who is likely to know what.\n\nTechnology can strengthen or weaken this process. Searchable records reduce dependence on personal memory, but excessive documentation can cause people to stop learning information they may need. Teams are also vulnerable to shared errors: repeated incorrect explanations can increase confidence without improving accuracy.\n\nThe strongest systems combine human knowledge with external records. People provide context, judgement and flexible interpretation, while records provide stable reference points. Important assumptions still need checking, especially when decisions have significant consequences."
+    },
+    {
+      "id": 20,
+      "type": "multiple_choice",
+      "prompt": "What do people contribute that records may not?",
+      "options": [
+        "Context and judgement",
+        "Unlimited storage",
+        "Automatic indexing",
+        "Guaranteed accuracy"
+      ],
+      "answer": "A",
+      "explanation": "Those are explicitly identified human contributions.",
+      "passage": "R3",
+      "passage_text": "Teams can develop shared ways of remembering. One person may remember a customer preference while another recalls technical history; together they can reconstruct information that neither could easily retrieve alone. This works best when members understand who is likely to know what.\n\nTechnology can strengthen or weaken this process. Searchable records reduce dependence on personal memory, but excessive documentation can cause people to stop learning information they may need. Teams are also vulnerable to shared errors: repeated incorrect explanations can increase confidence without improving accuracy.\n\nThe strongest systems combine human knowledge with external records. People provide context, judgement and flexible interpretation, while records provide stable reference points. Important assumptions still need checking, especially when decisions have significant consequences."
+    },
+    {
+      "id": 21,
+      "type": "multiple_choice",
+      "prompt": "Which barrier to repair is mentioned?",
+      "options": [
+        "Confidence",
+        "Weather",
+        "Tourism",
+        "Noise"
+      ],
+      "answer": "A",
+      "explanation": "Confidence is one listed barrier.",
+      "passage": "R1",
+      "passage_text": "For decades, many household products were designed around replacement rather than repair. Recently, however, repair has become more visible through tool libraries, repair cafés and online instruction. These activities can extend the useful life of everyday objects while also transferring practical knowledge between generations.\n\nBusinesses are responding unevenly. Some manufacturers publish repair manuals or sell components directly, but a manual is of little use if a replacement part is unavailable. Researchers therefore distinguish between willingness and opportunity: people may want to repair an item but lack time, tools, information or confidence.\n\nThere is also an environmental argument. Extending a product's life can delay the costs associated with producing and transporting a replacement. The size of that benefit varies by product, so repair is best viewed as one part of a wider strategy for reducing material waste."
+    },
+    {
+      "id": 22,
+      "type": "true_false_ng",
+      "prompt": "Every manufacturer now provides repair manuals.",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "answer": "B",
+      "explanation": "Only some manufacturers are described as doing so.",
+      "passage": "R1",
+      "passage_text": "For decades, many household products were designed around replacement rather than repair. Recently, however, repair has become more visible through tool libraries, repair cafés and online instruction. These activities can extend the useful life of everyday objects while also transferring practical knowledge between generations.\n\nBusinesses are responding unevenly. Some manufacturers publish repair manuals or sell components directly, but a manual is of little use if a replacement part is unavailable. Researchers therefore distinguish between willingness and opportunity: people may want to repair an item but lack time, tools, information or confidence.\n\nThere is also an environmental argument. Extending a product's life can delay the costs associated with producing and transporting a replacement. The size of that benefit varies by product, so repair is best viewed as one part of a wider strategy for reducing material waste."
+    },
+    {
+      "id": 23,
+      "type": "sentence_completion",
+      "prompt": "Repair can delay the environmental costs of producing a ______ product.",
+      "options": [
+        "replacement",
+        "digital",
+        "local",
+        "wooden"
+      ],
+      "answer": "A",
+      "explanation": "The passage refers to producing a replacement.",
+      "passage": "R1",
+      "passage_text": "For decades, many household products were designed around replacement rather than repair. Recently, however, repair has become more visible through tool libraries, repair cafés and online instruction. These activities can extend the useful life of everyday objects while also transferring practical knowledge between generations.\n\nBusinesses are responding unevenly. Some manufacturers publish repair manuals or sell components directly, but a manual is of little use if a replacement part is unavailable. Researchers therefore distinguish between willingness and opportunity: people may want to repair an item but lack time, tools, information or confidence.\n\nThere is also an environmental argument. Extending a product's life can delay the costs associated with producing and transporting a replacement. The size of that benefit varies by product, so repair is best viewed as one part of a wider strategy for reducing material waste."
+    },
+    {
+      "id": 24,
+      "type": "multiple_choice",
+      "prompt": "Which characteristic varies between tree species?",
+      "options": [
+        "Canopy size",
+        "Whether cities exist",
+        "Whether streets are needed",
+        "The definition of infrastructure"
+      ],
+      "answer": "A",
+      "explanation": "Canopy size is one of several differing characteristics.",
+      "passage": "R2",
+      "passage_text": "Urban trees are increasingly treated as infrastructure rather than decoration. Their canopies can reduce direct sunlight, influence local air movement and help manage rainwater. These benefits matter particularly in dense neighbourhoods dominated by hard surfaces.\n\nSpecies differ in canopy size, growth rate, water needs and pollution tolerance. A fast-growing tree may provide shade quickly but require more maintenance later. Planning must also consider underground pipes, cables and foundations because roots need adequate growing space.\n\nResidents can influence whether tree programmes succeed. During establishment, trees need care and protection. Where residents understand why species and locations were selected, support can be stronger. Effective programmes therefore combine ecological knowledge, engineering constraints and social planning."
+    },
+    {
+      "id": 25,
+      "type": "true_false_ng",
+      "prompt": "Fast-growing trees always need less maintenance later.",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "answer": "B",
+      "explanation": "The text says they may need more maintenance later.",
+      "passage": "R2",
+      "passage_text": "Urban trees are increasingly treated as infrastructure rather than decoration. Their canopies can reduce direct sunlight, influence local air movement and help manage rainwater. These benefits matter particularly in dense neighbourhoods dominated by hard surfaces.\n\nSpecies differ in canopy size, growth rate, water needs and pollution tolerance. A fast-growing tree may provide shade quickly but require more maintenance later. Planning must also consider underground pipes, cables and foundations because roots need adequate growing space.\n\nResidents can influence whether tree programmes succeed. During establishment, trees need care and protection. Where residents understand why species and locations were selected, support can be stronger. Effective programmes therefore combine ecological knowledge, engineering constraints and social planning."
+    },
+    {
+      "id": 26,
+      "type": "sentence_completion",
+      "prompt": "A planting site should provide an adequate growing ______.",
+      "options": [
+        "space",
+        "environment",
+        "schedule",
+        "record"
+      ],
+      "answer": "A",
+      "explanation": "The passage says roots need adequate growing space.",
+      "passage": "R2",
+      "passage_text": "Urban trees are increasingly treated as infrastructure rather than decoration. Their canopies can reduce direct sunlight, influence local air movement and help manage rainwater. These benefits matter particularly in dense neighbourhoods dominated by hard surfaces.\n\nSpecies differ in canopy size, growth rate, water needs and pollution tolerance. A fast-growing tree may provide shade quickly but require more maintenance later. Planning must also consider underground pipes, cables and foundations because roots need adequate growing space.\n\nResidents can influence whether tree programmes succeed. During establishment, trees need care and protection. Where residents understand why species and locations were selected, support can be stronger. Effective programmes therefore combine ecological knowledge, engineering constraints and social planning."
+    },
+    {
+      "id": 27,
+      "type": "multiple_choice",
+      "prompt": "Public communication is described as:",
+      "options": [
+        "Part of the programme",
+        "A replacement for engineering",
+        "Unnecessary",
+        "Only advertising"
+      ],
+      "answer": "A",
+      "explanation": "Communication is part of successful planning.",
+      "passage": "R2",
+      "passage_text": "Urban trees are increasingly treated as infrastructure rather than decoration. Their canopies can reduce direct sunlight, influence local air movement and help manage rainwater. These benefits matter particularly in dense neighbourhoods dominated by hard surfaces.\n\nSpecies differ in canopy size, growth rate, water needs and pollution tolerance. A fast-growing tree may provide shade quickly but require more maintenance later. Planning must also consider underground pipes, cables and foundations because roots need adequate growing space.\n\nResidents can influence whether tree programmes succeed. During establishment, trees need care and protection. Where residents understand why species and locations were selected, support can be stronger. Effective programmes therefore combine ecological knowledge, engineering constraints and social planning."
+    },
+    {
+      "id": 28,
+      "type": "true_false_ng",
+      "prompt": "Urban tree planning depends only on ecological knowledge.",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "answer": "B",
+      "explanation": "Engineering and social planning are also required.",
+      "passage": "R2",
+      "passage_text": "Urban trees are increasingly treated as infrastructure rather than decoration. Their canopies can reduce direct sunlight, influence local air movement and help manage rainwater. These benefits matter particularly in dense neighbourhoods dominated by hard surfaces.\n\nSpecies differ in canopy size, growth rate, water needs and pollution tolerance. A fast-growing tree may provide shade quickly but require more maintenance later. Planning must also consider underground pipes, cables and foundations because roots need adequate growing space.\n\nResidents can influence whether tree programmes succeed. During establishment, trees need care and protection. Where residents understand why species and locations were selected, support can be stronger. Effective programmes therefore combine ecological knowledge, engineering constraints and social planning."
+    },
+    {
+      "id": 29,
+      "type": "multiple_choice",
+      "prompt": "What might one team member remember?",
+      "options": [
+        "A customer preference",
+        "Every password",
+        "A weather forecast",
+        "A tree species"
+      ],
+      "answer": "A",
+      "explanation": "A customer preference is the opening example.",
+      "passage": "R3",
+      "passage_text": "Teams can develop shared ways of remembering. One person may remember a customer preference while another recalls technical history; together they can reconstruct information that neither could easily retrieve alone. This works best when members understand who is likely to know what.\n\nTechnology can strengthen or weaken this process. Searchable records reduce dependence on personal memory, but excessive documentation can cause people to stop learning information they may need. Teams are also vulnerable to shared errors: repeated incorrect explanations can increase confidence without improving accuracy.\n\nThe strongest systems combine human knowledge with external records. People provide context, judgement and flexible interpretation, while records provide stable reference points. Important assumptions still need checking, especially when decisions have significant consequences."
+    },
+    {
+      "id": 30,
+      "type": "true_false_ng",
+      "prompt": "A transactive memory system means every member knows identical facts.",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "answer": "B",
+      "explanation": "It concerns locating knowledge across members.",
+      "passage": "R3",
+      "passage_text": "Teams can develop shared ways of remembering. One person may remember a customer preference while another recalls technical history; together they can reconstruct information that neither could easily retrieve alone. This works best when members understand who is likely to know what.\n\nTechnology can strengthen or weaken this process. Searchable records reduce dependence on personal memory, but excessive documentation can cause people to stop learning information they may need. Teams are also vulnerable to shared errors: repeated incorrect explanations can increase confidence without improving accuracy.\n\nThe strongest systems combine human knowledge with external records. People provide context, judgement and flexible interpretation, while records provide stable reference points. Important assumptions still need checking, especially when decisions have significant consequences."
+    },
+    {
+      "id": 31,
+      "type": "sentence_completion",
+      "prompt": "Searchable records can reduce dependence on personal ______.",
+      "options": [
+        "memory",
+        "judgement",
+        "context",
+        "planning"
+      ],
+      "answer": "A",
+      "explanation": "The passage explicitly says personal memory.",
+      "passage": "R3",
+      "passage_text": "Teams can develop shared ways of remembering. One person may remember a customer preference while another recalls technical history; together they can reconstruct information that neither could easily retrieve alone. This works best when members understand who is likely to know what.\n\nTechnology can strengthen or weaken this process. Searchable records reduce dependence on personal memory, but excessive documentation can cause people to stop learning information they may need. Teams are also vulnerable to shared errors: repeated incorrect explanations can increase confidence without improving accuracy.\n\nThe strongest systems combine human knowledge with external records. People provide context, judgement and flexible interpretation, while records provide stable reference points. Important assumptions still need checking, especially when decisions have significant consequences."
+    },
+    {
+      "id": 32,
+      "type": "multiple_choice",
+      "prompt": "What should teams do with important assumptions?",
+      "options": [
+        "Ignore them",
+        "Check them",
+        "Delete them",
+        "Publish them"
+      ],
+      "answer": "B",
+      "explanation": "The passage recommends checking important assumptions.",
+      "passage": "R3",
+      "passage_text": "Teams can develop shared ways of remembering. One person may remember a customer preference while another recalls technical history; together they can reconstruct information that neither could easily retrieve alone. This works best when members understand who is likely to know what.\n\nTechnology can strengthen or weaken this process. Searchable records reduce dependence on personal memory, but excessive documentation can cause people to stop learning information they may need. Teams are also vulnerable to shared errors: repeated incorrect explanations can increase confidence without improving accuracy.\n\nThe strongest systems combine human knowledge with external records. People provide context, judgement and flexible interpretation, while records provide stable reference points. Important assumptions still need checking, especially when decisions have significant consequences."
+    },
+    {
+      "id": 33,
+      "type": "multiple_choice",
+      "prompt": "What is the strongest overall system?",
+      "options": [
+        "Memory alone",
+        "Records alone",
+        "Human knowledge plus records",
+        "No system"
+      ],
+      "answer": "C",
+      "explanation": "The conclusion supports combining both.",
+      "passage": "R3",
+      "passage_text": "Teams can develop shared ways of remembering. One person may remember a customer preference while another recalls technical history; together they can reconstruct information that neither could easily retrieve alone. This works best when members understand who is likely to know what.\n\nTechnology can strengthen or weaken this process. Searchable records reduce dependence on personal memory, but excessive documentation can cause people to stop learning information they may need. Teams are also vulnerable to shared errors: repeated incorrect explanations can increase confidence without improving accuracy.\n\nThe strongest systems combine human knowledge with external records. People provide context, judgement and flexible interpretation, while records provide stable reference points. Important assumptions still need checking, especially when decisions have significant consequences."
+    },
+    {
+      "id": 34,
+      "type": "matching_information",
+      "prompt": "Which passage discusses material waste?",
+      "options": [
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "answer": "A",
+      "explanation": "R1 discusses reducing material waste.",
+      "passage": "R1",
+      "passage_text": "For decades, many household products were designed around replacement rather than repair. Recently, however, repair has become more visible through tool libraries, repair cafés and online instruction. These activities can extend the useful life of everyday objects while also transferring practical knowledge between generations.\n\nBusinesses are responding unevenly. Some manufacturers publish repair manuals or sell components directly, but a manual is of little use if a replacement part is unavailable. Researchers therefore distinguish between willingness and opportunity: people may want to repair an item but lack time, tools, information or confidence.\n\nThere is also an environmental argument. Extending a product's life can delay the costs associated with producing and transporting a replacement. The size of that benefit varies by product, so repair is best viewed as one part of a wider strategy for reducing material waste."
+    },
+    {
+      "id": 35,
+      "type": "matching_information",
+      "prompt": "Which passage discusses resident support?",
+      "options": [
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "answer": "B",
+      "explanation": "R2 discusses residents and support.",
+      "passage": "R2",
+      "passage_text": "Urban trees are increasingly treated as infrastructure rather than decoration. Their canopies can reduce direct sunlight, influence local air movement and help manage rainwater. These benefits matter particularly in dense neighbourhoods dominated by hard surfaces.\n\nSpecies differ in canopy size, growth rate, water needs and pollution tolerance. A fast-growing tree may provide shade quickly but require more maintenance later. Planning must also consider underground pipes, cables and foundations because roots need adequate growing space.\n\nResidents can influence whether tree programmes succeed. During establishment, trees need care and protection. Where residents understand why species and locations were selected, support can be stronger. Effective programmes therefore combine ecological knowledge, engineering constraints and social planning."
+    },
+    {
+      "id": 36,
+      "type": "matching_information",
+      "prompt": "Which passage discusses shared error?",
+      "options": [
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "answer": "C",
+      "explanation": "R3 discusses repeated incorrect explanations.",
+      "passage": "R3",
+      "passage_text": "Teams can develop shared ways of remembering. One person may remember a customer preference while another recalls technical history; together they can reconstruct information that neither could easily retrieve alone. This works best when members understand who is likely to know what.\n\nTechnology can strengthen or weaken this process. Searchable records reduce dependence on personal memory, but excessive documentation can cause people to stop learning information they may need. Teams are also vulnerable to shared errors: repeated incorrect explanations can increase confidence without improving accuracy.\n\nThe strongest systems combine human knowledge with external records. People provide context, judgement and flexible interpretation, while records provide stable reference points. Important assumptions still need checking, especially when decisions have significant consequences."
+    },
+    {
+      "id": 37,
+      "type": "multiple_choice",
+      "prompt": "Which passage focuses on extending product life?",
+      "options": [
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "answer": "A",
+      "explanation": "R1 focuses on repair and product life.",
+      "passage": "R1",
+      "passage_text": "For decades, many household products were designed around replacement rather than repair. Recently, however, repair has become more visible through tool libraries, repair cafés and online instruction. These activities can extend the useful life of everyday objects while also transferring practical knowledge between generations.\n\nBusinesses are responding unevenly. Some manufacturers publish repair manuals or sell components directly, but a manual is of little use if a replacement part is unavailable. Researchers therefore distinguish between willingness and opportunity: people may want to repair an item but lack time, tools, information or confidence.\n\nThere is also an environmental argument. Extending a product's life can delay the costs associated with producing and transporting a replacement. The size of that benefit varies by product, so repair is best viewed as one part of a wider strategy for reducing material waste."
+    },
+    {
+      "id": 38,
+      "type": "multiple_choice",
+      "prompt": "Which passage focuses on city planning?",
+      "options": [
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "answer": "B",
+      "explanation": "R2 focuses on urban trees and planning.",
+      "passage": "R2",
+      "passage_text": "Urban trees are increasingly treated as infrastructure rather than decoration. Their canopies can reduce direct sunlight, influence local air movement and help manage rainwater. These benefits matter particularly in dense neighbourhoods dominated by hard surfaces.\n\nSpecies differ in canopy size, growth rate, water needs and pollution tolerance. A fast-growing tree may provide shade quickly but require more maintenance later. Planning must also consider underground pipes, cables and foundations because roots need adequate growing space.\n\nResidents can influence whether tree programmes succeed. During establishment, trees need care and protection. Where residents understand why species and locations were selected, support can be stronger. Effective programmes therefore combine ecological knowledge, engineering constraints and social planning."
+    },
+    {
+      "id": 39,
+      "type": "multiple_choice",
+      "prompt": "Which passage focuses on organisational knowledge?",
+      "options": [
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "answer": "C",
+      "explanation": "R3 focuses on team memory.",
+      "passage": "R3",
+      "passage_text": "Teams can develop shared ways of remembering. One person may remember a customer preference while another recalls technical history; together they can reconstruct information that neither could easily retrieve alone. This works best when members understand who is likely to know what.\n\nTechnology can strengthen or weaken this process. Searchable records reduce dependence on personal memory, but excessive documentation can cause people to stop learning information they may need. Teams are also vulnerable to shared errors: repeated incorrect explanations can increase confidence without improving accuracy.\n\nThe strongest systems combine human knowledge with external records. People provide context, judgement and flexible interpretation, while records provide stable reference points. Important assumptions still need checking, especially when decisions have significant consequences."
+    }
+  ],
+  "general_reading": [
+    {
+      "id": 1,
+      "type": "multiple_choice",
+      "prompt": "What is one purpose of repair events?",
+      "options": [
+        "To sell new products",
+        "To transfer practical knowledge",
+        "To replace manufacturers",
+        "To reduce online learning"
+      ],
+      "answer": "B",
+      "explanation": "They can transfer practical knowledge.",
+      "passage": "R1",
+      "passage_text": "For decades, many household products were designed around replacement rather than repair. Recently, however, repair has become more visible through tool libraries, repair cafés and online instruction. These activities can extend the useful life of everyday objects while also transferring practical knowledge between generations.\n\nBusinesses are responding unevenly. Some manufacturers publish repair manuals or sell components directly, but a manual is of little use if a replacement part is unavailable. Researchers therefore distinguish between willingness and opportunity: people may want to repair an item but lack time, tools, information or confidence.\n\nThere is also an environmental argument. Extending a product's life can delay the costs associated with producing and transporting a replacement. The size of that benefit varies by product, so repair is best viewed as one part of a wider strategy for reducing material waste."
+    },
+    {
+      "id": 2,
+      "type": "true_false_ng",
+      "prompt": "The repair movement is presented as being only about saving money.",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "answer": "B",
+      "explanation": "The passage gives knowledge transfer and environmental reasons too.",
+      "passage": "R1",
+      "passage_text": "For decades, many household products were designed around replacement rather than repair. Recently, however, repair has become more visible through tool libraries, repair cafés and online instruction. These activities can extend the useful life of everyday objects while also transferring practical knowledge between generations.\n\nBusinesses are responding unevenly. Some manufacturers publish repair manuals or sell components directly, but a manual is of little use if a replacement part is unavailable. Researchers therefore distinguish between willingness and opportunity: people may want to repair an item but lack time, tools, information or confidence.\n\nThere is also an environmental argument. Extending a product's life can delay the costs associated with producing and transporting a replacement. The size of that benefit varies by product, so repair is best viewed as one part of a wider strategy for reducing material waste."
+    },
+    {
+      "id": 3,
+      "type": "matching_headings",
+      "prompt": "Which heading best fits the paragraph about willingness and opportunity?",
+      "options": [
+        "A. Motivation is not enough",
+        "B. Urban planting",
+        "C. Product pricing",
+        "D. Team memory"
+      ],
+      "answer": "A",
+      "explanation": "That paragraph lists practical barriers to repair.",
+      "passage": "R1",
+      "passage_text": "For decades, many household products were designed around replacement rather than repair. Recently, however, repair has become more visible through tool libraries, repair cafés and online instruction. These activities can extend the useful life of everyday objects while also transferring practical knowledge between generations.\n\nBusinesses are responding unevenly. Some manufacturers publish repair manuals or sell components directly, but a manual is of little use if a replacement part is unavailable. Researchers therefore distinguish between willingness and opportunity: people may want to repair an item but lack time, tools, information or confidence.\n\nThere is also an environmental argument. Extending a product's life can delay the costs associated with producing and transporting a replacement. The size of that benefit varies by product, so repair is best viewed as one part of a wider strategy for reducing material waste."
+    },
+    {
+      "id": 4,
+      "type": "sentence_completion",
+      "prompt": "Researchers distinguish between willingness and ______.",
+      "options": [
+        "opportunity",
+        "confidence",
+        "recycling",
+        "transport"
+      ],
+      "answer": "A",
+      "explanation": "The passage uses the phrase willingness and opportunity.",
+      "passage": "R1",
+      "passage_text": "For decades, many household products were designed around replacement rather than repair. Recently, however, repair has become more visible through tool libraries, repair cafés and online instruction. These activities can extend the useful life of everyday objects while also transferring practical knowledge between generations.\n\nBusinesses are responding unevenly. Some manufacturers publish repair manuals or sell components directly, but a manual is of little use if a replacement part is unavailable. Researchers therefore distinguish between willingness and opportunity: people may want to repair an item but lack time, tools, information or confidence.\n\nThere is also an environmental argument. Extending a product's life can delay the costs associated with producing and transporting a replacement. The size of that benefit varies by product, so repair is best viewed as one part of a wider strategy for reducing material waste."
+    },
+    {
+      "id": 5,
+      "type": "multiple_choice",
+      "prompt": "Why might a repair manual be insufficient?",
+      "options": [
+        "It may be too expensive",
+        "It may be unavailable",
+        "A replacement part may be unavailable",
+        "It may increase energy use"
+      ],
+      "answer": "C",
+      "explanation": "A manual cannot solve an unavailable-parts problem.",
+      "passage": "R1",
+      "passage_text": "For decades, many household products were designed around replacement rather than repair. Recently, however, repair has become more visible through tool libraries, repair cafés and online instruction. These activities can extend the useful life of everyday objects while also transferring practical knowledge between generations.\n\nBusinesses are responding unevenly. Some manufacturers publish repair manuals or sell components directly, but a manual is of little use if a replacement part is unavailable. Researchers therefore distinguish between willingness and opportunity: people may want to repair an item but lack time, tools, information or confidence.\n\nThere is also an environmental argument. Extending a product's life can delay the costs associated with producing and transporting a replacement. The size of that benefit varies by product, so repair is best viewed as one part of a wider strategy for reducing material waste."
+    },
+    {
+      "id": 6,
+      "type": "true_false_ng",
+      "prompt": "The environmental benefit of repair is identical for every product.",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "answer": "B",
+      "explanation": "The text says the benefit varies by product.",
+      "passage": "R1",
+      "passage_text": "For decades, many household products were designed around replacement rather than repair. Recently, however, repair has become more visible through tool libraries, repair cafés and online instruction. These activities can extend the useful life of everyday objects while also transferring practical knowledge between generations.\n\nBusinesses are responding unevenly. Some manufacturers publish repair manuals or sell components directly, but a manual is of little use if a replacement part is unavailable. Researchers therefore distinguish between willingness and opportunity: people may want to repair an item but lack time, tools, information or confidence.\n\nThere is also an environmental argument. Extending a product's life can delay the costs associated with producing and transporting a replacement. The size of that benefit varies by product, so repair is best viewed as one part of a wider strategy for reducing material waste."
+    },
+    {
+      "id": 7,
+      "type": "multiple_choice",
+      "prompt": "What is the main point of the final sentence?",
+      "options": [
+        "Repair is the only solution",
+        "Repair is one part of a wider strategy",
+        "Manufacturing should stop",
+        "Recycling has no value"
+      ],
+      "answer": "B",
+      "explanation": "Repair is presented as one component of waste reduction.",
+      "passage": "R1",
+      "passage_text": "For decades, many household products were designed around replacement rather than repair. Recently, however, repair has become more visible through tool libraries, repair cafés and online instruction. These activities can extend the useful life of everyday objects while also transferring practical knowledge between generations.\n\nBusinesses are responding unevenly. Some manufacturers publish repair manuals or sell components directly, but a manual is of little use if a replacement part is unavailable. Researchers therefore distinguish between willingness and opportunity: people may want to repair an item but lack time, tools, information or confidence.\n\nThere is also an environmental argument. Extending a product's life can delay the costs associated with producing and transporting a replacement. The size of that benefit varies by product, so repair is best viewed as one part of a wider strategy for reducing material waste."
+    },
+    {
+      "id": 8,
+      "type": "matching_information",
+      "prompt": "Which paragraph mentions knowledge transfer between generations?",
+      "options": [
+        "Paragraph 1",
+        "Paragraph 2",
+        "Paragraph 3"
+      ],
+      "answer": "A",
+      "explanation": "The first paragraph mentions intergenerational knowledge transfer.",
+      "passage": "R1",
+      "passage_text": "For decades, many household products were designed around replacement rather than repair. Recently, however, repair has become more visible through tool libraries, repair cafés and online instruction. These activities can extend the useful life of everyday objects while also transferring practical knowledge between generations.\n\nBusinesses are responding unevenly. Some manufacturers publish repair manuals or sell components directly, but a manual is of little use if a replacement part is unavailable. Researchers therefore distinguish between willingness and opportunity: people may want to repair an item but lack time, tools, information or confidence.\n\nThere is also an environmental argument. Extending a product's life can delay the costs associated with producing and transporting a replacement. The size of that benefit varies by product, so repair is best viewed as one part of a wider strategy for reducing material waste."
+    },
+    {
+      "id": 9,
+      "type": "multiple_choice",
+      "prompt": "Why are urban trees treated as infrastructure?",
+      "options": [
+        "They need no care",
+        "They provide functional urban benefits",
+        "They replace roads",
+        "They eliminate pollution"
+      ],
+      "answer": "B",
+      "explanation": "The passage identifies shade, air movement and rainwater benefits.",
+      "passage": "R2",
+      "passage_text": "Urban trees are increasingly treated as infrastructure rather than decoration. Their canopies can reduce direct sunlight, influence local air movement and help manage rainwater. These benefits matter particularly in dense neighbourhoods dominated by hard surfaces.\n\nSpecies differ in canopy size, growth rate, water needs and pollution tolerance. A fast-growing tree may provide shade quickly but require more maintenance later. Planning must also consider underground pipes, cables and foundations because roots need adequate growing space.\n\nResidents can influence whether tree programmes succeed. During establishment, trees need care and protection. Where residents understand why species and locations were selected, support can be stronger. Effective programmes therefore combine ecological knowledge, engineering constraints and social planning."
+    },
+    {
+      "id": 10,
+      "type": "true_false_ng",
+      "prompt": "All tree species are equally suitable for every street.",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "answer": "B",
+      "explanation": "Species characteristics differ.",
+      "passage": "R2",
+      "passage_text": "Urban trees are increasingly treated as infrastructure rather than decoration. Their canopies can reduce direct sunlight, influence local air movement and help manage rainwater. These benefits matter particularly in dense neighbourhoods dominated by hard surfaces.\n\nSpecies differ in canopy size, growth rate, water needs and pollution tolerance. A fast-growing tree may provide shade quickly but require more maintenance later. Planning must also consider underground pipes, cables and foundations because roots need adequate growing space.\n\nResidents can influence whether tree programmes succeed. During establishment, trees need care and protection. Where residents understand why species and locations were selected, support can be stronger. Effective programmes therefore combine ecological knowledge, engineering constraints and social planning."
+    },
+    {
+      "id": 11,
+      "type": "sentence_completion",
+      "prompt": "Roots may compete with pipes, cables and ______.",
+      "options": [
+        "roads",
+        "foundations",
+        "vehicles",
+        "lights"
+      ],
+      "answer": "B",
+      "explanation": "Foundations are specifically mentioned.",
+      "passage": "R2",
+      "passage_text": "Urban trees are increasingly treated as infrastructure rather than decoration. Their canopies can reduce direct sunlight, influence local air movement and help manage rainwater. These benefits matter particularly in dense neighbourhoods dominated by hard surfaces.\n\nSpecies differ in canopy size, growth rate, water needs and pollution tolerance. A fast-growing tree may provide shade quickly but require more maintenance later. Planning must also consider underground pipes, cables and foundations because roots need adequate growing space.\n\nResidents can influence whether tree programmes succeed. During establishment, trees need care and protection. Where residents understand why species and locations were selected, support can be stronger. Effective programmes therefore combine ecological knowledge, engineering constraints and social planning."
+    },
+    {
+      "id": 12,
+      "type": "multiple_choice",
+      "prompt": "What can strengthen residents' support?",
+      "options": [
+        "Avoiding communication",
+        "Explaining species and location choices",
+        "Planting only fast-growing trees",
+        "Removing all objections"
+      ],
+      "answer": "B",
+      "explanation": "Understanding the choices can strengthen support.",
+      "passage": "R2",
+      "passage_text": "Urban trees are increasingly treated as infrastructure rather than decoration. Their canopies can reduce direct sunlight, influence local air movement and help manage rainwater. These benefits matter particularly in dense neighbourhoods dominated by hard surfaces.\n\nSpecies differ in canopy size, growth rate, water needs and pollution tolerance. A fast-growing tree may provide shade quickly but require more maintenance later. Planning must also consider underground pipes, cables and foundations because roots need adequate growing space.\n\nResidents can influence whether tree programmes succeed. During establishment, trees need care and protection. Where residents understand why species and locations were selected, support can be stronger. Effective programmes therefore combine ecological knowledge, engineering constraints and social planning."
+    },
+    {
+      "id": 13,
+      "type": "multiple_choice",
+      "prompt": "What does the final sentence imply?",
+      "options": [
+        "Planting numbers are everything",
+        "Good planning combines several types of knowledge",
+        "Trees require no engineering",
+        "Social issues are irrelevant"
+      ],
+      "answer": "B",
+      "explanation": "Ecological, engineering and social planning are combined.",
+      "passage": "R2",
+      "passage_text": "Urban trees are increasingly treated as infrastructure rather than decoration. Their canopies can reduce direct sunlight, influence local air movement and help manage rainwater. These benefits matter particularly in dense neighbourhoods dominated by hard surfaces.\n\nSpecies differ in canopy size, growth rate, water needs and pollution tolerance. A fast-growing tree may provide shade quickly but require more maintenance later. Planning must also consider underground pipes, cables and foundations because roots need adequate growing space.\n\nResidents can influence whether tree programmes succeed. During establishment, trees need care and protection. Where residents understand why species and locations were selected, support can be stronger. Effective programmes therefore combine ecological knowledge, engineering constraints and social planning."
+    },
+    {
+      "id": 14,
+      "type": "matching_information",
+      "prompt": "Which paragraph discusses underground space?",
+      "options": [
+        "Paragraph 1",
+        "Paragraph 2",
+        "Paragraph 3"
+      ],
+      "answer": "B",
+      "explanation": "The second paragraph discusses roots and infrastructure.",
+      "passage": "R2",
+      "passage_text": "Urban trees are increasingly treated as infrastructure rather than decoration. Their canopies can reduce direct sunlight, influence local air movement and help manage rainwater. These benefits matter particularly in dense neighbourhoods dominated by hard surfaces.\n\nSpecies differ in canopy size, growth rate, water needs and pollution tolerance. A fast-growing tree may provide shade quickly but require more maintenance later. Planning must also consider underground pipes, cables and foundations because roots need adequate growing space.\n\nResidents can influence whether tree programmes succeed. During establishment, trees need care and protection. Where residents understand why species and locations were selected, support can be stronger. Effective programmes therefore combine ecological knowledge, engineering constraints and social planning."
+    },
+    {
+      "id": 15,
+      "type": "multiple_choice",
+      "prompt": "What is a transactive memory system in practice?",
+      "options": [
+        "Everyone memorises the same facts",
+        "A group knows where knowledge is located",
+        "A digital backup",
+        "A test of individual memory"
+      ],
+      "answer": "B",
+      "explanation": "Members learn who is likely to know what.",
+      "passage": "R3",
+      "passage_text": "Teams can develop shared ways of remembering. One person may remember a customer preference while another recalls technical history; together they can reconstruct information that neither could easily retrieve alone. This works best when members understand who is likely to know what.\n\nTechnology can strengthen or weaken this process. Searchable records reduce dependence on personal memory, but excessive documentation can cause people to stop learning information they may need. Teams are also vulnerable to shared errors: repeated incorrect explanations can increase confidence without improving accuracy.\n\nThe strongest systems combine human knowledge with external records. People provide context, judgement and flexible interpretation, while records provide stable reference points. Important assumptions still need checking, especially when decisions have significant consequences."
+    },
+    {
+      "id": 16,
+      "type": "true_false_ng",
+      "prompt": "Technology always improves team memory.",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "answer": "B",
+      "explanation": "Technology can strengthen or weaken it.",
+      "passage": "R3",
+      "passage_text": "Teams can develop shared ways of remembering. One person may remember a customer preference while another recalls technical history; together they can reconstruct information that neither could easily retrieve alone. This works best when members understand who is likely to know what.\n\nTechnology can strengthen or weaken this process. Searchable records reduce dependence on personal memory, but excessive documentation can cause people to stop learning information they may need. Teams are also vulnerable to shared errors: repeated incorrect explanations can increase confidence without improving accuracy.\n\nThe strongest systems combine human knowledge with external records. People provide context, judgement and flexible interpretation, while records provide stable reference points. Important assumptions still need checking, especially when decisions have significant consequences."
+    },
+    {
+      "id": 17,
+      "type": "sentence_completion",
+      "prompt": "Excessive documentation may cause people to stop ______ information themselves.",
+      "options": [
+        "learning",
+        "checking",
+        "sharing",
+        "printing"
+      ],
+      "answer": "A",
+      "explanation": "The passage warns that people may stop learning information.",
+      "passage": "R3",
+      "passage_text": "Teams can develop shared ways of remembering. One person may remember a customer preference while another recalls technical history; together they can reconstruct information that neither could easily retrieve alone. This works best when members understand who is likely to know what.\n\nTechnology can strengthen or weaken this process. Searchable records reduce dependence on personal memory, but excessive documentation can cause people to stop learning information they may need. Teams are also vulnerable to shared errors: repeated incorrect explanations can increase confidence without improving accuracy.\n\nThe strongest systems combine human knowledge with external records. People provide context, judgement and flexible interpretation, while records provide stable reference points. Important assumptions still need checking, especially when decisions have significant consequences."
+    },
+    {
+      "id": 18,
+      "type": "multiple_choice",
+      "prompt": "Why can shared errors be dangerous?",
+      "options": [
+        "They improve accuracy",
+        "Confidence can rise without accuracy improving",
+        "They reduce storage",
+        "They remove judgement"
+      ],
+      "answer": "B",
+      "explanation": "Repeated errors can become more confidently believed.",
+      "passage": "R3",
+      "passage_text": "Teams can develop shared ways of remembering. One person may remember a customer preference while another recalls technical history; together they can reconstruct information that neither could easily retrieve alone. This works best when members understand who is likely to know what.\n\nTechnology can strengthen or weaken this process. Searchable records reduce dependence on personal memory, but excessive documentation can cause people to stop learning information they may need. Teams are also vulnerable to shared errors: repeated incorrect explanations can increase confidence without improving accuracy.\n\nThe strongest systems combine human knowledge with external records. People provide context, judgement and flexible interpretation, while records provide stable reference points. Important assumptions still need checking, especially when decisions have significant consequences."
+    },
+    {
+      "id": 19,
+      "type": "matching_headings",
+      "prompt": "Which heading best fits the conclusion?",
+      "options": [
+        "A. Combining people and records",
+        "B. Eliminating human judgement",
+        "C. Avoiding records",
+        "D. Increasing paperwork"
+      ],
+      "answer": "A",
+      "explanation": "The conclusion advocates a combined system.",
+      "passage": "R3",
+      "passage_text": "Teams can develop shared ways of remembering. One person may remember a customer preference while another recalls technical history; together they can reconstruct information that neither could easily retrieve alone. This works best when members understand who is likely to know what.\n\nTechnology can strengthen or weaken this process. Searchable records reduce dependence on personal memory, but excessive documentation can cause people to stop learning information they may need. Teams are also vulnerable to shared errors: repeated incorrect explanations can increase confidence without improving accuracy.\n\nThe strongest systems combine human knowledge with external records. People provide context, judgement and flexible interpretation, while records provide stable reference points. Important assumptions still need checking, especially when decisions have significant consequences."
+    },
+    {
+      "id": 20,
+      "type": "multiple_choice",
+      "prompt": "What do people contribute that records may not?",
+      "options": [
+        "Context and judgement",
+        "Unlimited storage",
+        "Automatic indexing",
+        "Guaranteed accuracy"
+      ],
+      "answer": "A",
+      "explanation": "Those are explicitly identified human contributions.",
+      "passage": "R3",
+      "passage_text": "Teams can develop shared ways of remembering. One person may remember a customer preference while another recalls technical history; together they can reconstruct information that neither could easily retrieve alone. This works best when members understand who is likely to know what.\n\nTechnology can strengthen or weaken this process. Searchable records reduce dependence on personal memory, but excessive documentation can cause people to stop learning information they may need. Teams are also vulnerable to shared errors: repeated incorrect explanations can increase confidence without improving accuracy.\n\nThe strongest systems combine human knowledge with external records. People provide context, judgement and flexible interpretation, while records provide stable reference points. Important assumptions still need checking, especially when decisions have significant consequences."
+    },
+    {
+      "id": 21,
+      "type": "multiple_choice",
+      "prompt": "Which barrier to repair is mentioned?",
+      "options": [
+        "Confidence",
+        "Weather",
+        "Tourism",
+        "Noise"
+      ],
+      "answer": "A",
+      "explanation": "Confidence is one listed barrier.",
+      "passage": "R1",
+      "passage_text": "For decades, many household products were designed around replacement rather than repair. Recently, however, repair has become more visible through tool libraries, repair cafés and online instruction. These activities can extend the useful life of everyday objects while also transferring practical knowledge between generations.\n\nBusinesses are responding unevenly. Some manufacturers publish repair manuals or sell components directly, but a manual is of little use if a replacement part is unavailable. Researchers therefore distinguish between willingness and opportunity: people may want to repair an item but lack time, tools, information or confidence.\n\nThere is also an environmental argument. Extending a product's life can delay the costs associated with producing and transporting a replacement. The size of that benefit varies by product, so repair is best viewed as one part of a wider strategy for reducing material waste."
+    },
+    {
+      "id": 22,
+      "type": "true_false_ng",
+      "prompt": "Every manufacturer now provides repair manuals.",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "answer": "B",
+      "explanation": "Only some manufacturers are described as doing so.",
+      "passage": "R1",
+      "passage_text": "For decades, many household products were designed around replacement rather than repair. Recently, however, repair has become more visible through tool libraries, repair cafés and online instruction. These activities can extend the useful life of everyday objects while also transferring practical knowledge between generations.\n\nBusinesses are responding unevenly. Some manufacturers publish repair manuals or sell components directly, but a manual is of little use if a replacement part is unavailable. Researchers therefore distinguish between willingness and opportunity: people may want to repair an item but lack time, tools, information or confidence.\n\nThere is also an environmental argument. Extending a product's life can delay the costs associated with producing and transporting a replacement. The size of that benefit varies by product, so repair is best viewed as one part of a wider strategy for reducing material waste."
+    },
+    {
+      "id": 23,
+      "type": "sentence_completion",
+      "prompt": "Repair can delay the environmental costs of producing a ______ product.",
+      "options": [
+        "replacement",
+        "digital",
+        "local",
+        "wooden"
+      ],
+      "answer": "A",
+      "explanation": "The passage refers to producing a replacement.",
+      "passage": "R1",
+      "passage_text": "For decades, many household products were designed around replacement rather than repair. Recently, however, repair has become more visible through tool libraries, repair cafés and online instruction. These activities can extend the useful life of everyday objects while also transferring practical knowledge between generations.\n\nBusinesses are responding unevenly. Some manufacturers publish repair manuals or sell components directly, but a manual is of little use if a replacement part is unavailable. Researchers therefore distinguish between willingness and opportunity: people may want to repair an item but lack time, tools, information or confidence.\n\nThere is also an environmental argument. Extending a product's life can delay the costs associated with producing and transporting a replacement. The size of that benefit varies by product, so repair is best viewed as one part of a wider strategy for reducing material waste."
+    },
+    {
+      "id": 24,
+      "type": "multiple_choice",
+      "prompt": "Which characteristic varies between tree species?",
+      "options": [
+        "Canopy size",
+        "Whether cities exist",
+        "Whether streets are needed",
+        "The definition of infrastructure"
+      ],
+      "answer": "A",
+      "explanation": "Canopy size is one of several differing characteristics.",
+      "passage": "R2",
+      "passage_text": "Urban trees are increasingly treated as infrastructure rather than decoration. Their canopies can reduce direct sunlight, influence local air movement and help manage rainwater. These benefits matter particularly in dense neighbourhoods dominated by hard surfaces.\n\nSpecies differ in canopy size, growth rate, water needs and pollution tolerance. A fast-growing tree may provide shade quickly but require more maintenance later. Planning must also consider underground pipes, cables and foundations because roots need adequate growing space.\n\nResidents can influence whether tree programmes succeed. During establishment, trees need care and protection. Where residents understand why species and locations were selected, support can be stronger. Effective programmes therefore combine ecological knowledge, engineering constraints and social planning."
+    },
+    {
+      "id": 25,
+      "type": "true_false_ng",
+      "prompt": "Fast-growing trees always need less maintenance later.",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "answer": "B",
+      "explanation": "The text says they may need more maintenance later.",
+      "passage": "R2",
+      "passage_text": "Urban trees are increasingly treated as infrastructure rather than decoration. Their canopies can reduce direct sunlight, influence local air movement and help manage rainwater. These benefits matter particularly in dense neighbourhoods dominated by hard surfaces.\n\nSpecies differ in canopy size, growth rate, water needs and pollution tolerance. A fast-growing tree may provide shade quickly but require more maintenance later. Planning must also consider underground pipes, cables and foundations because roots need adequate growing space.\n\nResidents can influence whether tree programmes succeed. During establishment, trees need care and protection. Where residents understand why species and locations were selected, support can be stronger. Effective programmes therefore combine ecological knowledge, engineering constraints and social planning."
+    },
+    {
+      "id": 26,
+      "type": "sentence_completion",
+      "prompt": "A planting site should provide an adequate growing ______.",
+      "options": [
+        "space",
+        "environment",
+        "schedule",
+        "record"
+      ],
+      "answer": "A",
+      "explanation": "The passage says roots need adequate growing space.",
+      "passage": "R2",
+      "passage_text": "Urban trees are increasingly treated as infrastructure rather than decoration. Their canopies can reduce direct sunlight, influence local air movement and help manage rainwater. These benefits matter particularly in dense neighbourhoods dominated by hard surfaces.\n\nSpecies differ in canopy size, growth rate, water needs and pollution tolerance. A fast-growing tree may provide shade quickly but require more maintenance later. Planning must also consider underground pipes, cables and foundations because roots need adequate growing space.\n\nResidents can influence whether tree programmes succeed. During establishment, trees need care and protection. Where residents understand why species and locations were selected, support can be stronger. Effective programmes therefore combine ecological knowledge, engineering constraints and social planning."
+    },
+    {
+      "id": 27,
+      "type": "multiple_choice",
+      "prompt": "Public communication is described as:",
+      "options": [
+        "Part of the programme",
+        "A replacement for engineering",
+        "Unnecessary",
+        "Only advertising"
+      ],
+      "answer": "A",
+      "explanation": "Communication is part of successful planning.",
+      "passage": "R2",
+      "passage_text": "Urban trees are increasingly treated as infrastructure rather than decoration. Their canopies can reduce direct sunlight, influence local air movement and help manage rainwater. These benefits matter particularly in dense neighbourhoods dominated by hard surfaces.\n\nSpecies differ in canopy size, growth rate, water needs and pollution tolerance. A fast-growing tree may provide shade quickly but require more maintenance later. Planning must also consider underground pipes, cables and foundations because roots need adequate growing space.\n\nResidents can influence whether tree programmes succeed. During establishment, trees need care and protection. Where residents understand why species and locations were selected, support can be stronger. Effective programmes therefore combine ecological knowledge, engineering constraints and social planning."
+    },
+    {
+      "id": 28,
+      "type": "true_false_ng",
+      "prompt": "Urban tree planning depends only on ecological knowledge.",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "answer": "B",
+      "explanation": "Engineering and social planning are also required.",
+      "passage": "R2",
+      "passage_text": "Urban trees are increasingly treated as infrastructure rather than decoration. Their canopies can reduce direct sunlight, influence local air movement and help manage rainwater. These benefits matter particularly in dense neighbourhoods dominated by hard surfaces.\n\nSpecies differ in canopy size, growth rate, water needs and pollution tolerance. A fast-growing tree may provide shade quickly but require more maintenance later. Planning must also consider underground pipes, cables and foundations because roots need adequate growing space.\n\nResidents can influence whether tree programmes succeed. During establishment, trees need care and protection. Where residents understand why species and locations were selected, support can be stronger. Effective programmes therefore combine ecological knowledge, engineering constraints and social planning."
+    },
+    {
+      "id": 29,
+      "type": "multiple_choice",
+      "prompt": "What might one team member remember?",
+      "options": [
+        "A customer preference",
+        "Every password",
+        "A weather forecast",
+        "A tree species"
+      ],
+      "answer": "A",
+      "explanation": "A customer preference is the opening example.",
+      "passage": "R3",
+      "passage_text": "Teams can develop shared ways of remembering. One person may remember a customer preference while another recalls technical history; together they can reconstruct information that neither could easily retrieve alone. This works best when members understand who is likely to know what.\n\nTechnology can strengthen or weaken this process. Searchable records reduce dependence on personal memory, but excessive documentation can cause people to stop learning information they may need. Teams are also vulnerable to shared errors: repeated incorrect explanations can increase confidence without improving accuracy.\n\nThe strongest systems combine human knowledge with external records. People provide context, judgement and flexible interpretation, while records provide stable reference points. Important assumptions still need checking, especially when decisions have significant consequences."
+    },
+    {
+      "id": 30,
+      "type": "true_false_ng",
+      "prompt": "A transactive memory system means every member knows identical facts.",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN"
+      ],
+      "answer": "B",
+      "explanation": "It concerns locating knowledge across members.",
+      "passage": "R3",
+      "passage_text": "Teams can develop shared ways of remembering. One person may remember a customer preference while another recalls technical history; together they can reconstruct information that neither could easily retrieve alone. This works best when members understand who is likely to know what.\n\nTechnology can strengthen or weaken this process. Searchable records reduce dependence on personal memory, but excessive documentation can cause people to stop learning information they may need. Teams are also vulnerable to shared errors: repeated incorrect explanations can increase confidence without improving accuracy.\n\nThe strongest systems combine human knowledge with external records. People provide context, judgement and flexible interpretation, while records provide stable reference points. Important assumptions still need checking, especially when decisions have significant consequences."
+    },
+    {
+      "id": 31,
+      "type": "sentence_completion",
+      "prompt": "Searchable records can reduce dependence on personal ______.",
+      "options": [
+        "memory",
+        "judgement",
+        "context",
+        "planning"
+      ],
+      "answer": "A",
+      "explanation": "The passage explicitly says personal memory.",
+      "passage": "R3",
+      "passage_text": "Teams can develop shared ways of remembering. One person may remember a customer preference while another recalls technical history; together they can reconstruct information that neither could easily retrieve alone. This works best when members understand who is likely to know what.\n\nTechnology can strengthen or weaken this process. Searchable records reduce dependence on personal memory, but excessive documentation can cause people to stop learning information they may need. Teams are also vulnerable to shared errors: repeated incorrect explanations can increase confidence without improving accuracy.\n\nThe strongest systems combine human knowledge with external records. People provide context, judgement and flexible interpretation, while records provide stable reference points. Important assumptions still need checking, especially when decisions have significant consequences."
+    },
+    {
+      "id": 32,
+      "type": "multiple_choice",
+      "prompt": "What should teams do with important assumptions?",
+      "options": [
+        "Ignore them",
+        "Check them",
+        "Delete them",
+        "Publish them"
+      ],
+      "answer": "B",
+      "explanation": "The passage recommends checking important assumptions.",
+      "passage": "R3",
+      "passage_text": "Teams can develop shared ways of remembering. One person may remember a customer preference while another recalls technical history; together they can reconstruct information that neither could easily retrieve alone. This works best when members understand who is likely to know what.\n\nTechnology can strengthen or weaken this process. Searchable records reduce dependence on personal memory, but excessive documentation can cause people to stop learning information they may need. Teams are also vulnerable to shared errors: repeated incorrect explanations can increase confidence without improving accuracy.\n\nThe strongest systems combine human knowledge with external records. People provide context, judgement and flexible interpretation, while records provide stable reference points. Important assumptions still need checking, especially when decisions have significant consequences."
+    },
+    {
+      "id": 33,
+      "type": "multiple_choice",
+      "prompt": "What is the strongest overall system?",
+      "options": [
+        "Memory alone",
+        "Records alone",
+        "Human knowledge plus records",
+        "No system"
+      ],
+      "answer": "C",
+      "explanation": "The conclusion supports combining both.",
+      "passage": "R3",
+      "passage_text": "Teams can develop shared ways of remembering. One person may remember a customer preference while another recalls technical history; together they can reconstruct information that neither could easily retrieve alone. This works best when members understand who is likely to know what.\n\nTechnology can strengthen or weaken this process. Searchable records reduce dependence on personal memory, but excessive documentation can cause people to stop learning information they may need. Teams are also vulnerable to shared errors: repeated incorrect explanations can increase confidence without improving accuracy.\n\nThe strongest systems combine human knowledge with external records. People provide context, judgement and flexible interpretation, while records provide stable reference points. Important assumptions still need checking, especially when decisions have significant consequences."
+    },
+    {
+      "id": 34,
+      "type": "matching_information",
+      "prompt": "Which passage discusses material waste?",
+      "options": [
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "answer": "A",
+      "explanation": "R1 discusses reducing material waste.",
+      "passage": "R1",
+      "passage_text": "For decades, many household products were designed around replacement rather than repair. Recently, however, repair has become more visible through tool libraries, repair cafés and online instruction. These activities can extend the useful life of everyday objects while also transferring practical knowledge between generations.\n\nBusinesses are responding unevenly. Some manufacturers publish repair manuals or sell components directly, but a manual is of little use if a replacement part is unavailable. Researchers therefore distinguish between willingness and opportunity: people may want to repair an item but lack time, tools, information or confidence.\n\nThere is also an environmental argument. Extending a product's life can delay the costs associated with producing and transporting a replacement. The size of that benefit varies by product, so repair is best viewed as one part of a wider strategy for reducing material waste."
+    },
+    {
+      "id": 35,
+      "type": "matching_information",
+      "prompt": "Which passage discusses resident support?",
+      "options": [
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "answer": "B",
+      "explanation": "R2 discusses residents and support.",
+      "passage": "R2",
+      "passage_text": "Urban trees are increasingly treated as infrastructure rather than decoration. Their canopies can reduce direct sunlight, influence local air movement and help manage rainwater. These benefits matter particularly in dense neighbourhoods dominated by hard surfaces.\n\nSpecies differ in canopy size, growth rate, water needs and pollution tolerance. A fast-growing tree may provide shade quickly but require more maintenance later. Planning must also consider underground pipes, cables and foundations because roots need adequate growing space.\n\nResidents can influence whether tree programmes succeed. During establishment, trees need care and protection. Where residents understand why species and locations were selected, support can be stronger. Effective programmes therefore combine ecological knowledge, engineering constraints and social planning."
+    },
+    {
+      "id": 36,
+      "type": "matching_information",
+      "prompt": "Which passage discusses shared error?",
+      "options": [
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "answer": "C",
+      "explanation": "R3 discusses repeated incorrect explanations.",
+      "passage": "R3",
+      "passage_text": "Teams can develop shared ways of remembering. One person may remember a customer preference while another recalls technical history; together they can reconstruct information that neither could easily retrieve alone. This works best when members understand who is likely to know what.\n\nTechnology can strengthen or weaken this process. Searchable records reduce dependence on personal memory, but excessive documentation can cause people to stop learning information they may need. Teams are also vulnerable to shared errors: repeated incorrect explanations can increase confidence without improving accuracy.\n\nThe strongest systems combine human knowledge with external records. People provide context, judgement and flexible interpretation, while records provide stable reference points. Important assumptions still need checking, especially when decisions have significant consequences."
+    },
+    {
+      "id": 37,
+      "type": "multiple_choice",
+      "prompt": "Which passage focuses on extending product life?",
+      "options": [
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "answer": "A",
+      "explanation": "R1 focuses on repair and product life.",
+      "passage": "R1",
+      "passage_text": "For decades, many household products were designed around replacement rather than repair. Recently, however, repair has become more visible through tool libraries, repair cafés and online instruction. These activities can extend the useful life of everyday objects while also transferring practical knowledge between generations.\n\nBusinesses are responding unevenly. Some manufacturers publish repair manuals or sell components directly, but a manual is of little use if a replacement part is unavailable. Researchers therefore distinguish between willingness and opportunity: people may want to repair an item but lack time, tools, information or confidence.\n\nThere is also an environmental argument. Extending a product's life can delay the costs associated with producing and transporting a replacement. The size of that benefit varies by product, so repair is best viewed as one part of a wider strategy for reducing material waste."
+    },
+    {
+      "id": 38,
+      "type": "multiple_choice",
+      "prompt": "Which passage focuses on city planning?",
+      "options": [
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "answer": "B",
+      "explanation": "R2 focuses on urban trees and planning.",
+      "passage": "R2",
+      "passage_text": "Urban trees are increasingly treated as infrastructure rather than decoration. Their canopies can reduce direct sunlight, influence local air movement and help manage rainwater. These benefits matter particularly in dense neighbourhoods dominated by hard surfaces.\n\nSpecies differ in canopy size, growth rate, water needs and pollution tolerance. A fast-growing tree may provide shade quickly but require more maintenance later. Planning must also consider underground pipes, cables and foundations because roots need adequate growing space.\n\nResidents can influence whether tree programmes succeed. During establishment, trees need care and protection. Where residents understand why species and locations were selected, support can be stronger. Effective programmes therefore combine ecological knowledge, engineering constraints and social planning."
+    },
+    {
+      "id": 39,
+      "type": "multiple_choice",
+      "prompt": "Which passage focuses on organisational knowledge?",
+      "options": [
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "answer": "C",
+      "explanation": "R3 focuses on team memory.",
+      "passage": "R3",
+      "passage_text": "Teams can develop shared ways of remembering. One person may remember a customer preference while another recalls technical history; together they can reconstruct information that neither could easily retrieve alone. This works best when members understand who is likely to know what.\n\nTechnology can strengthen or weaken this process. Searchable records reduce dependence on personal memory, but excessive documentation can cause people to stop learning information they may need. Teams are also vulnerable to shared errors: repeated incorrect explanations can increase confidence without improving accuracy.\n\nThe strongest systems combine human knowledge with external records. People provide context, judgement and flexible interpretation, while records provide stable reference points. Important assumptions still need checking, especially when decisions have significant consequences."
+    }
+  ]
+}

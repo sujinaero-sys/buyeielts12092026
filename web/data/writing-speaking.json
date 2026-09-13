@@ -1,0 +1,53 @@
+{
+  "writing": {
+    "tasks": [
+      {
+        "task": "Task 1",
+        "prompt": "A city transport table compares four modes used by residents in 2010 and 2025. Write a report describing the main features and relevant comparisons. Write at least 150 words.",
+        "time": 20,
+        "min": 150
+      },
+      {
+        "task": "Task 2",
+        "prompt": "Some people believe universities should focus mainly on job-related skills, while others think they should provide a broader education. Discuss both views and give your own opinion. Write at least 250 words.",
+        "time": 40,
+        "min": 250
+      }
+    ],
+    "rubric": [
+      "Task achievement / response",
+      "Coherence and cohesion",
+      "Lexical resource",
+      "Grammatical range and accuracy"
+    ]
+  },
+  "speaking": {
+    "parts": [
+      [
+        "Part 1",
+        "Answer naturally in 2–4 sentences.",
+        [
+          "Where do you usually study or work?",
+          "What kind of place helps you concentrate?",
+          "Do you prefer planning your day or deciding as you go?"
+        ]
+      ],
+      [
+        "Part 2",
+        "Speak for up to two minutes. Make brief notes first.",
+        [
+          "Describe a skill you would like to improve. Say what it is, why you want to improve it, how you would practise, and how it could help you."
+        ]
+      ],
+      [
+        "Part 3",
+        "Develop your answers with reasons and examples.",
+        [
+          "Why do people find some skills difficult to learn?",
+          "Should schools teach more practical skills?",
+          "How might technology change the way people learn skills?"
+        ]
+      ]
+    ]
+  }
+}
