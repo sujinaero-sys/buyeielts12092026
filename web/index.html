@@ -1,13 +1,225 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>BUYE IELTS — Learn. Practise. Improve.</title><link rel="stylesheet" href="css/style.css"></head><body>
-<header class="topbar"><div class="brand"><img class="logo-img" src="assets/buye-logo.png" alt="BUYE logo"><div><strong>BUYE IELTS</strong><small>Original learning platform</small></div></div><nav><a href="#lessons">Lessons</a><a href="#progress">Progress</a><a href="practice.html">Practice</a></nav>
-<div class="topbar-actions"><span class="auth-user" id="authUser"></span><button class="header-btn" id="loginBtn">Login</button><button class="header-btn" id="themeToggle">🌙</button></div></header>
-<main><section class="hero"><div><span class="eyebrow">PHASE 2F • LEARNING ENGINE</span><h1>Build IELTS skills through <span>practice, feedback and review.</span></h1><p>Learn a strategy, test it immediately, record mistakes and return to weak areas.</p><div class="hero-actions"><button class="primary" id="startPractice">Start quick practice</button><button class="secondary" id="randomLesson">Surprise me</button></div></div><div class="hero-card"><span>Overall progress</span><strong id="overallProgress">0%</strong><div class="track"><i id="progressFill"></i></div><p><b id="doneCount">0</b> lessons completed</p></div></section>
-<section class="stats" id="progress"><div><b id="doneCountSummary">0</b><span>Completed</span></div><div><b id="mistakeCount">0</b><span>Review queue</span></div><div><b id="bookmarkCount">0</b><span>Bookmarked</span></div></section>
-<section class="workspace" id="lessons"><div class="section-head"><div><span class="eyebrow">YOUR CURRICULUM</span><h2>157 original lessons</h2><p id="lessonCount">Loading…</p></div><div class="search-wrap"><input id="search" placeholder="Search lessons…"></div></div><div class="tabs" id="skillTabs"></div><div class="grid" id="lessonGrid"></div></section>
-<section class="review-panel"><div><span class="eyebrow">SMART REVIEW</span><h2>Turn mistakes into progress.</h2><p>Your practice history stays in this browser. Review missed questions or keep key lessons bookmarked.</p></div><div class="review-actions"><button class="secondary" id="showMistakes">Review mistakes</button><button class="secondary" id="showBookmarks">View bookmarks</button></div></section>
-<section class="skill-panel"><div><span class="eyebrow">SKILL PROGRESS</span><h2>See where you are improving.</h2></div><div id="skillProgress"></div></section>
-<section class="lead-card" id="contact"><span class="eyebrow">GET STARTED</span><h2>Want guided IELTS support?</h2><p>Leave your details and your learning goal. Your enquiry can be saved directly to the BUYE Google Sheet when the backend is connected.</p>
-<form class="lead-form" id="leadForm"><input name="name" placeholder="Your name" required><input name="phone" placeholder="Phone number" required><input name="email" type="email" placeholder="Email"><textarea name="goal" placeholder="What IELTS goal are you working toward?"></textarea><button class="primary" type="submit">Send enquiry</button><span class="auth-status" id="leadStatus"></span></form></section>
-<section class="footer-note" id="practice"><h2>Practice first. Memorise less.</h2><p>BUYE IELTS uses original explanations and fresh practice prompts. This prototype focuses on the learning engine; full exam simulation, audio, marking, analytics and backend accounts can be added in later phases.</p></section></main>
-<div class="modal auth-modal" id="authModal"><div class="modal-card"><div class="modal-head"><div><span class="eyebrow">BUYE ACCOUNT</span><h2>Login or create your account</h2></div><button class="icon-btn" id="closeAuth">×</button></div><div class="auth-tabs"><button class="auth-tab active" data-auth="login">Login</button><button class="auth-tab" data-auth="register">Register</button></div><form class="auth-form" id="authForm"></form><div class="auth-status" id="authStatus"></div></div></div>
-<div class="modal" id="modal"><div class="modal-card"><div id="modalBody"></div></div></div><div class="modal" id="practiceModal"><div class="modal-card"><div id="practiceBody"></div></div></div><script src="js/api.js"></script><script src="js/app.js"></script></body></html>
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BUYE IELTS — Complete IELTS Preparation</title>
+  <meta name="description" content="Original IELTS preparation lessons, practice, vocabulary, writing, speaking and test strategies by BUYE IELTS.">
+  <link rel="stylesheet" href="buye-original.css">
+  <link rel="stylesheet" href="css/buye-theme.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="#home"><img class="buye-global-logo" src="assets/buye-logo.png" alt="BUYE logo"><span>BUYE</span> IELTS</a>
+    <button class="menu-btn" aria-label="Open menu">☰</button>
+    <nav id="navLinks">
+      <a href="#test">Test</a><a href="#listening">Listening</a><a href="#reading">Reading</a>
+      <a href="#writing">Writing</a><a href="#speaking">Speaking</a><a href="#vocab">Vocabulary</a>
+      <a href="#practice">Practice</a>
+    </nav>
+  </div>
+</header>
+
+<main id="home">
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <p class="eyebrow">IELTS preparation, simplified</p>
+      <h1>Prepare smarter.<br><span>Speak, write & score.</span></h1>
+      <p class="lead">A structured IELTS learning hub built around the skills that matter: understanding the test, recognising paraphrases, organising ideas, answering precisely and practising under time pressure.</p>
+      <div class="actions"><a class="btn primary" href="#practice">Start practising</a><a class="btn secondary" href="#test">Understand IELTS</a></div>
+    </div>
+    <div class="hero-card">
+      <div class="score-ring">9.0</div>
+      <h3>Build your band score</h3>
+      <p>Learn the task → practise the skill → check the mistake → repeat with better language.</p>
+      <div class="mini-stats"><b>4</b><span>skills</span><b>2</b><span>writing tasks</span><b>3</b><span>speaking parts</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="section tinted" id="ielts-gateway">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">BUYE IELTS PLATFORM</p>
+      <h2>Ready to start your IELTS preparation?</h2>
+      <p>Move from understanding IELTS to structured lessons, practice tests, progress tracking and targeted improvement.</p>
+      <div class="actions">
+        <a class="btn primary" href="ielts.html">Explore IELTS Preparation</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</section>
+
+<section class="section" id="test">
+<div class="container">
+  <div class="section-head"><p class="eyebrow">01 · Know the exam</p><h2>IELTS at a glance</h2><p>Use the test structure as your study map. Your preparation should train both English ability and task-specific technique.</p></div>
+  <div class="cards four">
+    <article class="card"><span class="icon">🎧</span><h3>Listening</h3><p>Four recorded sections with a range of everyday and academic situations. Train prediction, spelling, signpost words and paraphrase recognition.</p></article>
+    <article class="card"><span class="icon">📖</span><h3>Reading</h3><p>Work through passages and question types such as headings, matching, multiple choice, completion and True/False/Not Given.</p></article>
+    <article class="card"><span class="icon">✍️</span><h3>Writing</h3><p>Task 1 focuses on presenting information; Task 2 asks you to develop a clear, relevant response to an argument, problem or question.</p></article>
+    <article class="card"><span class="icon">🗣️</span><h3>Speaking</h3><p>A face-to-face assessment covering personal questions, a longer individual turn and deeper discussion. Fluency, vocabulary, grammar and pronunciation all matter.</p></article>
+  </div>
+</div>
+</section>
+
+<section class="section tinted" id="listening">
+<div class="container split">
+  <div><p class="eyebrow">02 · Listening</p><h2>Hear the idea, not just the word</h2>
+  <p>IELTS frequently changes the wording between the question and the recording. Strong listeners expect the same meaning to arrive in different language.</p>
+  <ul class="checklist"><li>Preview questions and predict the kind of answer required.</li><li>Underline key words, but listen for meaning rather than exact repetition.</li><li>Watch for corrections, contrasts, numbers, dates and spelling.</li><li>Practise with transcripts after the first attempt to identify missed paraphrases.</li><li>Record recurring spelling and vocabulary errors in an error log.</li></ul></div>
+  <div class="lesson-box"><h3>Paraphrase trainer</h3><div class="pair"><span>obtain</span><b>→</b><span>get / receive</span></div><div class="pair"><span>scarce</span><b>→</b><span>limited / hard to find</span></div><div class="pair"><span>familiar with</span><b>→</b><span>accustomed to</span></div><div class="pair"><span>over many years</span><b>→</b><span>over a long period</span></div><button class="btn small" onclick="newPair()">Try another</button></div>
+</div>
+</section>
+
+<section class="section" id="reading">
+<div class="container split reverse">
+  <div class="lesson-box"><h3>Reading decision rule</h3><p><b>Question → locate → compare meaning → decide.</b></p><div class="rule"><strong>Don't match words.</strong><span>Match the claim, relationship and evidence.</span></div><div class="rule"><strong>Don't assume.</strong><span>If the passage does not support it, treat it as unsupported.</span></div></div>
+  <div><p class="eyebrow">03 · Reading</p><h2>Read strategically</h2>
+  <p>Reading success is not simply reading faster. It is finding the right part of the text and checking whether it really answers the question.</p>
+  <div class="topic-pills"><span>Matching headings</span><span>TFNG</span><span>Multiple choice</span><span>Sentence completion</span><span>Summary completion</span><span>Matching information</span><span>Choosing a title</span><span>Classification</span></div>
+</div>
+</div>
+</section>
+
+<section class="section tinted" id="writing">
+<div class="container">
+  <div class="section-head"><p class="eyebrow">04 · Writing</p><h2>Plan first. Then write precisely.</h2><p>Good IELTS writing is controlled: answer the exact question, organise ideas logically, support them, and use accurate language.</p></div>
+  <div class="writing-grid">
+    <article class="card"><span class="tag">TASK 1 · ACADEMIC</span><h3>Describe visual information</h3><p>Identify the main features, select meaningful comparisons and support them with accurate figures. Avoid listing every detail.</p><div class="formula">Introduction → Overview → Details 1 → Details 2</div></article>
+    <article class="card"><span class="tag">TASK 1 · GENERAL TRAINING</span><h3>Write the right letter</h3><p>Identify the situation, relationship and purpose. Keep the tone appropriate and make every bullet point clear.</p><div class="formula">Purpose → Bullet 1 → Bullet 2 → Bullet 3</div></article>
+    <article class="card"><span class="tag">TASK 2</span><h3>Answer the argument</h3><p>Determine the essay type before planning. Make your position clear when required and make each body paragraph do one clear job.</p><div class="formula">Position → Idea → Explain → Example → Link</div></article>
+  </div>
+  <div class="essay-types"><h3>Task 2 question families</h3><span>Opinion</span><span>Discussion</span><span>Advantages / disadvantages</span><span>Problems / solutions</span><span>Direct questions</span></div>
+  <div class="warning"><b>Common score killers:</b> answering a different question, unclear position, weak development, memorised language that does not fit, poor paragraph control, inaccurate grammar, and irrelevant detail.</div>
+</div>
+</section>
+
+<section class="section" id="speaking">
+<div class="container split">
+  <div>
+    <p class="eyebrow">05 · Speaking</p>
+    <h2>Sound natural, not rehearsed</h2>
+    <p>The examiner is assessing your English communication, not whether your personal story is impressive. Give a direct answer, then extend it naturally.</p>
+
+    <div class="speaking-parts">
+      <div><b>Part 1</b><span>Short questions about familiar subjects. Answer + reason + small detail.</span></div>
+      <div><b>Part 2</b><span>Prepare quickly, then speak continuously around the cue-card points.</span></div>
+      <div><b>Part 3</b><span>Discuss broader ideas. Compare, explain causes, evaluate and predict.</span></div>
+    </div>
+  </div>
+
+  <div class="lesson-box">
+    <h3>Easy extension pattern</h3>
+    <p class="big">Answer → Why? → Example → Contrast → Future</p>
+    <p>Example: “Yes, I do. Mainly because… For example… However… In the future, I’d like to…”</p>
+  </div>
+</div>
+</section>
+
+<!-- IELTS GATEWAY -->
+<section class="section tinted" id="ielts-gateway">
+  <div class="container gateway">
+    <div>
+      <p class="eyebrow">BUYE IELTS PLATFORM</p>
+      <h2>Ready to begin your IELTS preparation?</h2>
+      <p>Move from understanding IELTS to structured lessons, practice tests, progress tracking and targeted improvement.</p>
+    </div>
+    <a class="btn primary gateway-btn" href="ielts.html">Explore IELTS Preparation →</a>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section" id="contact">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">06 · Contact BUYE</p>
+      <h2>We're here to help</h2>
+      <p>Have a question about IELTS preparation, classes or the BUYE IELTS platform? Get in touch with us.</p>
+    </div>
+
+    <div class="contact-grid">
+      <a class="contact-card" href="tel:+918778863184">
+        <span class="contact-icon">☎</span>
+        <strong>+91 877 886 3184</strong>
+        <small>Call BUYE</small>
+      </a>
+
+      <a class="contact-card" href="tel:+919995863184">
+        <span class="contact-icon">☎</span>
+        <strong>+91 999 586 3184</strong>
+        <small>Call BUYE</small>
+      </a>
+
+      <a class="contact-card" href="mailto:info@buye.online">
+        <span class="contact-icon">✉</span>
+        <strong>info@buye.online</strong>
+        <small>Email BUYE</small>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <a class="brand footer-brand" href="#home">
+        <img src="assets/buye-logo.png" alt="BUYE logo">
+        <span>BUYE</span> IELTS
+      </a>
+      <p>Original IELTS preparation, structured practice and practical English learning by BUYE.</p>
+    </div>
+
+    <div>
+      <strong>IELTS</strong>
+      <a href="#test">Test Information</a>
+      <a href="#listening">Listening</a>
+      <a href="#reading">Reading</a>
+      <a href="#writing">Writing</a>
+      <a href="#speaking">Speaking</a>
+    </div>
+
+    <div>
+      <strong>Contact</strong>
+      <a href="tel:+918778863184">+91 877 886 3184</a>
+      <a href="tel:+919995863184">+91 999 586 3184</a>
+      <a href="mailto:info@buye.online">info@buye.online</a>
+    </div>
+  </div>
+
+  <div class="copyright">
+    © 2026 BUYE IELTS. All rights reserved.
+  </div>
+</footer>
+
+<!-- FLOATING WHATSAPP -->
+<a
+  class="whatsapp-float"
+  href="https://wa.me/918778863184?text=Hello%20BUYE%20IELTS%2C%20I%20would%20like%20to%20know%20more%20about%20IELTS%20preparation."
+  target="_blank"
+  rel="noopener"
+  aria-label="Connect with BUYE IELTS on WhatsApp"
+  title="Connect with BUYE IELTS on WhatsApp"
+>
+  <span>WhatsApp</span>
+</a>
+
+</main>
+
+<script src="buye-original-app.js"></script>
+  <script src="js/buye-theme.js"></script>
+
+<a class="buye-whatsapp"
+   href="https://wa.me/919995863184?text=Hello%20BUYE%20IELTS%2C%20I%20would%20like%20to%20know%20more%20about%20IELTS%20preparation."
+   target="_blank"
+   rel="noopener noreferrer"
+   aria-label="Contact BUYE IELTS on WhatsApp">
+  <span class="buye-whatsapp-icon">◉</span>
+  <span>WhatsApp BUYE</span>
+</a>
+
+</body>
+</html>
