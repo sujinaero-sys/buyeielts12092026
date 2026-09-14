@@ -16,3 +16,6 @@ async function api(action, payload={}) {
 function setSession(user){localStorage.setItem("buye_session",JSON.stringify(user))}
 function getSession(){try{return JSON.parse(localStorage.getItem("buye_session")||"null")}catch(e){return null}}
 function clearSession(){localStorage.removeItem("buye_session")}
+
+
+

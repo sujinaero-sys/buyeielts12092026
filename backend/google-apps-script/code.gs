@@ -159,22 +159,112 @@ function handleVerifyOtp_(body) {
 /* ---------------- Leads ---------------- */
 
 function handleSaveLead_(body) {
-  const { name, phone, email, goal, source } = body;
+  const { name, phone, email, goal, source, plan } = body;
+
   if (!name || !phone) {
     return { ok: false, error: 'Name and phone are required.' };
   }
 
+  const PLAN_DATA = {
+    '7-Day Trial Pass': {
+      price: '₹99',
+      paymentUrl: 'https://www.buye.online/wlp/course-phpat-1789315783266'
+    },
+    '30-Day Complete Pass': {
+      price: '₹499',
+      paymentUrl: 'https://www.buye.online/wlp/course-phpat-1789315928117'
+    },
+    '90-Day Complete Pass': {
+      price: '₹999',
+      paymentUrl: 'https://www.buye.online/wlp/course-phpat-1789316119407'
+    },
+    '180-Day Complete Pass': {
+      price: '₹1,499',
+      paymentUrl: 'https://www.buye.online/wlp/course-phpat-1789316299967'
+    },
+    '365-Day Complete Pass': {
+      price: '₹1,999',
+      paymentUrl: 'https://www.buye.online/wlp/course-phpat-1789316439989'
+    }
+  };
+
+  const selectedPlan = PLAN_DATA[plan] || {
+    price: '',
+    paymentUrl: ''
+  };
+
   const ss = getSS_();
   const sheet = ss.getSheetByName('Leads');
+
+  ensureLeadHeaders_(sheet);
+
   sheet.appendRow([
     new Date(),
     name,
     phone,
     email || '',
     goal || '',
-    source || 'website'
+    source || 'website',
+    plan || '',
+    selectedPlan.price,
+    selectedPlan.paymentUrl,
+    'Payment Pending'
   ]);
 
-  return { ok: true };
+  return {
+    ok: true,
+    plan: plan || '',
+    price: selectedPlan.price,
+    paymentUrl: selectedPlan.paymentUrl
+  };
 }
+
+
+
+
+/* ---------------- Lead Headers ---------------- */
+
+function ensureLeadHeaders_() {
+  const ss = getSS_();
+  const sheet = ss.getSheetByName('Leads');
+
+  if (!sheet) {
+    throw new Error('Leads sheet not found.');
+  }
+
+  const requiredHeaders = [
+    'Timestamp',
+    'Name',
+    'Phone',
+    'Email',
+    'Goal',
+    'Source',
+    'Plan',
+    'Price',
+    'Payment URL',
+    'Payment Status'
+  ];
+
+  const currentLastColumn = Math.max(sheet.getLastColumn(), 1);
+  const currentHeaders = sheet
+    .getRange(1, 1, 1, currentLastColumn)
+    .getValues()[0]
+    .map(String);
+
+  requiredHeaders.forEach(function(header) {
+    if (currentHeaders.indexOf(header) === -1) {
+      const newColumn = sheet.getLastColumn() + 1;
+      sheet.getRange(1, newColumn).setValue(header);
+      currentHeaders.push(header);
+    }
+  });
+
+  return {
+    ok: true,
+    headers: sheet
+      .getRange(1, 1, 1, sheet.getLastColumn())
+      .getValues()[0]
+  };
+}
+
 

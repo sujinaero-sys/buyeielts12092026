@@ -1,0 +1,729 @@
+﻿/* =========================================================
+   BUYE IELTS - COMPACT SLIDING ADVERTISEMENT
+   Designed to fit normal desktop screens without scrolling
+   ========================================================= */
+
+#buyeSlidingOffer {
+  position: fixed;
+  inset: 0;
+  z-index: 99999;
+
+  display: none;
+  align-items: flex-start;
+  justify-content: center;
+
+  padding: clamp(48px,7vh,70px) 12px 12px;
+
+  background: rgba(2,12,35,.72);
+  backdrop-filter: blur(4px);
+}
+
+#buyeSlidingOffer.buye-popup-visible {
+  display: flex;
+}
+
+.buye-popup-panel {
+  width: min(1180px,96vw);
+
+  /*
+   * Main requirement:
+   * popup should fit inside the viewport.
+   */
+  height: min(760px,88vh);
+  max-height: 88vh;
+
+  overflow: hidden;
+
+  position: relative;
+
+  background: #fff;
+
+  border-radius: 20px;
+
+  box-shadow:
+    0 25px 80px rgba(0,0,0,.35);
+
+  transform: translateY(-120%);
+
+  animation:
+    buyeOfferSlideDown .75s
+    cubic-bezier(.22,.8,.25,1)
+    forwards;
+
+  display: flex;
+  flex-direction: column;
+}
+
+@keyframes buyeOfferSlideDown {
+
+  from {
+    transform: translateY(-120%);
+    opacity: .2;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+}
+
+
+/* =========================================================
+   CLOSE BUTTON
+   ========================================================= */
+
+.buye-popup-close {
+  position: absolute;
+  z-index: 30;
+
+  top: 10px;
+  right: 10px;
+
+  width: 40px;
+  height: 40px;
+
+  border: 0;
+  border-radius: 50%;
+
+  background: #fff;
+  color: #07184f;
+
+  font-size: 25px;
+  font-weight: 900;
+
+  cursor: pointer;
+
+  box-shadow:
+    0 4px 15px rgba(0,0,0,.2);
+}
+
+
+/* =========================================================
+   MAIN CONTENT
+   ========================================================= */
+
+.buye-popup-content {
+
+  flex: 1;
+
+  min-height: 0;
+
+  display: grid;
+
+  grid-template-columns:
+    minmax(0,1.55fr)
+    minmax(300px,.75fr);
+
+  gap: 10px;
+
+  padding: 10px;
+
+}
+
+
+/* =========================================================
+   IMAGE AREA
+   ========================================================= */
+
+.buye-popup-promo {
+
+  min-width: 0;
+  min-height: 0;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+
+  border-radius: 15px;
+
+  background: #eef8ff;
+}
+
+.buye-ad-carousel {
+
+  position: relative;
+
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+}
+
+.buye-ad-slide {
+
+  display: none;
+
+  width: 100%;
+  height: 100%;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.buye-ad-slide.active {
+
+  display: flex;
+
+  animation:
+    buyeAdFade .4s ease;
+}
+
+.buye-ad-slide img {
+
+  display: block;
+
+  width: 100%;
+  height: 100%;
+
+  /*
+   * Critical:
+   * entire advertisement remains visible.
+   */
+  object-fit: contain;
+
+  object-position: center;
+
+}
+
+
+/* =========================================================
+   ARROWS
+   ========================================================= */
+
+.buye-ad-prev,
+.buye-ad-next {
+
+  position: absolute;
+
+  top: 50%;
+
+  transform: translateY(-50%);
+
+  z-index: 10;
+
+  width: 40px;
+  height: 40px;
+
+  border: 0;
+  border-radius: 50%;
+
+  background: rgba(3,30,72,.78);
+
+  color: #fff;
+
+  font-size: 25px;
+  font-weight: 900;
+
+  cursor: pointer;
+}
+
+.buye-ad-prev {
+  left: 10px;
+}
+
+.buye-ad-next {
+  right: 10px;
+}
+
+
+/* =========================================================
+   DOTS
+   ========================================================= */
+
+.buye-ad-dots {
+
+  position: absolute;
+
+  bottom: 8px;
+  left: 50%;
+
+  transform: translateX(-50%);
+
+  z-index: 12;
+
+  display: flex;
+
+  gap: 5px;
+
+  padding: 5px 8px;
+
+  border-radius: 15px;
+
+  background: rgba(0,20,60,.60);
+}
+
+.buye-ad-dot {
+
+  width: 8px;
+  height: 8px;
+
+  padding: 0;
+
+  border: 0;
+  border-radius: 50%;
+
+  background: #fff;
+
+  opacity: .65;
+
+  cursor: pointer;
+}
+
+.buye-ad-dot.active {
+
+  width: 20px;
+
+  border-radius: 10px;
+
+  background: #1478ed;
+
+  opacity: 1;
+}
+
+
+/* =========================================================
+   FORM
+   ========================================================= */
+
+.buye-popup-form {
+
+  min-width: 0;
+  min-height: 0;
+
+  padding: 20px;
+
+  border-radius: 15px;
+
+  background: #f7fbff;
+
+  border: 1px solid #dce9f7;
+
+  overflow: hidden;
+}
+
+.buye-popup-form h3 {
+
+  margin: 0;
+
+  color: #07184f;
+
+  font-size: clamp(22px,2.3vw,28px);
+
+  line-height: 1.1;
+
+  font-weight: 900;
+}
+
+.buye-popup-form-intro {
+
+  margin: 7px 0 10px;
+
+  color: #5a6c86;
+
+  font-size: 12px;
+
+  line-height: 1.35;
+}
+
+.buye-popup-field {
+
+  margin-top: 8px;
+}
+
+.buye-popup-field label {
+
+  display: block;
+
+  margin-bottom: 4px;
+
+  color: #07184f;
+
+  font-size: 12px;
+
+  font-weight: 800;
+}
+
+.buye-popup-field input,
+.buye-popup-field select {
+
+  width: 100%;
+
+  box-sizing: border-box;
+
+  padding: 9px 10px;
+
+  border: 1px solid #cbdced;
+
+  border-radius: 8px;
+
+  background: #fff;
+
+  color: #07184f;
+
+  font-size: 13px;
+}
+
+.buye-popup-consent {
+
+  display: flex;
+
+  gap: 7px;
+
+  margin-top: 9px;
+
+  color: #566983;
+
+  font-size: 10px;
+
+  line-height: 1.3;
+}
+
+.buye-popup-consent input {
+
+  width: 15px;
+  height: 15px;
+
+  flex-shrink: 0;
+}
+
+.buye-popup-submit {
+
+  width: 100%;
+
+  margin-top: 10px;
+
+  padding: 11px;
+
+  border: 0;
+
+  border-radius: 8px;
+
+  background: #1478ed;
+
+  color: #fff;
+
+  font-size: 14px;
+
+  font-weight: 900;
+
+  cursor: pointer;
+}
+
+.buye-popup-message {
+
+  min-height: 15px;
+
+  margin-top: 5px;
+
+  text-align: center;
+
+  color: #1478ed;
+
+  font-size: 10px;
+
+  font-weight: 800;
+}
+
+.buye-popup-secure {
+
+  margin: 4px 0 0;
+
+  text-align: center;
+
+  color: #718097;
+
+  font-size: 9px;
+}
+
+
+/* =========================================================
+   PRICE TAGS
+   ========================================================= */
+
+.buye-popup-prices {
+
+  flex-shrink: 0;
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(5,minmax(0,1fr));
+
+  gap: 8px;
+
+  padding: 9px 10px 10px;
+
+  background: #fff;
+
+  border-top: 1px solid #e3edf7;
+}
+
+.buye-popup-price {
+
+  position: relative;
+
+  min-width: 0;
+
+  padding: 8px 7px;
+
+  border: 1px solid #d8e5f2;
+
+  border-radius: 11px;
+
+  background: #fff;
+
+  text-align: center;
+}
+
+.buye-popup-price.popular {
+
+  border: 2px solid #ffc400;
+}
+
+.buye-popup-price.popular::before {
+
+  content: "★ MOST POPULAR";
+
+  position: absolute;
+
+  left: 50%;
+  top: -11px;
+
+  transform: translateX(-50%);
+
+  white-space: nowrap;
+
+  padding: 3px 9px;
+
+  border-radius: 12px;
+
+  background: #ff1750;
+
+  color: #fff;
+
+  font-size: 8px;
+
+  font-weight: 900;
+}
+
+.buye-popup-price-period {
+
+  color: #135ac9;
+
+  font-size: 11px;
+
+  font-weight: 900;
+}
+
+.buye-popup-price-value {
+
+  margin: 1px 0 5px;
+
+  color: #1478ed;
+
+  font-size: 23px;
+
+  line-height: 1;
+
+  font-weight: 900;
+}
+
+.buye-popup-price button {
+
+  width: 100%;
+
+  padding: 7px 3px;
+
+  border: 0;
+
+  border-radius: 6px;
+
+  background: #1478ed;
+
+  color: #fff;
+
+  font-size: 9px;
+
+  font-weight: 900;
+
+  cursor: pointer;
+}
+
+.buye-popup-price:first-child button {
+
+  background: #fff;
+
+  color: #1478ed;
+
+  border: 1px solid #1478ed;
+}
+
+
+/* =========================================================
+   DESKTOP HEIGHT OPTIMISATION
+   ========================================================= */
+
+@media(min-width:901px) and (max-height:800px) {
+
+  .buye-popup-panel {
+
+    height: 86vh;
+    max-height: 86vh;
+  }
+
+  .buye-popup-form {
+
+    padding: 15px;
+  }
+
+  .buye-popup-form-intro {
+
+    margin-bottom: 6px;
+  }
+
+  .buye-popup-field {
+
+    margin-top: 6px;
+  }
+
+  .buye-popup-field input,
+  .buye-popup-field select {
+
+    padding: 8px;
+  }
+
+}
+
+
+/* =========================================================
+   TABLET
+   ========================================================= */
+
+@media(max-width:900px) {
+
+  #buyeSlidingOffer {
+
+    padding: 35px 8px 8px;
+  }
+
+  .buye-popup-panel {
+
+    width: 96vw;
+
+    height: 90vh;
+    max-height: 90vh;
+  }
+
+  .buye-popup-content {
+
+    grid-template-columns: 1fr;
+
+    overflow-y: auto;
+  }
+
+  .buye-popup-promo {
+
+    min-height: 300px;
+  }
+
+  .buye-popup-form {
+
+    overflow: visible;
+  }
+
+  .buye-popup-prices {
+
+    grid-template-columns:
+      repeat(3,minmax(0,1fr));
+  }
+
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media(max-width:600px) {
+
+  #buyeSlidingOffer {
+
+    padding: 25px 5px 5px;
+  }
+
+  .buye-popup-panel {
+
+    width: 98vw;
+
+    height: 94vh;
+    max-height: 94vh;
+
+    border-radius: 15px;
+  }
+
+  .buye-popup-content {
+
+    padding: 7px;
+
+    gap: 7px;
+  }
+
+  .buye-popup-promo {
+
+    min-height: 220px;
+  }
+
+  .buye-popup-form {
+
+    padding: 15px;
+  }
+
+  .buye-popup-prices {
+
+    grid-template-columns:
+      repeat(2,minmax(0,1fr));
+
+    overflow-y: auto;
+
+    max-height: 190px;
+  }
+
+}
+
+
+/* =========================================================
+   DARK MODE
+   ========================================================= */
+
+[data-theme="dark"] #buyeSlidingOffer .buye-popup-panel,
+[data-theme="dark"] #buyeSlidingOffer .buye-popup-form,
+[data-theme="dark"] #buyeSlidingOffer .buye-popup-price {
+
+  background: #fff;
+
+  color: #07184f;
+}
+
+[data-theme="dark"] #buyeSlidingOffer
+.buye-popup-form h3,
+
+[data-theme="dark"] #buyeSlidingOffer
+.buye-popup-field label,
+
+[data-theme="dark"] #buyeSlidingOffer
+.buye-popup-price-period,
+
+[data-theme="dark"] #buyeSlidingOffer
+.buye-popup-price-value {
+
+  color: #07184f;
+}
