@@ -1,4 +1,4 @@
-const API_URL = "https://script.google.com/macros/s/AKfycbyH37YSjvJ76UeOoKpF3BAkz6pI0Gy22CTouq8xpXtjz_LESCIETBZpwlXLvQatt8g/exec"; // Paste your Google Apps Script /exec URL here.
+﻿const API_URL = "https://script.google.com/macros/s/AKfycbx_eie55ljl9ODMrLvHymHvdj4ay-2t_NHXYPnoIexasOJWmeGgokI0L6ZCeySrlG_v/exec"; // Paste your Google Apps Script /exec URL here.
 
 async function api(action, payload={}) {
   if (!API_URL) return {ok:false, offline:true, error:"Backend is not connected yet. Add the Apps Script /exec URL in js/api.js."};
@@ -16,6 +16,3 @@ async function api(action, payload={}) {
 function setSession(user){localStorage.setItem("buye_session",JSON.stringify(user))}
 function getSession(){try{return JSON.parse(localStorage.getItem("buye_session")||"null")}catch(e){return null}}
 function clearSession(){localStorage.removeItem("buye_session")}
-
-
-
