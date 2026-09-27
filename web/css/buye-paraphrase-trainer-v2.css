@@ -1,0 +1,239 @@
+/* BUYE IELTS Paraphrase Trainer — styles
+   Design idea: a practice exam paper, not a SaaS dashboard card.
+   A left margin rule (like a school exercise book), a stamped
+   skill/type badge, and a serif "exam paper" voice for headings,
+   with a clean sans for the interactive parts. */
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Sans:wght@400;500;600&display=swap');
+
+.bpt-root {
+  --bpt-ink: #16202B;
+  --bpt-paper: #F1F4F8;
+  --bpt-paper-line: #C9D3DE;
+  --bpt-margin: #B4463C;
+  --bpt-amber: #C8862B;
+  --bpt-good: #2F7B6F;
+  --bpt-good-bg: #E4F1EE;
+  --bpt-bad: #B4463C;
+  --bpt-bad-bg: #FBEAE8;
+  --bpt-muted: #5B6B7A;
+
+  font-family: 'IBM Plex Sans', system-ui, sans-serif;
+  color: var(--bpt-ink);
+  background: var(--bpt-paper);
+  border-radius: 6px;
+  padding: 28px 28px 28px 40px;
+  max-width: 640px;
+  margin: 0 auto;
+  position: relative;
+  border: 1px solid var(--bpt-paper-line);
+}
+
+.bpt-root::before {
+  /* exercise-book margin rule */
+  content: '';
+  position: absolute;
+  left: 22px;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: var(--bpt-margin);
+  opacity: 0.35;
+}
+
+.bpt-loading, .bpt-error, .bpt-empty {
+  font-size: 15px;
+  color: var(--bpt-muted);
+  padding: 24px 0;
+}
+.bpt-error { color: var(--bpt-bad); }
+
+.bpt-filterbar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+
+.bpt-select {
+  font-family: inherit;
+  font-size: 13px;
+  padding: 6px 10px;
+  border: 1px solid var(--bpt-paper-line);
+  border-radius: 4px;
+  background: #fff;
+  color: var(--bpt-ink);
+}
+
+.bpt-card {
+  background: #fff;
+  border: 1px solid var(--bpt-paper-line);
+  border-radius: 4px;
+  padding: 24px;
+}
+
+.bpt-meta {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.bpt-badge {
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-size: 12px;
+  letter-spacing: 0.02em;
+  padding: 3px 10px;
+  border-radius: 100px;
+  border: 1px solid var(--bpt-amber);
+  color: var(--bpt-amber);
+}
+.bpt-badge-alt {
+  border-color: var(--bpt-muted);
+  color: var(--bpt-muted);
+}
+
+.bpt-label {
+  font-size: 11px;
+  color: var(--bpt-muted);
+  margin-bottom: 6px;
+}
+
+.bpt-question p {
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-size: 20px;
+  line-height: 1.5;
+  margin: 0 0 18px 0;
+}
+
+.bpt-context {
+  background: #FBF7EF;
+  border-left: 3px solid var(--bpt-amber);
+  padding: 10px 14px;
+  margin-bottom: 16px;
+  border-radius: 0 4px 4px 0;
+}
+.bpt-context p {
+  margin: 0;
+  font-size: 14.5px;
+  font-style: italic;
+  line-height: 1.5;
+}
+
+.bpt-options {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+.bpt-option {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  text-align: left;
+  font-family: inherit;
+  font-size: 14.5px;
+  line-height: 1.4;
+  padding: 11px 14px;
+  background: var(--bpt-paper);
+  border: 1px solid var(--bpt-paper-line);
+  border-radius: 4px;
+  cursor: pointer;
+  color: var(--bpt-ink);
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+.bpt-option:hover:not([disabled]) {
+  border-color: var(--bpt-amber);
+}
+.bpt-option[disabled] {
+  cursor: default;
+}
+.bpt-option-label {
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-weight: 600;
+  color: var(--bpt-muted);
+  min-width: 16px;
+}
+.bpt-option.bpt-correct {
+  background: var(--bpt-good-bg);
+  border-color: var(--bpt-good);
+}
+.bpt-option.bpt-correct .bpt-option-label { color: var(--bpt-good); }
+.bpt-option.bpt-incorrect {
+  background: var(--bpt-bad-bg);
+  border-color: var(--bpt-bad);
+}
+.bpt-option.bpt-incorrect .bpt-option-label { color: var(--bpt-bad); }
+
+.bpt-feedback {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 10px 0;
+  min-height: 20px;
+}
+.bpt-feedback-good { color: var(--bpt-good); }
+.bpt-feedback-bad { color: var(--bpt-bad); }
+
+.bpt-explanation {
+  background: var(--bpt-paper);
+  border-radius: 4px;
+  padding: 12px 14px;
+  margin-bottom: 16px;
+}
+.bpt-keyphrases-label {
+  font-size: 11px;
+  color: var(--bpt-muted);
+  margin-bottom: 6px;
+}
+.bpt-keyphrases {
+  margin: 0 0 8px 0;
+  padding-left: 18px;
+  font-size: 14px;
+}
+.bpt-keyphrases li { margin-bottom: 2px; }
+.bpt-explanation-text {
+  margin: 0;
+  font-size: 13.5px;
+  color: var(--bpt-muted);
+  line-height: 1.5;
+}
+
+.bpt-actions {
+  display: flex;
+  gap: 10px;
+}
+.bpt-btn {
+  font-family: inherit;
+  font-size: 13.5px;
+  font-weight: 500;
+  padding: 9px 18px;
+  border-radius: 4px;
+  border: 1px solid var(--bpt-ink);
+  background: var(--bpt-ink);
+  color: #fff;
+  cursor: pointer;
+}
+.bpt-btn:hover { opacity: 0.88; }
+
+.bpt-progress-wrap {
+  margin-top: 20px;
+}
+.bpt-progress-label {
+  font-size: 12.5px;
+  color: var(--bpt-muted);
+  margin-bottom: 6px;
+}
+.bpt-progress-track {
+  height: 6px;
+  background: var(--bpt-paper-line);
+  border-radius: 100px;
+  overflow: hidden;
+}
+.bpt-progress-fill {
+  height: 100%;
+  background: var(--bpt-amber);
+  transition: width 0.2s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .bpt-option, .bpt-progress-fill { transition: none; }
+}

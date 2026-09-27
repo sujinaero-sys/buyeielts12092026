@@ -1,0 +1,48 @@
+{
+  "trainer": "BUYE IELTS Paraphrase Trainer",
+  "bank_file": "data/paraphrase-bank.json",
+  "generated_on": "2026-09-27",
+  "current_totals": {
+    "Listening": 2891,
+    "Reading": 2079,
+    "total": 4970
+  },
+  "by_type": {
+    "vocabulary": 631,
+    "verb": 605,
+    "noun": 424,
+    "grammar": 455,
+    "restructuring": 404,
+    "distractor": 156,
+    "number_time": 2295
+  },
+  "target_structure": [
+    { "skill": "Listening", "target": 100 },
+    { "skill": "Reading", "target": 80 },
+    { "skill": "Writing Task 1", "target": 60 },
+    { "skill": "Writing Task 2", "target": 80 },
+    { "skill": "Speaking", "target": 40 },
+    { "skill": "Vocabulary", "target": 40 },
+    { "skill": "Grammar", "target": 50 },
+    { "note": "This is the original 450-question roadmap from the design notes. Listening/Reading are already well past target because Types 1-7 are now generated combinatorially (real synonym/pattern pairs x varied subjects, not filler) as well as rule-based (Type 2: number/time/date/money)." }
+  ],
+  "question_types": [
+    { "type": "vocabulary", "label": "Type 1 — Vocabulary replacement", "source": "curated + generated (adjective-pair x subject combinatorics)" },
+    { "type": "number_time", "label": "Type 2 — Number/time/date/money transformation", "source": "generated (rule-based time/percent/money/year conversion)" },
+    { "type": "verb", "label": "Type 3 — Verb transformation", "source": "curated + generated (action-phrase x institution combinatorics)" },
+    { "type": "noun", "label": "Type 4 — Noun transformation", "source": "curated + generated (noun-phrase x sector/event combinatorics)" },
+    { "type": "grammar", "label": "Type 5 — Grammar transformation", "source": "curated + generated (must->compulsory x group combinatorics)" },
+    { "type": "restructuring", "label": "Type 6 — Sentence restructuring", "source": "curated + generated (unlikely->probably won't x institution combinatorics)" },
+    { "type": "distractor", "label": "Type 7 — Distractor training", "source": "curated + generated (room/venue-correction x event combinatorics)" }
+  ],
+  "generator_scripts": [
+    "scripts/generate-type2.js — Type 2 (number/time/money/year), 2,295 items",
+    "scripts/generate-batch2.js — Types 1,3,4,5,6,7 combinatorial batch, 2,645 items"
+  ],
+  "scaling_plan": [
+    "Phase 1 (done): engine + schema + Type 2 generator (2,295 items) + curated seed set (30 items).",
+    "Phase 2 (done): combinatorial generator for Types 1,3,4,5,6,7 using real synonym/pattern pairs x varied, grammar-checked subject lists (2,645 items). Total bank: 4,970.",
+    "Phase 3: to keep growing toward 10,000 without quality loss, add more word-pairs / action-pairs / subject lists to generate-batch2.js (each new pair x existing subject lists adds ~20-25 items instantly), or add new pattern families (e.g. conditional compression, passive/active swap, before/by deadline swap).",
+    "Phase 4: add Writing Task 1/2 and Speaking modules, which need a different item shape (model answers / band-descriptor checklists) rather than the paraphrase-bank schema."
+  ]
+}

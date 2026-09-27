@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="css/buye-lead-offer.css">
   <link rel="stylesheet" href="css/buye-sliding-offer.css">
   <link rel="stylesheet" href="css/buye-after-popup-guide.css">
+  <link rel="stylesheet" href="css/buye-paraphrase-trainer-v2.css" />
 </head>
 <body>
 <header class="site-header">
@@ -74,7 +75,13 @@
   <div><p class="eyebrow">02 · Listening</p><h2>Hear the idea, not just the word</h2>
   <p>IELTS frequently changes the wording between the question and the recording. Strong listeners expect the same meaning to arrive in different language.</p>
   <ul class="checklist"><li>Preview questions and predict the kind of answer required.</li><li>Underline key words, but listen for meaning rather than exact repetition.</li><li>Watch for corrections, contrasts, numbers, dates and spelling.</li><li>Practise with transcripts after the first attempt to identify missed paraphrases.</li><li>Record recurring spelling and vocabulary errors in an error log.</li></ul></div>
-  <div class="lesson-box"><h3>Paraphrase trainer</h3><div class="pair"><span>obtain</span><b>→</b><span>get / receive</span></div><div class="pair"><span>scarce</span><b>→</b><span>limited / hard to find</span></div><div class="pair"><span>familiar with</span><b>→</b><span>accustomed to</span></div><div class="pair"><span>over many years</span><b>→</b><span>over a long period</span></div><button class="btn small" onclick="newPair()">Try another</button></div>
+  <div class="lesson-box buye-paraphrase-v2-panel">
+  <h3>IELTS Paraphrase Trainer</h3>
+  <p class="paraphrase-v2-intro">
+    Recognise meaning, not just words. Practise how IELTS may express the same idea using different language.
+  </p>
+  <div id="buye-paraphrase-trainer-v2"></div>
+</div>
 </div>
 </section>
 
@@ -843,8 +850,28 @@
 
 <!-- BUYE-SLIDING-OFFER-END -->
 
-  <script src="js/api.js"></script>`r`n  <script src="js/buye-sliding-offer.js"></script>
+  <script src="js/api.js"></script>
+  <script src="js/buye-sliding-offer.js"></script>
   <script src="js/buye-after-popup-guide.js"></script>
+  
+<script src="js/buye-paraphrase-trainer-v2.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const paraphraseTrainerV2 = new BuyeParaphraseTrainer(
+      "#buye-paraphrase-trainer-v2",
+      {
+        dataUrl: "data/paraphrase-bank-v2.json",
+        modulesUrl: "data/modules-paraphrase-v2.json",
+        skill: "Listening"
+      }
+    );
+
+    paraphraseTrainerV2.init();
+  });
+</script>
 </body>
 </html>
+
+
+
 
